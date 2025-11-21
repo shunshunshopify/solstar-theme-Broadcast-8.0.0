@@ -1,1 +1,994 @@
-{"sections":{"section_video_gbncyG":{"type":"section-video","settings":{"show_video_popup":true,"video_popup_social":"https:\/\/youtu.be\/L_03hWOOgXU?si=lQUiLaOezz6cDu8A","title":"あなたのブランドに合った                              Shopify ECサイトを構築する","heading_font_size":"heading-medium","text":"<p>Shopify開発歴8年以上のスタッフが親切にサポートします。<\/p>","text_font_size":"body-medium","flex_align":"align--bottom-left","link_text":"今すぐ相談する","link":"shopify:\/\/pages\/contact","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":true,"desktop_height":"screen-height-full","mobile_height":"sixty-fifty-height-hero--mobile","width":"wrapper--full","color_scheme":"scheme-9","show_text_background":false,"color":"","overlay_type":"disabled","padding_top":0,"padding_bottom":0,"heading_tag":"automatic"}},"section_announcement_qqjQ8T":{"type":"section-announcement","blocks":{"image_VcaPw8":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Logo_4.png","image_width":50}},"image_p4PUBr":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Logo_2.png","image_width":90}},"image_qQFVRW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Logo_1.png","image_width":70}},"image_KfmrPa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Garry_Panda.png","image_width":100}}},"block_order":["image_VcaPw8","image_p4PUBr","image_qQFVRW","image_KfmrPa"],"settings":{"slider_speed":7,"text_alignment":"center","marquee_speed":100,"direction":"ticker-rtl","message_spacing":30,"show_border":false,"layout":"marquee","color_scheme":"scheme-1","padding_top":5,"padding_bottom":5}},"section_rich_text_FjEeNW":{"type":"section-rich-text","blocks":{"heading_bGxRDm":{"type":"heading","settings":{"title":"株式会社SOLSTARとは？","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_MqEBM9":{"type":"text","settings":{"text":"<p>当社は、Shopifyを活用したECサイトの構築・運用に特化した開発会社です。開発費10億円超の大規模ECサイトや、年間売上60億円以上のShopify Plusサイトの構築・長期サポートの実績があります。さらに、Shopifyアカデミー認定資格を多数保有しており、最適なソリューションを自信を持って提供いたします。<\/p>","text_font_size":"body-medium","padding_bottom":0}}},"block_order":["heading_bGxRDm","text_MqEBM9"],"settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":50,"padding_bottom":0}},"section_text_promo_bw8FBA":{"type":"section-text-promo","blocks":{"heading_BzaWpw":{"type":"heading","settings":{"title":"ECサイト無料構築<br>キャンペーン実施中","heading_font_size":"heading-medium","heading_tag":"automatic"}},"text_GERkBx":{"type":"text","settings":{"text":"<p>詳しくはお問い合わせください。<\/p>","text_font_size":"body-small"}},"button_FMMqUx":{"type":"button","settings":{"button_text":"お問い合わせ","button_url":"shopify:\/\/pages\/contact","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":true}}},"block_order":["heading_BzaWpw","text_GERkBx","button_FMMqUx"],"disabled":true,"name":"Text promo","settings":{"border":true,"width":"wrapper","color_scheme":"scheme-2","overlay_type":"disabled","inner_padding":50,"padding_top":50,"padding_bottom":50}},"section_double_qLiMQE":{"type":"section-double","blocks":{"heading_WDH9rM":{"type":"heading","settings":{"title":"Shopifyアカデミー認定資格を3種取得","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_FiRFdK":{"type":"text","settings":{"text":"<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。<\/p>","text_font_size":"body-medium","padding_bottom":16}},"buttons_hFaaNK":{"type":"buttons","settings":{"button_text":"今すぐ相談する","button_url":"shopify:\/\/pages\/contact","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":true,"padding_bottom":16}}},"block_order":["heading_WDH9rM","text_FiRFdK","buttons_hFaaNK"],"settings":{"image_1":"shopify:\/\/shop_images\/Shopify_Academy_Image_copy.png","image_width":"one-half","text_alignment":"text-left","layout":"is-reversed","width":"wrapper--full","height":"image-height","mobile_height":"image-height--mobile","reverse_blocks":false,"color_scheme":"","padding_top":0,"padding_bottom":0,"show_placeholder":true}},"section_blog_4T6TPg":{"type":"section-blog","custom_css":[],"name":"Blog posts","settings":{"blog_name":"shopify","aspect_ratio":0.5,"title":"Shopify関連記事","heading_font_size":"heading-medium","title_font_size":"heading-small","show_tags":true,"show_author":false,"show_date":false,"show_button":true,"show_comments":false,"width":"wrapper--full-padded","grid":4,"rows":2,"color_scheme":"","padding_top":32,"padding_bottom":0,"heading_tag":"automatic","title_tag":"automatic"}},"section_rich_text_LD3UXf":{"type":"section-rich-text","blocks":{"heading_em4eU7":{"type":"heading","settings":{"title":"販売市場を選ぶ","heading_font_size":"heading-medium","padding_bottom":16,"heading_tag":"automatic"}},"subheading_jNf7kj":{"type":"subheading","settings":{"subheading":"あなたのShopify ECサイトをより効率よく構築。","padding_bottom":16}},"image_RJacK9":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/domestic_image.png","image_width":75,"padding_bottom":0}},"buttons_QBFLAf":{"type":"buttons","settings":{"button_text":"国内ECサイトはこちら","button_url":"shopify:\/\/pages\/domestic-shopify-ec","button_type":"btn--primary","button_size":"","button_style":"btn--outline","show_arrow":true,"padding_bottom":16}},"image_BLpt3i":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/domestic_image_2.png","image_width":75,"padding_bottom":0}},"buttons_qQ7TCe":{"type":"buttons","settings":{"button_text":"グローバルECサイトはこちら","button_url":"shopify:\/\/pages\/cross-border-shopify-ec","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":true,"padding_bottom":16}}},"block_order":["heading_em4eU7","subheading_jNf7kj","image_RJacK9","buttons_QBFLAf","image_BLpt3i","buttons_qQ7TCe"],"settings":{"align_text":"text-center","width":"wrapper","image":"shopify:\/\/shop_images\/Background_1_copy.png","image_mobile":"shopify:\/\/shop_images\/Background_2_copy.png","color_scheme":"","overlay_type":"disabled","padding_top":100,"padding_bottom":50}},"section_accordion_tjkJbb":{"type":"section-accordion","blocks":{"icon_kikRWa":{"type":"icon","settings":{"icon_name":"icon-notes","icon_size":20,"icon_color":"","title":"直感的で使いやすい管理画面","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。<\/p>","text_alignment":"text-left"}},"icon_gWANgd":{"type":"icon","settings":{"icon_name":"icon-award","icon_size":20,"icon_color":"","title":"豊富なデザインテンプレート","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。<\/p>","text_alignment":"text-left"}},"icon_qJcYYT":{"type":"icon","settings":{"icon_name":"icon-cloud","icon_size":20,"icon_color":"","title":"多彩なアプリ連携","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。<\/p>","text_alignment":"text-left"}},"icon_hGGBWj":{"type":"icon","settings":{"icon_name":"icon-trophy","icon_size":20,"icon_color":"","title":"多言語・多通貨対応","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。<\/p>","text_alignment":"text-left"}},"icon_qjXTVV":{"type":"icon","settings":{"icon_name":"icon-chat","icon_size":20,"icon_color":"","title":"充実したカスタマーサポート","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>24時間365日対応のサポートがあり、英語や日本語でも質問に応じてもらえます。<\/p>","text_alignment":"text-left"}},"icon_Mjc4Vd":{"type":"icon","settings":{"icon_name":"icon-pin","icon_size":20,"icon_color":"","title":"モバイル最適化","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>テンプレートや管理画面はモバイルフレンドリーで、スマホからの閲覧や購入がスムーズ。<\/p>","text_alignment":"text-left"}},"icon_hCGxtr":{"type":"icon","settings":{"icon_name":"icon-flare","icon_size":20,"icon_color":"","title":"SEOに強い設計","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>メタタグやURL構造が最適化されており、検索エンジンでのランキング向上をサポート。<\/p>","text_alignment":"text-left"}},"icon_tATz74":{"type":"icon","settings":{"icon_name":"icon-gift","icon_size":20,"icon_color":"","title":"豊富な決済オプション","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>クレジットカード、PayPal、Apple Pay、Google Payなど、幅広い決済手段をサポート。<\/p>","text_alignment":"text-left"}},"icon_pJxQrF":{"type":"icon","settings":{"icon_name":"icon-star","icon_size":20,"icon_color":"","title":"スケーラビリティ","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>小規模から始めても、ビジネスの成長に合わせて機能やプランを拡張できる柔軟性があります。<\/p>","text_alignment":"text-left"}},"icon_QBhLQd":{"type":"icon","settings":{"icon_name":"icon-ruler","icon_size":20,"icon_color":"","title":"在庫管理や分析ツール","heading_font_size":"heading-small","icon_alignment":"left","text":"<p>在庫管理機能が充実しており、売上データや顧客分析も簡単に行えるダッシュボードを提供。<\/p>","text_alignment":"text-left"}}},"block_order":["icon_kikRWa","icon_gWANgd","icon_qJcYYT","icon_hGGBWj","icon_qjXTVV","icon_Mjc4Vd","icon_hCGxtr","icon_tATz74","icon_pJxQrF","icon_QBhLQd"],"settings":{"default_open":true,"title":"Why Shopify?","heading_font_size":"heading-large","show_icon":true,"icon_name":"icon-award","icon_image":"shopify:\/\/shop_images\/shopify_glyph.png","icon_size":50,"width":"wrapper","color_scheme":"","icon_color":"","padding_top":0,"padding_bottom":0}},"section_double_slider_zRGcNc":{"type":"section-double-slider","blocks":{"text_slide_j4LYdE":{"type":"text-slide","settings":{"subheading":"STEP 01","title":"お問い合わせ","heading_font_size":"heading-medium","text":"<p>完全無料で相談を受付中。「どんなサイトが向いているかわからない」でもOK！私たちがご提案いたします。<\/p>","text_font_size":"body-medium","button_text":"今すぐ相談する","button_url":"","button_type":"btn--white","button_size":"","button_style":"btn--solid","show_arrow":true,"heading_tag":"automatic"}},"text_slide_cVe9nf":{"type":"text-slide","settings":{"subheading":"STEP 02","title":"ヒアリング・お見積もり","heading_font_size":"heading-medium","text":"<p>ご要件をヒアリングし、詳細なサービス内容とお見積もりをご提示いたします。<\/p>","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"heading_tag":"automatic"}},"text_slide_cmMXGG":{"type":"text-slide","settings":{"subheading":"STEP 03","title":"ご契約","heading_font_size":"heading-medium","text":"<p>お見積もりをお渡しします。それぞれの項目の詳細までしっかりと説明いたします。内容にご納得いただけたら、電子契約を通じて正式なご契約となります。<\/p>","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"heading_tag":"automatic"}},"text_slide_rVTHen":{"type":"text-slide","settings":{"subheading":"STEP 04","title":"サイト構築","heading_font_size":"heading-medium","text":"<p>ご契約後、プロジェクトキックオフ。随時進捗を共有し、安心してお任せいただける環境を整えます。  <\/p>","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"heading_tag":"automatic"}},"text_slide_e9BFjB":{"type":"text-slide","settings":{"subheading":"STEP 05","title":"納品","heading_font_size":"heading-medium","text":"<p>納品後から３０日間、運用を無料サポート。あなたのビジネスが成長の軌道に乗るまで安心のアフターケアを提供します。  <\/p>","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"heading_tag":"automatic"}}},"block_order":["text_slide_j4LYdE","text_slide_cVe9nf","text_slide_cmMXGG","text_slide_rVTHen","text_slide_e9BFjB"],"settings":{"image_1":"shopify:\/\/shop_images\/WORKFLOW_SOLSTAR.png","image_width":"one-half","autoplay":true,"autoplay_speed":4,"text_alignment":"text-left","layout":"","width":"wrapper","height":"image-height","mobile_height":"image-height--mobile","reverse_blocks":false,"color_scheme":"scheme-2","padding_top":100,"padding_bottom":100,"show_placeholder":true}},"section_rich_text_8PnnAK":{"type":"section-rich-text","blocks":{"heading_nq9QY9":{"type":"heading","settings":{"title":"実績紹介","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}}},"block_order":["heading_nq9QY9"],"settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":50,"padding_bottom":0}},"section_reviews_Cm98zx":{"type":"section-reviews","blocks":{"review_C9pBJz":{"type":"review","disabled":true,"settings":{"title":"鍛治の匠","subheading":"包丁専門店","review_content":"<p>「ECサイト構築と広告運用を依頼しました。洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。継続してお仕事を依頼したいビジネスパートナーです。」<\/p>","featured_image":"shopify:\/\/shop_images\/kajinotakumi_copy.png","review_url":""}},"review_99TUBN":{"type":"review","settings":{"title":"Paw Mint","subheading":"ペットショップ","review_content":"<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。<\/p>","featured_image":"shopify:\/\/shop_images\/Testimonial_1_copy.png","bio_image":"shopify:\/\/shop_images\/Paw_Mint_Logo.png","review_url":""}},"review_9fNLNH":{"type":"review","settings":{"title":"Sandy Haze","subheading":"水着ショップ","review_content":"<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。<\/p>","featured_image":"shopify:\/\/shop_images\/Testimonial_2_copy.png","bio_image":"shopify:\/\/shop_images\/Asset_3_4x_79fec545-1f65-4908-bb83-1897ed7652a7.png","review_url":""}},"review_yzHYRU":{"type":"review","settings":{"title":"Multi Paradox","subheading":"セレクトショップ","review_content":"<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。<\/p>","featured_image":"shopify:\/\/shop_images\/Testimonial_4_copy.png","bio_image":"shopify:\/\/shop_images\/Multi_Paradox.png","review_url":""}},"review_CxfP88":{"type":"review","settings":{"title":"Shun Smith","subheading":"アクセサリーショップ","review_content":"<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。<\/p>","featured_image":"shopify:\/\/shop_images\/Testimonial_3_copy.png","bio_image":"shopify:\/\/shop_images\/Shun_Smith.png","review_url":""}}},"block_order":["review_C9pBJz","review_99TUBN","review_9fNLNH","review_yzHYRU","review_CxfP88"],"settings":{"show_featured_image":true,"image_aspect_ratio":1,"show_quotation_marks":false,"heading_font_size":"heading-small","text_align":"text-left","color_scheme":"","card_bg_color":"","padding_top":0,"padding_bottom":0}},"section_accordion_group_8HKY7N":{"type":"section-accordion-group","blocks":{"heading_tWzinA":{"type":"heading","settings":{"title":"よくある質問"}},"question_7hnkFf":{"type":"question","settings":{"default_open":false,"title":"サイト制作の期間はどれくらいですか？","content":"<p>要件によりますが、Basicプランは約6〜8週間、Standardプランは約10〜12週間、Proプランは約14〜16週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_GMDCEW":{"type":"question","settings":{"default_open":false,"title":"予算が限られている場合でも対応可能ですか？","content":"<p>はい、もちろんです。Basicプランは最もリーズナブルな価格でご提供しており、商品数の少ないマーチャント様向けに、必要な機能に絞った内容となっております。まずはお気軽にご相談ください。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_tgipyG":{"type":"question","settings":{"default_open":false,"title":"多言語対応は可能ですか？","content":"<p>はい、多言語・多通貨にも対応しております。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_WHUNRQ":{"type":"question","settings":{"default_open":false,"title":"納品後のサポート内容を教えてください。","content":"<p>納品後は、30日間の運用サポートに加え、必要に応じてShopifyに関するトラブル対応も行っております。運用に関するご質問や改善のご要望にも柔軟に対応いたしますので、安心してご利用いただけます。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_fq4Dwb":{"type":"question","settings":{"default_open":false,"title":"お見積もりは無料ですか？","content":"<p>はい、お見積もりは完全無料です。ご要件をヒアリング後、透明性のある価格と内容で最適なプランをご提案します。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_b43Qdc":{"type":"question","settings":{"default_open":false,"title":"なぜSOLSTARがオススメなのですか？","content":"<p>弊社では、Shopifyの開発や運用に精通したエンジニアと、Shopifyアカデミー認定の専門ディレクターによるチーム体制を整えております。運用コストを抑えながら最適なソリューションを自信を持って提供いたします。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}},"question_aRVW9k":{"type":"question","settings":{"default_open":false,"title":"実績を教えてください。","content":"<p>主な実績として、開発費10億円を超える大規模ECサイトや、UK・US・シンガポール向けの越境ECサイト、年間売上60億円以上のShopify Plusサイトの構築および長期運用サポートを手がけた実績がございます。<\/p>","show_icon":false,"icon_name":"icon-award","icon_size":20,"icon_color":""}}},"block_order":["heading_tWzinA","question_7hnkFf","question_GMDCEW","question_tgipyG","question_WHUNRQ","question_fq4Dwb","question_b43Qdc","question_aRVW9k"],"settings":{"heading_font_size":"heading-medium","question_font_size":"heading-small","width":"wrapper","columns":"1","color_scheme":"","padding_top":50,"padding_bottom":50}},"section_rich_text_zfdhKE":{"type":"section-rich-text","blocks":{"heading_qArXnM":{"type":"heading","settings":{"title":"最初の一歩を踏み出しましょう","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_PYKqxD":{"type":"text","settings":{"text":"<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  <\/p>","text_font_size":"body-medium","padding_bottom":16}}},"block_order":["heading_qArXnM","text_PYKqxD"],"settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","overlay_type":"disabled","padding_top":50,"padding_bottom":0}},"contact_form_AN7jRB":{"type":"contact-form","blocks":{"text_778trQ":{"type":"text","settings":{"title":"お名前","required":true}},"email_MAwTH4":{"type":"email","settings":{"title":"メールアドレス","required":true}},"telephone_VPmcEM":{"type":"telephone","settings":{"title":"電話番号","required":true}},"text_fUgiqD":{"type":"text","settings":{"title":"会社名","required":false}},"body_xwCAxD":{"type":"body","settings":{"title":"問い合わせ内容","required":false}},"select_q6j9z7":{"type":"select","settings":{"title":"お問い合わせ種別","required":true,"label-one":"国内ECサイト構築","label-two":"グローバルECサイト構築","label-three":"ECサイトリニューアル","label-four":"その他","label-five":"","label-six":""}},"select_JEKxLr":{"type":"select","settings":{"title":"ご希望プラン","required":true,"label-one":"Basicプランで相談する","label-two":"Standardプランで相談する","label-three":"Proプランで相談する","label-four":"プランを決めずに相談する","label-five":"","label-six":""}}},"block_order":["text_778trQ","email_MAwTH4","telephone_VPmcEM","text_fUgiqD","body_xwCAxD","select_q6j9z7","select_JEKxLr"],"settings":{"title":"お問い合わせ","heading_font_size":"heading-large","terms":true,"width":"wrapper--narrow","color_scheme":"","padding_top":50,"padding_bottom":100,"heading_tag":"automatic"}},"section_rich_text_yLQJ8U":{"type":"section-rich-text","blocks":{"heading_7MgyLb":{"type":"heading","settings":{"title":"Shopifyとは？","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_j9FNXH":{"type":"text","settings":{"text":"<p>Shopifyは、起業家からスタートアップ、中小企業、大手企業まで、あらゆる規模・業種の事業に対応する、世界175カ国以上で利用されているECサイト構築プラットフォームです。<\/p><p>スピード、信頼性、セキュリティを重視しており、また最新のAI技術を駆使して、世界トップクラスの構築環境を提供しています。<\/p><p>さらにShopifyでは、構築から運営、マーケティング対策まで、一貫してサポートできるプラットフォームを展開。オンラインショップ、実店舗、B2B取引、グローバルECなど、さまざまな販売チャネルに対応する柔軟な機能開発にも力を入れています。<br\/><br\/>新規市場開拓を支援する追加機能や、最先端のAI技術を取り入れたサービスも積極的に提供し、世界中の事業者に寄り添った最新テクノロジーを届けています。<\/p>","text_font_size":"body-medium","padding_bottom":16}}},"block_order":["heading_7MgyLb","text_j9FNXH"],"disabled":true,"name":"Rich text","settings":{"align_text":"text-left","width":"wrapper","color_scheme":"scheme-1","overlay_type":"disabled","padding_top":100,"padding_bottom":100}}},"order":["section_video_gbncyG","section_announcement_qqjQ8T","section_rich_text_FjEeNW","section_text_promo_bw8FBA","section_double_qLiMQE","section_blog_4T6TPg","section_rich_text_LD3UXf","section_accordion_tjkJbb","section_double_slider_zRGcNc","section_rich_text_8PnnAK","section_reviews_Cm98zx","section_accordion_group_8HKY7N","section_rich_text_zfdhKE","contact_form_AN7jRB","section_rich_text_yLQJ8U"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_video_gbncyG": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify://files/videos/Movie Image 1.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "",
+        "title": "あなたのブランドに合った                              Shopify ECサイトを構築する",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Shopify開発歴8年以上のスタッフが親切にサポートします。</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-left",
+        "link_text": "今すぐ相談する",
+        "link": "shopify://pages/contact",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "desktop_height": "screen-height-full",
+        "mobile_height": "sixty-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-9",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_announcement_qqjQ8T": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_VcaPw8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_4.png",
+            "image_width": 50
+          }
+        },
+        "image_p4PUBr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_2.png",
+            "image_width": 90
+          }
+        },
+        "image_qQFVRW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_1.png",
+            "image_width": 70
+          }
+        },
+        "image_KfmrPa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Garry_Panda.png",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_VcaPw8",
+        "image_p4PUBr",
+        "image_qQFVRW",
+        "image_KfmrPa"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-1",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "section_rich_text_FjEeNW": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_bGxRDm": {
+          "type": "heading",
+          "settings": {
+            "title": "株式会社SOLSTARとは？",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_MqEBM9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社は、Shopifyを活用したECサイトの構築・運用に特化した開発会社です。開発費10億円超の大規模ECサイトや、年間売上60億円以上のShopify Plusサイトの構築・長期サポートの実績があります。さらに、Shopifyアカデミー認定資格を多数保有しており、最適なソリューションを自信を持って提供いたします。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_bGxRDm",
+        "text_MqEBM9"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_promo_bw8FBA": {
+      "type": "section-text-promo",
+      "blocks": {
+        "heading_BzaWpw": {
+          "type": "heading",
+          "settings": {
+            "title": "ECサイト無料構築<br>キャンペーン実施中",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_GERkBx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>詳しくはお問い合わせください。</p>",
+            "text_font_size": "body-small"
+          }
+        },
+        "button_FMMqUx": {
+          "type": "button",
+          "settings": {
+            "button_text": "お問い合わせ",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_BzaWpw",
+        "text_GERkBx",
+        "button_FMMqUx"
+      ],
+      "disabled": true,
+      "name": "Text promo",
+      "settings": {
+        "border": true,
+        "width": "wrapper",
+        "color_scheme": "scheme-2",
+        "overlay_type": "disabled",
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_double_qLiMQE": {
+      "type": "section-double",
+      "blocks": {
+        "heading_WDH9rM": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyアカデミー認定資格を3種取得",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FiRFdK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_hFaaNK": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐ相談する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WDH9rM",
+        "text_FiRFdK",
+        "buttons_hFaaNK"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_blog_4T6TPg": {
+      "type": "section-blog",
+      "custom_css": [],
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "shopify",
+        "aspect_ratio": 0.5,
+        "title": "Shopify関連記事",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    },
+    "section_rich_text_LD3UXf": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_em4eU7": {
+          "type": "heading",
+          "settings": {
+            "title": "販売市場を選ぶ",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "subheading_jNf7kj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "あなたのShopify ECサイトをより効率よく構築。",
+            "padding_bottom": 16
+          }
+        },
+        "image_RJacK9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/domestic_image.png",
+            "image_width": 75,
+            "padding_bottom": 0
+          }
+        },
+        "buttons_QBFLAf": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "国内ECサイトはこちら",
+            "button_url": "shopify://pages/domestic-shopify-ec",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "image_BLpt3i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/domestic_image_2.png",
+            "image_width": 75,
+            "padding_bottom": 0
+          }
+        },
+        "buttons_qQ7TCe": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "グローバルECサイトはこちら",
+            "button_url": "shopify://pages/cross-border-shopify-ec",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_em4eU7",
+        "subheading_jNf7kj",
+        "image_RJacK9",
+        "buttons_QBFLAf",
+        "image_BLpt3i",
+        "buttons_qQ7TCe"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "image": "shopify://shop_images/Background_1_copy.png",
+        "image_mobile": "shopify://shop_images/Background_2_copy.png",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_tjkJbb": {
+      "type": "section-accordion",
+      "blocks": {
+        "icon_kikRWa": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "直感的で使いやすい管理画面",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_gWANgd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "豊富なデザインテンプレート",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_qJcYYT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-cloud",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "多彩なアプリ連携",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_hGGBWj": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "多言語・多通貨対応",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_qjXTVV": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "充実したカスタマーサポート",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>24時間365日対応のサポートがあり、英語や日本語でも質問に応じてもらえます。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_Mjc4Vd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-pin",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "モバイル最適化",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>テンプレートや管理画面はモバイルフレンドリーで、スマホからの閲覧や購入がスムーズ。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_hCGxtr": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "SEOに強い設計",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>メタタグやURL構造が最適化されており、検索エンジンでのランキング向上をサポート。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_tATz74": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-gift",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "豊富な決済オプション",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>クレジットカード、PayPal、Apple Pay、Google Payなど、幅広い決済手段をサポート。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_pJxQrF": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "スケーラビリティ",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>小規模から始めても、ビジネスの成長に合わせて機能やプランを拡張できる柔軟性があります。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_QBhLQd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "在庫管理や分析ツール",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>在庫管理機能が充実しており、売上データや顧客分析も簡単に行えるダッシュボードを提供。</p>",
+            "text_alignment": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "icon_kikRWa",
+        "icon_gWANgd",
+        "icon_qJcYYT",
+        "icon_hGGBWj",
+        "icon_qjXTVV",
+        "icon_Mjc4Vd",
+        "icon_hCGxtr",
+        "icon_tATz74",
+        "icon_pJxQrF",
+        "icon_QBhLQd"
+      ],
+      "settings": {
+        "default_open": true,
+        "title": "Why Shopify?",
+        "heading_font_size": "heading-large",
+        "show_icon": true,
+        "icon_name": "icon-award",
+        "icon_image": "shopify://shop_images/shopify_glyph.png",
+        "icon_size": 50,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_slider_zRGcNc": {
+      "type": "section-double-slider",
+      "blocks": {
+        "text_slide_j4LYdE": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 01",
+            "title": "お問い合わせ",
+            "heading_font_size": "heading-medium",
+            "text": "<p>完全無料で相談を受付中。「どんなサイトが向いているかわからない」でもOK！私たちがご提案いたします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "今すぐ相談する",
+            "button_url": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_cVe9nf": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 02",
+            "title": "ヒアリング・お見積もり",
+            "heading_font_size": "heading-medium",
+            "text": "<p>ご要件をヒアリングし、詳細なサービス内容とお見積もりをご提示いたします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_cmMXGG": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 03",
+            "title": "ご契約",
+            "heading_font_size": "heading-medium",
+            "text": "<p>お見積もりをお渡しします。それぞれの項目の詳細までしっかりと説明いたします。内容にご納得いただけたら、電子契約を通じて正式なご契約となります。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_rVTHen": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 04",
+            "title": "サイト構築",
+            "heading_font_size": "heading-medium",
+            "text": "<p>ご契約後、プロジェクトキックオフ。随時進捗を共有し、安心してお任せいただける環境を整えます。  </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_e9BFjB": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 05",
+            "title": "納品",
+            "heading_font_size": "heading-medium",
+            "text": "<p>納品後から３０日間、運用を無料サポート。あなたのビジネスが成長の軌道に乗るまで安心のアフターケアを提供します。  </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_slide_j4LYdE",
+        "text_slide_cVe9nf",
+        "text_slide_cmMXGG",
+        "text_slide_rVTHen",
+        "text_slide_e9BFjB"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
+        "image_width": "one-half",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_8PnnAK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nq9QY9": {
+          "type": "heading",
+          "settings": {
+            "title": "実績紹介",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nq9QY9"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_Cm98zx": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_C9pBJz": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "title": "鍛治の匠",
+            "subheading": "包丁専門店",
+            "review_content": "<p>「ECサイト構築と広告運用を依頼しました。洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。継続してお仕事を依頼したいビジネスパートナーです。」</p>",
+            "featured_image": "shopify://shop_images/kajinotakumi_copy.png",
+            "review_url": ""
+          }
+        },
+        "review_99TUBN": {
+          "type": "review",
+          "settings": {
+            "title": "Paw Mint",
+            "subheading": "ペットショップ",
+            "review_content": "<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_1_copy.png",
+            "bio_image": "shopify://shop_images/Paw_Mint_Logo.png",
+            "review_url": ""
+          }
+        },
+        "review_9fNLNH": {
+          "type": "review",
+          "settings": {
+            "title": "Sandy Haze",
+            "subheading": "水着ショップ",
+            "review_content": "<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_2_copy.png",
+            "bio_image": "shopify://shop_images/Asset_3_4x_79fec545-1f65-4908-bb83-1897ed7652a7.png",
+            "review_url": ""
+          }
+        },
+        "review_yzHYRU": {
+          "type": "review",
+          "settings": {
+            "title": "Multi Paradox",
+            "subheading": "セレクトショップ",
+            "review_content": "<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_4_copy.png",
+            "bio_image": "shopify://shop_images/Multi_Paradox.png",
+            "review_url": ""
+          }
+        },
+        "review_CxfP88": {
+          "type": "review",
+          "settings": {
+            "title": "Shun Smith",
+            "subheading": "アクセサリーショップ",
+            "review_content": "<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。</p>",
+            "featured_image": "shopify://shop_images/Testimonial_3_copy.png",
+            "bio_image": "shopify://shop_images/Shun_Smith.png",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_C9pBJz",
+        "review_99TUBN",
+        "review_9fNLNH",
+        "review_yzHYRU",
+        "review_CxfP88"
+      ],
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": false,
+        "heading_font_size": "heading-small",
+        "text_align": "text-left",
+        "color_scheme": "",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_group_8HKY7N": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_tWzinA": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "question_7hnkFf": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "サイト制作の期間はどれくらいですか？",
+            "content": "<p>要件によりますが、Basicプランは約6〜8週間、Standardプランは約10〜12週間、Proプランは約14〜16週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_GMDCEW": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "予算が限られている場合でも対応可能ですか？",
+            "content": "<p>はい、もちろんです。Basicプランは最もリーズナブルな価格でご提供しており、商品数の少ないマーチャント様向けに、必要な機能に絞った内容となっております。まずはお気軽にご相談ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_tgipyG": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "多言語対応は可能ですか？",
+            "content": "<p>はい、多言語・多通貨にも対応しております。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_WHUNRQ": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品後のサポート内容を教えてください。",
+            "content": "<p>納品後は、30日間の運用サポートに加え、必要に応じてShopifyに関するトラブル対応も行っております。運用に関するご質問や改善のご要望にも柔軟に対応いたしますので、安心してご利用いただけます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_fq4Dwb": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "お見積もりは無料ですか？",
+            "content": "<p>はい、お見積もりは完全無料です。ご要件をヒアリング後、透明性のある価格と内容で最適なプランをご提案します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_b43Qdc": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "なぜSOLSTARがオススメなのですか？",
+            "content": "<p>弊社では、Shopifyの開発や運用に精通したエンジニアと、Shopifyアカデミー認定の専門ディレクターによるチーム体制を整えております。運用コストを抑えながら最適なソリューションを自信を持って提供いたします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_aRVW9k": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "実績を教えてください。",
+            "content": "<p>主な実績として、開発費10億円を超える大規模ECサイトや、UK・US・シンガポール向けの越境ECサイト、年間売上60億円以上のShopify Plusサイトの構築および長期運用サポートを手がけた実績がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tWzinA",
+        "question_7hnkFf",
+        "question_GMDCEW",
+        "question_tgipyG",
+        "question_WHUNRQ",
+        "question_fq4Dwb",
+        "question_b43Qdc",
+        "question_aRVW9k"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_zfdhKE": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qArXnM": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_PYKqxD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_qArXnM",
+        "text_PYKqxD"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "contact_form_AN7jRB": {
+      "type": "contact-form",
+      "blocks": {
+        "text_778trQ": {
+          "type": "text",
+          "settings": {
+            "title": "お名前",
+            "required": true
+          }
+        },
+        "email_MAwTH4": {
+          "type": "email",
+          "settings": {
+            "title": "メールアドレス",
+            "required": true
+          }
+        },
+        "telephone_VPmcEM": {
+          "type": "telephone",
+          "settings": {
+            "title": "電話番号",
+            "required": true
+          }
+        },
+        "text_fUgiqD": {
+          "type": "text",
+          "settings": {
+            "title": "会社名",
+            "required": false
+          }
+        },
+        "body_xwCAxD": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容",
+            "required": false
+          }
+        },
+        "select_q6j9z7": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "国内ECサイト構築",
+            "label-two": "グローバルECサイト構築",
+            "label-three": "ECサイトリニューアル",
+            "label-four": "その他",
+            "label-five": "",
+            "label-six": ""
+          }
+        },
+        "select_JEKxLr": {
+          "type": "select",
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Basicプランで相談する",
+            "label-two": "Standardプランで相談する",
+            "label-three": "Proプランで相談する",
+            "label-four": "プランを決めずに相談する",
+            "label-five": "",
+            "label-six": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_778trQ",
+        "email_MAwTH4",
+        "telephone_VPmcEM",
+        "text_fUgiqD",
+        "body_xwCAxD",
+        "select_q6j9z7",
+        "select_JEKxLr"
+      ],
+      "settings": {
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_yLQJ8U": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_7MgyLb": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyとは？",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_j9FNXH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopifyは、起業家からスタートアップ、中小企業、大手企業まで、あらゆる規模・業種の事業に対応する、世界175カ国以上で利用されているECサイト構築プラットフォームです。</p><p>スピード、信頼性、セキュリティを重視しており、また最新のAI技術を駆使して、世界トップクラスの構築環境を提供しています。</p><p>さらにShopifyでは、構築から運営、マーケティング対策まで、一貫してサポートできるプラットフォームを展開。オンラインショップ、実店舗、B2B取引、グローバルECなど、さまざまな販売チャネルに対応する柔軟な機能開発にも力を入れています。<br/><br/>新規市場開拓を支援する追加機能や、最先端のAI技術を取り入れたサービスも積極的に提供し、世界中の事業者に寄り添った最新テクノロジーを届けています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_7MgyLb",
+        "text_j9FNXH"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "section_video_gbncyG",
+    "section_announcement_qqjQ8T",
+    "section_rich_text_FjEeNW",
+    "section_text_promo_bw8FBA",
+    "section_double_qLiMQE",
+    "section_blog_4T6TPg",
+    "section_rich_text_LD3UXf",
+    "section_accordion_tjkJbb",
+    "section_double_slider_zRGcNc",
+    "section_rich_text_8PnnAK",
+    "section_reviews_Cm98zx",
+    "section_accordion_group_8HKY7N",
+    "section_rich_text_zfdhKE",
+    "contact_form_AN7jRB",
+    "section_rich_text_yLQJ8U"
+  ]
+}
