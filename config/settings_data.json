@@ -9,11 +9,11 @@
  */
 {
   "current": {
-    "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-    "menu_bg_color": "#fcfbf9",
-    "header_link": "#000000",
-    "submenu_bg_color": "#fcfbf9",
-    "submenu_link_color": "#000000",
+    "color_scheme": "scheme-2",
+    "menu_bg_color": "#0d0326",
+    "header_link": "#fcfbf9",
+    "submenu_bg_color": "#0d0326",
+    "submenu_link_color": "#fcfbf9",
     "menu_transparent_color": "#000000",
     "sale_color": "#212121",
     "type_nav_font": "sans-serif",
