@@ -1,1 +1,96 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"footer-0":{"type":"newsletter","settings":{"title":"ニュースレター","heading_font_size":"heading-medium","text":"<p>「売上アップのヒントが届く！」最新のEC運用ノウハウとセール情報をお届けします。<\/p>","button_text":"登録する","show_arrow":true,"terms":false,"show_name":false,"button_type":"btn--black","button_size":"","button_style":"btn--solid","show_social_links":false,"column_width":33}},"footer-1":{"type":"linklist","settings":{"linklist":"footer","title":"メニュー","heading_font_size":"heading-medium","column_width":33,"enable_accordion":false}},"footer-2":{"type":"text","settings":{"image_width":150,"title":"お問い合わせ","heading_font_size":"heading-medium","text":"<p>ご相談は<a href=\"\/pages\/contact\" title=\"Contact\">こちら<\/a><\/p>","column_width":33,"enable_accordion":false}}},"block_order":["footer-0","footer-1","footer-2"],"custom_css":["h2 {padding: 0; \/* 本文H2の余白を打ち消し *\/ border: none; \/* 上下ボーダーを打ち消し *\/ color: inherit; \/* 文字色は継承 *\/}"],"settings":{"logo":"shopify:\/\/shop_images\/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png","logo_image_width":150,"color_scheme":"scheme-1","border_color":"#212121","padding_top":30,"padding_bottom":30}},"supporting-menu":{"type":"section-supporting-menu","settings":{"linklist":"","text_font_size":"body-small","footer_payment_enable":true,"show_locale_selector":false,"show_country_selector":false,"show_country_name":false,"show_country_flag":false,"color_scheme":"scheme-9","padding_top":30,"padding_bottom":30}}},"order":["footer","supporting-menu"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "ニュースレター",
+            "heading_font_size": "heading-medium",
+            "text": "<p>「売上アップのヒントが届く！」最新のEC運用ノウハウとセール情報をお届けします。</p>",
+            "button_text": "登録する",
+            "show_arrow": true,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 33
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "メニュー",
+            "heading_font_size": "heading-medium",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        },
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "お問い合わせ",
+            "heading_font_size": "heading-medium",
+            "text": "<p>ご相談は<a href=\"/pages/contact\" title=\"Contact\">こちら</a></p>",
+            "column_width": 33,
+            "enable_accordion": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2"
+      ],
+      "custom_css": [
+        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png",
+        "logo_image_width": 150,
+        "color_scheme": "scheme-1",
+        "border_color": "#212121",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "",
+        "text_font_size": "body-small",
+        "footer_payment_enable": false,
+        "enable_greyscale": false,
+        "show_locale_selector": false,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}
