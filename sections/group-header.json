@@ -1,1 +1,108 @@
-{"type":"header","name":"Header","sections":{"announcement":{"type":"announcement","blocks":{"message_AyRfJe":{"type":"message","settings":{"show_wheel":false,"message":"【期間限定】ECサイト無料構築実施中","target_url_enabled":false,"target_url":"shopify:\/\/pages\/contact","target_referrer_enabled":false,"target_referrer":"","target_device_enabled":false,"target_device":"mobile"}},"text_9WeKN3":{"type":"text","settings":{"text":"<p>詳しくはお問い合わせください<\/p>","target_url_enabled":false,"target_url":"shopify:\/\/pages\/contact","target_referrer_enabled":false,"target_referrer":"","target_device_enabled":false,"target_device":"mobile"}}},"block_order":["message_AyRfJe","text_9WeKN3"],"disabled":true,"settings":{"show_border":false,"layout":"slider","slider_speed":7,"text_alignment":"center","show_arrows":false,"marquee_speed":100,"message_spacing":20,"text_font_size":"body-medium","color_scheme":"scheme-9","border_color":"","padding_top":10,"padding_bottom":10}},"header":{"type":"header","settings":{"header_sticky":true,"enable_search":true,"header_style":"logo_beside","show_separator_line":true,"header_border_color":"#d1cdc4","separator_opacity":50,"show_icons":true,"icon_as_circle":true,"cart_icon_family":"bag","logo":"shopify:\/\/shop_images\/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png","logo_max_limit":120,"logo_max_limit_mobile":120,"main_menu_linklist":"","button_text":"資料請求はこちら","button_link":"shopify:\/\/pages\/contact","button_type":"btn--primary","show_social_icons":false,"secondary_menu_linklist":"","show_locale_selector":false,"show_country_selector":false,"show_country_name":false,"show_country_flag":false,"highlight_item":"Sale","highlight_item_color":"#d02e2e","transparent_logo":"shopify:\/\/shop_images\/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png","transparent_home":false,"transparent_collection":false,"transparent_article":false,"transparent_page":false,"transparent_product_page":false,"padding_top":15,"padding_bottom":15}}},"order":["announcement","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "message_AyRfJe": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "【期間限定】ECサイト無料構築実施中",
+            "target_url_enabled": false,
+            "target_url": "shopify://pages/contact",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_9WeKN3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>詳しくはお問い合わせください</p>",
+            "target_url_enabled": false,
+            "target_url": "shopify://pages/contact",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "message_AyRfJe",
+        "text_9WeKN3"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_border": false,
+        "layout": "slider",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "message_spacing": 20,
+        "text_font_size": "body-medium",
+        "color_scheme": "scheme-9",
+        "border_color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "header_sticky": true,
+        "enable_search": true,
+        "header_style": "logo_beside",
+        "show_separator_line": true,
+        "header_border_color": "#d1cdc4",
+        "separator_opacity": 50,
+        "show_icons": true,
+        "icon_as_circle": true,
+        "cart_icon_family": "bag",
+        "logo": "shopify://shop_images/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png",
+        "logo_max_limit": 120,
+        "logo_max_limit_mobile": 120,
+        "main_menu_linklist": "",
+        "enable_call_to_action": true,
+        "button_text": "資料請求はこちら",
+        "button_link": "shopify://pages/contact",
+        "button_type": "btn--primary",
+        "show_social_icons": false,
+        "secondary_menu_linklist": "",
+        "show_locale_selector": false,
+        "show_locale_code": false,
+        "show_globe_icon": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "transparent_logo": "shopify://shop_images/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_product_page": false,
+        "padding_top": 15,
+        "padding_bottom": 15
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
