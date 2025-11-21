@@ -11,6 +11,7 @@
   "sections": {
     "section_video_gbncyG": {
       "type": "section-video",
+      "disabled": true,
       "settings": {
         "video": "shopify://files/videos/名称_未_設定.mp4",
         "show_video_popup": false,
