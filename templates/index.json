@@ -776,7 +776,7 @@
         "show_quotation_marks": false,
         "heading_font_size": "heading-small",
         "text_align": "text-left",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "card_bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0
