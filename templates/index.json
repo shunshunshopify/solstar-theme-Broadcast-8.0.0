@@ -162,9 +162,34 @@
         "grid": 3,
         "layout_mobile": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_8PnnAK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nq9QY9": {
+          "type": "heading",
+          "settings": {
+            "title": "実績紹介",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nq9QY9"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 0
       }
     },
     "section_reviews_Cm98zx": {
@@ -756,31 +781,6 @@
         "show_placeholder": true
       }
     },
-    "section_rich_text_8PnnAK": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_nq9QY9": {
-          "type": "heading",
-          "settings": {
-            "title": "実績紹介",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nq9QY9"
-      ],
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
     "section_accordion_group_8HKY7N": {
       "type": "section-accordion-group",
       "blocks": {
@@ -1056,6 +1056,7 @@
     "section_custom_code_HFdp8j",
     "section_announcement_qqjQ8T",
     "section_text_row_Re9wqU",
+    "section_rich_text_8PnnAK",
     "section_reviews_Cm98zx",
     "section_rich_text_FjEeNW",
     "section_text_promo_bw8FBA",
@@ -1064,7 +1065,6 @@
     "section_rich_text_LD3UXf",
     "section_accordion_tjkJbb",
     "section_double_slider_zRGcNc",
-    "section_rich_text_8PnnAK",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
     "contact_form_AN7jRB",
