@@ -38,18 +38,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_code_HFdp8j": {
-      "type": "section-custom-code",
-      "disabled": true,
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n/* =========================================\n   SOLSTAR - Why Us Scroll Blocks\n   （行間タイト＋本文付き）\n   ========================================= */\n\n.solstar-scroll-whyus {\n  position: relative;\n  height: 100vh;\n  width: 100%;\n  max-width: 100vw;\n  margin: 0 auto;\n  overflow-y: auto;\n  overflow-x: hidden;\n  overscroll-behavior-x: contain;\n  touch-action: pan-y;\n  scroll-snap-type: y mandatory; /* ★ 再度 mandatory にして必ずスナップ */\n  background: #0D0326;\n  color: #ffffff;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n\n/* スクロールバー（任意で削除OK） */\n.solstar-scroll-whyus::-webkit-scrollbar {\n  width: 6px;\n}\n.solstar-scroll-whyus::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.25);\n  border-radius: 999px;\n}\n\n.solstar-scroll-whyus__inner {\n  position: relative;\n  width: 100%;\n  max-width: 100%;\n}\n\n/* ===== 各ブロックのレイアウト ===== */\n\n.solstar-block {\n  scroll-snap-align: center;  /* ★ ブロックの中央でスナップ */\n  scroll-snap-stop: always;   /* ★ 高速スクロールでも必ずここで止まる */\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 3.5rem 8vw;\n  box-sizing: border-box;\n  text-align: center;\n  opacity: 0.6;\n  color: rgba(255, 255, 255, 0.7);\n  transition:\n    color 0.35s ease,\n    opacity 0.35s ease,\n    transform 0.35s ease;\n}\n\n.solstar-block__content {\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n/* タイトルと本文：行間タイトめ */\n\n.solstar-block__title {\n  margin: 0 0 1rem;\n  font-size: clamp(1.6rem, 4vw, 2.4rem);\n  line-height: 1.18;\n}\n\n.solstar-block__body {\n  margin: 0;\n  font-size: 0.98rem;\n  line-height: 1.7;\n  opacity: 0.9;\n}\n\n/* ===== アクティブなブロック（今の画面の主役） ===== */\n\n.solstar-block.is-active {\n  opacity: 1;\n  color: #ffffff;\n  transform: scale(1.02);\n}\n\n.solstar-block.is-active .solstar-block__title {\n  font-size: clamp(2.1rem, 5vw, 3.4rem);\n  line-height: 1.16;\n  letter-spacing: 0.04em;\n}\n\n.solstar-block.is-active .solstar-block__body {\n  font-size: 1rem;\n  line-height: 1.8;\n}\n\n/* ===== 過去ブロック（上に行ったもの） ===== */\n\n.solstar-block.is-past {\n  opacity: 0.4;\n  color: rgba(255, 255, 255, 0.35);\n  transform: scale(0.96);\n}\n\n.solstar-block.is-past .solstar-block__title {\n  font-size: clamp(1.1rem, 2.2vw, 1.5rem);\n  line-height: 1.2;\n  letter-spacing: 0.08em;\n}\n\n.solstar-block.is-past .solstar-block__body {\n  font-size: 0.9rem;\n  line-height: 1.6;\n}\n\n/* ===== ブロック1（セクションタイトルっぽく） ===== */\n\n.solstar-block--1 .solstar-block__eyebrow {\n  font-size: 0.9rem;\n  letter-spacing: 0.25em;\n  text-transform: uppercase;\n  opacity: 0.7;\n  margin-bottom: 1.2rem;\n}\n\n.solstar-block--1 .solstar-block__title-main {\n  font-size: clamp(2.4rem, 5vw, 3.6rem);\n  margin: 0;\n  line-height: 1.16;\n}\n\n.solstar-block--1.is-active .solstar-block__title-main {\n  font-size: clamp(2.8rem, 6vw, 4.2rem);\n  line-height: 1.14;\n}\n\n/* ===== レスポンシブ微調整 ===== */\n\n@media (max-width: 768px) {\n  .solstar-block {\n    padding: 3rem 1.8rem;\n  }\n\n  .solstar-block__title {\n    line-height: 1.22;\n  }\n}\n\n/* =========================================\n   Animista: scale-out-center\n   前のブロックに付与して縮小アニメーション\n   ========================================= */\n\n.scale-out-center {\n\t-webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n\t        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n}\n\n@-webkit-keyframes scale-out-center {\n  0% {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale(0);\n            transform: scale(0);\n    opacity: 1;\n  }\n}\n@keyframes scale-out-center {\n  0% {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale(0);\n            transform: scale(0);\n    opacity: 1;\n  }\n}\n</style>\n\n\n<section class=\"solstar-scroll-whyus\" id=\"solstar-scroll-whyus\">\n  <div class=\"solstar-scroll-whyus__inner\">\n\n    <!-- ブロック1：セクションタイトル -->\n    <section class=\"solstar-block solstar-block--1\" data-index=\"0\">\n      <div class=\"solstar-block__content\">\n        <p class=\"solstar-block__eyebrow\">Why Us</p>\n        <h2 class=\"solstar-block__title-main\">\n          SOLSTARが選ばれる理由（Why Us）\n        </h2>\n      </div>\n    </section>\n\n    <!-- ブロック2：戦略 × 設計 × 開発のワンストップ -->\n    <section class=\"solstar-block solstar-block--2\" data-index=\"1\">\n      <div class=\"solstar-block__content\">\n        <h2 class=\"solstar-block__title\">\n          戦略 × 設計 × 開発のワンストップ\n        </h2>\n        <p class=\"solstar-block__body\">\n          ブランドの方向性から要件定義、UI/UX設計、Shopify構築までを一貫対応。分断されがちな工程をシームレスにつなぐことで、ブレない“勝てるEC”を最短で実現します。\n        </p>\n      </div>\n    </section>\n\n    <!-- ブロック3：大規模案件の経験値で“伸びるEC”を再現 -->\n    <section class=\"solstar-block solstar-block--3\" data-index=\"2\">\n      <div class=\"solstar-block__content\">\n        <h2 class=\"solstar-block__title\">\n          大規模案件の経験値で“伸びるEC”を再現\n        </h2>\n        <p class=\"solstar-block__body\">\n          開発費10億円規模、年間売上60億円超といったハイレベル案件を多数担当。蓄積されたデータとナレッジを元に、小〜中規模のブランドにも“伸びるパターン”を再現します。\n        </p>\n      </div>\n    </section>\n\n    <!-- ブロック4：越境・グローバル対応の知見 -->\n    <section class=\"solstar-block solstar-block--4\" data-index=\"3\">\n      <div class=\"solstar-block__content\">\n        <h2 class=\"solstar-block__title\">\n          越境・グローバル対応の知見\n        </h2>\n        <p class=\"solstar-block__body\">\n          多言語、多通貨、海外配送、ローカライズ戦略までトータルでカバー。シンガポール・アメリカ・ヨーロッパなど、海外市場向けShopify構築の実績を活かし、グローバル展開をスムーズに支援します。\n        </p>\n      </div>\n    </section>\n\n    <!-- ブロック5：リリース後の運用改善サポート -->\n    <section class=\"solstar-block solstar-block--5\" data-index=\"4\">\n      <div class=\"solstar-block__content\">\n        <h2 class=\"solstar-block__title\">\n          リリース後の運用改善サポート\n        </h2>\n        <p class=\"solstar-block__body\">\n          公開がゴールではなくスタート。数値分析、UI改善、機能追加、A/Bテストなど、成長フェーズを見据えた運用支援を継続的に行い、売上最大化を伴走します。\n        </p>\n      </div>\n    </section>\n\n  </div>\n</section>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const container = document.getElementById('solstar-scroll-whyus');\n  if (!container) return;\n\n  const blocks = Array.from(container.querySelectorAll('.solstar-block'));\n  if (!blocks.length) return;\n\n  let lastActiveIndex = -1;\n  let animationsEnabled = false;\n\n  const isContainerCentered = () => {\n    const rect = container.getBoundingClientRect();\n    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;\n    const containerCenter = rect.top + rect.height / 2;\n    const upperBound = viewportHeight * 0.45;\n    const lowerBound = viewportHeight * 0.55;\n    return containerCenter >= upperBound && containerCenter <= lowerBound;\n  };\n\n  const setActive = (targetIndex) => {\n    if (!animationsEnabled) return;\n    if (targetIndex === lastActiveIndex || targetIndex < 0 || targetIndex >= blocks.length) return;\n\n    const prevBlock = lastActiveIndex >= 0 ? blocks[lastActiveIndex] : null;\n    if (prevBlock) {\n      prevBlock.classList.add('scale-out-center');\n      setTimeout(() => {\n        prevBlock.classList.remove('scale-out-center');\n      }, 550);\n    }\n\n    blocks.forEach((block, index) => {\n      block.classList.remove('is-active', 'is-past');\n      if (index < targetIndex) block.classList.add('is-past');\n    });\n\n    blocks[targetIndex].classList.add('is-active');\n    lastActiveIndex = targetIndex;\n  };\n\n  const getNearestIndex = () => {\n    const centerY = container.scrollTop + container.clientHeight / 2;\n    let nearest = 0;\n    let nearestDistance = Infinity;\n\n    blocks.forEach((block, index) => {\n      const rect = block.getBoundingClientRect();\n      const blockCenter = container.scrollTop + rect.top + rect.height / 2;\n      const distance = Math.abs(blockCenter - centerY);\n      if (distance < nearestDistance) {\n        nearestDistance = distance;\n        nearest = index;\n      }\n    });\n\n    return nearest;\n  };\n\n  let ticking = false;\n  const onScroll = () => {\n    if (ticking) return;\n    ticking = true;\n    window.requestAnimationFrame(() => {\n      if (!animationsEnabled && isContainerCentered()) {\n        animationsEnabled = true;\n        setActive(0);\n      }\n      if (animationsEnabled) {\n        const index = getNearestIndex();\n        setActive(index);\n      }\n      ticking = false;\n    });\n  };\n\n  container.addEventListener('scroll', onScroll, { passive: true });\n  window.addEventListener('resize', onScroll);\n  window.addEventListener('scroll', onScroll, { passive: true });\n});\n</script>",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_announcement_qqjQ8T": {
       "type": "section-announcement",
       "blocks": {
@@ -103,7 +91,6 @@
     },
     "section_divider_bcrKjL": {
       "type": "section-divider",
-      "disabled": true,
       "name": "Divider",
       "settings": {
         "show_line": false,
@@ -281,192 +268,6 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_fXNMYc": {
-      "type": "section-accordion",
-      "blocks": {
-        "icon_hAPnMi": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-notes",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "戦略 × 設計 × 開発のワンストップ",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_gnGkXy": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "大規模案件の経験値で“伸びるEC”を再現",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_6cyCjL": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-cloud",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "越境・グローバル対応の知見",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_hEpMNj": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "リリース後の運用改善サポート",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
-            "text_alignment": "text-left"
-          }
-        }
-      },
-      "block_order": [
-        "icon_hAPnMi",
-        "icon_gnGkXy",
-        "icon_6cyCjL",
-        "icon_hEpMNj"
-      ],
-      "disabled": true,
-      "settings": {
-        "default_open": true,
-        "title": "SOLSTARが選ばれる理由（Why Us）",
-        "heading_font_size": "heading-large",
-        "show_icon": true,
-        "icon_name": "icon-award",
-        "icon_image": "shopify://shop_images/Logo_5_copy.png",
-        "icon_size": 50,
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_columns_MF8AKf": {
-      "type": "section-columns",
-      "blocks": {
-        "image_dk8BhQ": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "戦略 × 設計 × 開発のワンストップ",
-            "heading_font_size": "heading-small",
-            "text": "<p>ブランドの方向性から要件定義、UI/UX設計、Shopify構築までを一貫対応。分断されがちな工程をシームレスにつなぐことで、ブレない“勝てるEC”を最短で実現します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_r8ccrW": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "大規模案件の経験値で“伸びるEC”を再現",
-            "heading_font_size": "heading-small",
-            "text": "<p>開発費10億円規模、年間売上60億円超といったハイレベル案件を多数担当。蓄積されたデータとナレッジを元に、小〜中規模のブランドにも“伸びるパターン”を再現します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_iirCm9": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "越境・グローバル対応の知見",
-            "heading_font_size": "heading-small",
-            "text": "<p>多言語、多通貨、海外配送、ローカライズ戦略までトータルでカバー。シンガポール・アメリカ・ヨーロッパなど、海外市場向けShopify構築の実績を活かし、グローバル展開をスムーズに支援します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_Ywx8fA": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "リリース後の運用改善サポート",
-            "heading_font_size": "heading-small",
-            "text": "<p>公開がゴールではなくスタート。数値分析、UI改善、機能追加、A/Bテストなど、成長フェーズを見据えた運用支援を継続的に行い、売上最大化を伴走します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_dk8BhQ",
-        "image_r8ccrW",
-        "image_iirCm9",
-        "image_Ywx8fA"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "SOLSTARが選ばれる理由（Why Us）",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
-        "width": "wrapper",
-        "align_columns": "flex-align-center",
-        "layout": "slider",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_rich_text_yLQJ8U": {
       "type": "section-rich-text",
       "blocks": {
@@ -512,6 +313,60 @@
         "color_scheme": "scheme-10",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_social_videos_XNKQHB": {
+      "type": "section-social-videos",
+      "blocks": {
+        "video_3eH8ya": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Movie Image 1.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_Wknh3A": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/名称_未_設定.mp4",
+            "badge_text": "@instagram"
+          }
+        },
+        "video_XypnFB": {
+          "type": "video",
+          "settings": {
+            "badge_text": "@instagram"
+          }
+        },
+        "video_bfLpYE": {
+          "type": "video",
+          "settings": {
+            "badge_text": "@instagram"
+          }
+        }
+      },
+      "block_order": [
+        "video_3eH8ya",
+        "video_Wknh3A",
+        "video_XypnFB",
+        "video_bfLpYE"
+      ],
+      "name": "Social videos",
+      "settings": {
+        "heading": "Social videos",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "aspect_ratio": 1.5,
+        "layout_desktop": "grid",
+        "blocks_per_row": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section_rich_text_FjEeNW": {
@@ -1262,16 +1117,14 @@
   },
   "order": [
     "section_video_gbncyG",
-    "section_custom_code_HFdp8j",
     "section_announcement_qqjQ8T",
     "section_divider_bcrKjL",
     "section_text_row_Re9wqU",
     "section_rich_text_8PnnAK",
     "section_reviews_Cm98zx",
-    "section_accordion_fXNMYc",
-    "section_columns_MF8AKf",
     "section_rich_text_yLQJ8U",
     "section_custom_code_tgahDR",
+    "section_social_videos_XNKQHB",
     "section_rich_text_FjEeNW",
     "section_text_promo_bw8FBA",
     "section_double_qLiMQE",
