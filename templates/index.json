@@ -19,7 +19,7 @@
         "heading_font_size": "heading-medium",
         "text": "<p>8年以上の実績｜大規模EC構築｜越境EC対応</p>",
         "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
+        "flex_align": "align--bottom-center",
         "link_text": "無料相談はこちら",
         "link": "shopify://pages/contact",
         "button_type": "btn--primary",
