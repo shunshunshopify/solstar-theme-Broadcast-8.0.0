@@ -63,6 +63,7 @@
     "youtube_link": "",
     "product_grid_center": false,
     "overlay_text": false,
+    "show_recently_viewed_indicator": false,
     "image_hover_enable": true,
     "image_hover_limit": 5,
     "product_grid_aspect_ratio": 1.1,
