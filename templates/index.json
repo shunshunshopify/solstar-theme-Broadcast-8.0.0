@@ -886,6 +886,62 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
+    },
+    "section_hero_ywHUVn": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_hAURjE": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_PzkdL8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_FFFgqn": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_hAURjE",
+        "text_PzkdL8",
+        "button_FFFgqn"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
@@ -895,6 +951,7 @@
     "section_rich_text_8PnnAK",
     "section_reviews_Cm98zx",
     "section_custom_code_tgahDR",
+    "section_hero_ywHUVn",
     "section_rich_text_FjEeNW",
     "section_double_qLiMQE",
     "section_blog_4T6TPg",
