@@ -38,18 +38,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_code_HFdp8j": {
-      "type": "section-custom-code",
-      "disabled": true,
-      "name": "Custom code",
-      "settings": {
-        "code": "<div class=\"solstar-hero-video\">\n  <video\n    class=\"solstar-hero-video__bg\"\n    autoplay\n    muted\n    loop\n    playsinline\n  >\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/f2005eb137f2480a91e0d1bfebbdd296.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n\n  <div class=\"solstar-hero-video__overlay\">\n    <img\n      src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Solstar_Rectangle_White.png?v=1763718379\"\n      alt=\"SOLSTAR\"\n      class=\"solstar-hero-video__logo\"\n    >\n  </div>\n</div>\n\n<style>\n  .solstar-hero-video {\n    position: relative;\n    width: 100%;\n    height: 100vh; /* 必要に応じて 70vh とかに調整してOK */\n    overflow: hidden;\n  }\n\n  .solstar-hero-video__bg {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    min-width: 100%;\n    min-height: 100%;\n    width: auto;\n    height: auto;\n    transform: translate(-50%, -50%);\n    object-fit: cover;\n    z-index: 1;\n  }\n\n  .solstar-hero-video__overlay {\n    position: relative;\n    z-index: 2;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;   /* 縦方向センター */\n    justify-content: center; /* 横方向センター */\n  }\n\n  .solstar-hero-video__logo {\n    max-width: 280px;  /* ロゴのサイズはここで調整 */\n    width: 40vw;\n    height: auto;\n  }\n\n  /* モバイル向け微調整 */\n  @media (max-width: 749px) {\n    .solstar-hero-video {\n      height: 70vh;\n    }\n\n    .solstar-hero-video__logo {\n      max-width: 220px;\n      width: 60vw;\n    }\n  }\n</style>",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_announcement_qqjQ8T": {
       "type": "section-announcement",
       "blocks": {
@@ -99,18 +87,6 @@
         "color_scheme": "scheme-10",
         "padding_top": 5,
         "padding_bottom": 5
-      }
-    },
-    "section_divider_bcrKjL": {
-      "type": "section-divider",
-      "disabled": true,
-      "name": "Divider",
-      "settings": {
-        "show_line": false,
-        "width": "wrapper--full-padded",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "section_text_row_Re9wqU": {
@@ -279,228 +255,6 @@
         "card_bg_color": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_accordion_fXNMYc": {
-      "type": "section-accordion",
-      "blocks": {
-        "icon_hAPnMi": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-notes",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "戦略 × 設計 × 開発のワンストップ",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_gnGkXy": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "大規模案件の経験値で“伸びるEC”を再現",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_6cyCjL": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-cloud",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "越境・グローバル対応の知見",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_hEpMNj": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "リリース後の運用改善サポート",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
-            "text_alignment": "text-left"
-          }
-        }
-      },
-      "block_order": [
-        "icon_hAPnMi",
-        "icon_gnGkXy",
-        "icon_6cyCjL",
-        "icon_hEpMNj"
-      ],
-      "disabled": true,
-      "settings": {
-        "default_open": true,
-        "title": "SOLSTARが選ばれる理由（Why Us）",
-        "heading_font_size": "heading-large",
-        "show_icon": true,
-        "icon_name": "icon-award",
-        "icon_image": "shopify://shop_images/Logo_5_copy.png",
-        "icon_size": 50,
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_columns_MF8AKf": {
-      "type": "section-columns",
-      "blocks": {
-        "image_dk8BhQ": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "戦略 × 設計 × 開発のワンストップ",
-            "heading_font_size": "heading-small",
-            "text": "<p>ブランドの方向性から要件定義、UI/UX設計、Shopify構築までを一貫対応。分断されがちな工程をシームレスにつなぐことで、ブレない“勝てるEC”を最短で実現します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_r8ccrW": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "大規模案件の経験値で“伸びるEC”を再現",
-            "heading_font_size": "heading-small",
-            "text": "<p>開発費10億円規模、年間売上60億円超といったハイレベル案件を多数担当。蓄積されたデータとナレッジを元に、小〜中規模のブランドにも“伸びるパターン”を再現します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_iirCm9": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "越境・グローバル対応の知見",
-            "heading_font_size": "heading-small",
-            "text": "<p>多言語、多通貨、海外配送、ローカライズ戦略までトータルでカバー。シンガポール・アメリカ・ヨーロッパなど、海外市場向けShopify構築の実績を活かし、グローバル展開をスムーズに支援します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_Ywx8fA": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "リリース後の運用改善サポート",
-            "heading_font_size": "heading-small",
-            "text": "<p>公開がゴールではなくスタート。数値分析、UI改善、機能追加、A/Bテストなど、成長フェーズを見据えた運用支援を継続的に行い、売上最大化を伴走します。</p>",
-            "text_font_size": "body-small",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_dk8BhQ",
-        "image_r8ccrW",
-        "image_iirCm9",
-        "image_Ywx8fA"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "SOLSTARが選ばれる理由（Why Us）",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-center",
-        "align_text": "text-center",
-        "width": "wrapper",
-        "align_columns": "flex-align-center",
-        "layout": "slider",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_rich_text_yLQJ8U": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_7MgyLb": {
-          "type": "heading",
-          "settings": {
-            "title": "Shopifyとは？",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_j9FNXH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shopifyは、起業家からスタートアップ、中小企業、大手企業まで、あらゆる規模・業種の事業に対応する、世界175カ国以上で利用されているECサイト構築プラットフォームです。</p><p>スピード、信頼性、セキュリティを重視しており、また最新のAI技術を駆使して、世界トップクラスの構築環境を提供しています。</p><p>さらにShopifyでは、構築から運営、マーケティング対策まで、一貫してサポートできるプラットフォームを展開。オンラインショップ、実店舗、B2B取引、グローバルECなど、さまざまな販売チャネルに対応する柔軟な機能開発にも力を入れています。<br/><br/>新規市場開拓を支援する追加機能や、最先端のAI技術を取り入れたサービスも積極的に提供し、世界中の事業者に寄り添った最新テクノロジーを届けています。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_7MgyLb",
-        "text_j9FNXH"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "scheme-1",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
       }
     },
     "section_custom_code_tgahDR": {
@@ -1262,15 +1016,10 @@
   },
   "order": [
     "section_video_gbncyG",
-    "section_custom_code_HFdp8j",
     "section_announcement_qqjQ8T",
-    "section_divider_bcrKjL",
     "section_text_row_Re9wqU",
     "section_rich_text_8PnnAK",
     "section_reviews_Cm98zx",
-    "section_accordion_fXNMYc",
-    "section_columns_MF8AKf",
-    "section_rich_text_yLQJ8U",
     "section_custom_code_tgahDR",
     "section_rich_text_FjEeNW",
     "section_text_promo_bw8FBA",
