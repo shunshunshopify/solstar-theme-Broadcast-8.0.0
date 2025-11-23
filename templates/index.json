@@ -302,53 +302,6 @@
         "padding_bottom": 0
       }
     },
-    "section_text_promo_bw8FBA": {
-      "type": "section-text-promo",
-      "blocks": {
-        "heading_BzaWpw": {
-          "type": "heading",
-          "settings": {
-            "title": "ECサイト無料構築<br>キャンペーン実施中",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic"
-          }
-        },
-        "text_GERkBx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>詳しくはお問い合わせください。</p>",
-            "text_font_size": "body-small"
-          }
-        },
-        "button_FMMqUx": {
-          "type": "button",
-          "settings": {
-            "button_text": "お問い合わせ",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_BzaWpw",
-        "text_GERkBx",
-        "button_FMMqUx"
-      ],
-      "disabled": true,
-      "name": "Text promo",
-      "settings": {
-        "border": true,
-        "width": "wrapper",
-        "color_scheme": "scheme-2",
-        "overlay_type": "disabled",
-        "inner_padding": 50,
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_double_qLiMQE": {
       "type": "section-double",
       "blocks": {
@@ -425,85 +378,6 @@
         "padding_bottom": 0,
         "heading_tag": "automatic",
         "title_tag": "automatic"
-      }
-    },
-    "section_rich_text_LD3UXf": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_em4eU7": {
-          "type": "heading",
-          "settings": {
-            "title": "販売市場を選ぶ",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "subheading_jNf7kj": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "あなたのShopify ECサイトをより効率よく構築。",
-            "padding_bottom": 16
-          }
-        },
-        "image_RJacK9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/domestic_image.png",
-            "image_width": 75,
-            "padding_bottom": 0
-          }
-        },
-        "buttons_QBFLAf": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "国内ECサイトはこちら",
-            "button_url": "shopify://pages/domestic-shopify-ec",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        },
-        "image_BLpt3i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/domestic_image_2.png",
-            "image_width": 75,
-            "padding_bottom": 0
-          }
-        },
-        "buttons_qQ7TCe": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "グローバルECサイトはこちら",
-            "button_url": "shopify://pages/cross-border-shopify-ec",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_em4eU7",
-        "subheading_jNf7kj",
-        "image_RJacK9",
-        "buttons_QBFLAf",
-        "image_BLpt3i",
-        "buttons_qQ7TCe"
-      ],
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "image": "shopify://shop_images/Background_1_copy.png",
-        "image_mobile": "shopify://shop_images/Background_2_copy.png",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 50
       }
     },
     "section_accordion_tjkJbb": {
@@ -1022,10 +896,8 @@
     "section_reviews_Cm98zx",
     "section_custom_code_tgahDR",
     "section_rich_text_FjEeNW",
-    "section_text_promo_bw8FBA",
     "section_double_qLiMQE",
     "section_blog_4T6TPg",
-    "section_rich_text_LD3UXf",
     "section_accordion_tjkJbb",
     "section_double_slider_zRGcNc",
     "section_accordion_group_8HKY7N",
