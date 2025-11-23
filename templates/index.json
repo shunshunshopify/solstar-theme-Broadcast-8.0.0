@@ -274,7 +274,7 @@
         "heading_hAURjE": {
           "type": "heading",
           "settings": {
-            "title": "Image banner",
+            "title": "Standardプラン",
             "heading_font_size": "heading-x-large",
             "heading_tag": "automatic",
             "padding_bottom": 8
@@ -283,15 +283,15 @@
         "text_PzkdL8": {
           "type": "text",
           "settings": {
-            "text": "<p>Tell your brand's story through images.</p>",
-            "text_font_size": "body-large",
+            "text": "<p><strong>ブランドの世界観を表現するデザインと</strong></p><p><strong>スムーズな購入体験を重視したECサイト</strong></p>",
+            "text_font_size": "body-medium",
             "padding_bottom": 8
           }
         },
         "button_FFFgqn": {
           "type": "button",
           "settings": {
-            "link_text": "View products",
+            "link_text": "詳細を見る",
             "link": "",
             "button_type": "btn--primary",
             "button_size": "",
@@ -309,11 +309,13 @@
       ],
       "name": "Image banner",
       "settings": {
+        "image_1": "shopify://shop_images/Standard_Plan_copy.webp",
         "link": "",
         "width": "wrapper--full",
         "height": "image-height",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
+        "mobile_image": "shopify://shop_images/Standard_Plan_Square_copy.webp",
         "mobile_height": "image-height--mobile",
         "flex_align_mobile": "align--top-center-mobile",
         "color_scheme": "",
