@@ -119,24 +119,11 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
-        },
-        "button_Jf7PfW": {
-          "type": "button",
-          "settings": {
-            "link_text": "Shop now",
-            "link_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "heading_WwKpya",
-        "text_hK4gRx",
-        "button_Jf7PfW"
+        "text_hK4gRx"
       ],
       "name": "Before and after",
       "settings": {
