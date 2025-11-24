@@ -182,6 +182,7 @@
       "block_order": [
         "heading_nq9QY9"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
@@ -256,6 +257,7 @@
         "review_yzHYRU",
         "review_CxfP88"
       ],
+      "disabled": true,
       "settings": {
         "show_featured_image": true,
         "image_aspect_ratio": 1,
