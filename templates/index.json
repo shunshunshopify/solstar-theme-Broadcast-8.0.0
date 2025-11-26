@@ -466,7 +466,7 @@
         "image_1": "shopify://shop_images/Standard_Plan_copy.webp",
         "link": "",
         "width": "wrapper--full",
-        "height": "image-height",
+        "height": "four-fifty-height-hero",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/Standard_Plan_Square_copy.webp",
