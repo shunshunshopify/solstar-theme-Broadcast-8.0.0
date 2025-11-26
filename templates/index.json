@@ -189,6 +189,59 @@
         "show_placeholder": true
       }
     },
+    "section_double_qLiMQE": {
+      "type": "section-double",
+      "blocks": {
+        "heading_WDH9rM": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyアカデミー認定資格を3種取得",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FiRFdK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_hFaaNK": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐ相談する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WDH9rM",
+        "text_FiRFdK",
+        "buttons_hFaaNK"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Shopify_Academy_Image_in_black_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_hero_video_GEcb6N": {
       "type": "section-hero-video",
       "blocks": {
@@ -457,59 +510,6 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 0
-      }
-    },
-    "section_double_qLiMQE": {
-      "type": "section-double",
-      "blocks": {
-        "heading_WDH9rM": {
-          "type": "heading",
-          "settings": {
-            "title": "Shopifyアカデミー認定資格を3種取得",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_FiRFdK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_hFaaNK": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "今すぐ相談する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_WDH9rM",
-        "text_FiRFdK",
-        "buttons_hFaaNK"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "section_accordion_tjkJbb": {
@@ -1131,13 +1131,13 @@
     "section_custom_code_jyGQDd",
     "section_before_after_PtA6jq",
     "section_double_qaxP3k",
+    "section_double_qLiMQE",
     "section_hero_video_GEcb6N",
     "section_custom_content_KyfWNL",
     "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
     "section_rich_text_FjEeNW",
-    "section_double_qLiMQE",
     "section_accordion_tjkJbb",
     "section_double_slider_zRGcNc",
     "section_accordion_group_8HKY7N",
