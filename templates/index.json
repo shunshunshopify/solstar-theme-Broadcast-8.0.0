@@ -189,6 +189,41 @@
         "show_placeholder": true
       }
     },
+    "section_hero_video_GEcb6N": {
+      "type": "section-hero-video",
+      "blocks": {
+        "heading_D8eiBK": {
+          "type": "heading",
+          "settings": {
+            "title": "Banner with video",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_D8eiBK"
+      ],
+      "name": "Banner with video",
+      "settings": {
+        "image_1": "shopify://shop_images/3.png",
+        "link": "",
+        "video": "shopify://files/videos/5.26.2023 Sandy Haze New Video0001-0753.mp4",
+        "video_width": 50,
+        "aspect_ratio": 0.6,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 100,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_custom_content_KyfWNL": {
       "type": "section-custom-content",
       "blocks": {
@@ -1097,6 +1132,7 @@
     "section_custom_code_jyGQDd",
     "section_before_after_PtA6jq",
     "section_double_qaxP3k",
+    "section_hero_video_GEcb6N",
     "section_custom_content_KyfWNL",
     "section_text_row_Re9wqU",
     "section_custom_code_tgahDR",
