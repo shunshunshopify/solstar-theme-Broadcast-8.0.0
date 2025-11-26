@@ -391,6 +391,7 @@
         "icon_hEgwVp",
         "icon_QbggWy"
       ],
+      "disabled": true,
       "name": "Text columns with icons",
       "settings": {
         "title": "",
