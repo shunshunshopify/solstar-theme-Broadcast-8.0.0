@@ -127,7 +127,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>年商数十億規模、複数チャネル・多言語対応プロジェクトを数多く手がけてきたノウハウがあります。</strong></p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         }
@@ -167,7 +167,7 @@
         "text_FiRFdK": {
           "type": "text",
           "settings": {
-            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</p>",
+            "text": "<p><strong>当社は、Shopifyの開発・運営・B2B販売戦略の3資格を取得し、ECサイトの構築から売上向上、B2B展開まで支援します。Shopifyのコア機能を活かしたソリューションを活用し、技術的負債を最小限に抑えたECサイトを構築します。</strong></p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
