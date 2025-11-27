@@ -24730,4 +24730,18 @@ body.has-header-sticky .timeline {
   display: flex;
 }
 
+@media only screen and (max-width: 749px) {
+  .spotlight__container.image-height--mobile .spotlight__image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  .spotlight__container.image-height--mobile .spotlight__image.is-visible {
+    display: flex;
+  }
+}
+
 /*! ============ Add any custom styles below this line ================== */
