@@ -407,7 +407,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/Workflow_copy_c1e944f0-f2f5-4306-8c1f-98694825634d.png",
+            "image": "shopify://shop_images/Workflow_copy.webp",
             "title": "お問い合わせ",
             "heading_font_size": "heading-medium",
             "button_text": "",
@@ -795,6 +795,7 @@
         "text_slide_rVTHen",
         "text_slide_e9BFjB"
       ],
+      "disabled": true,
       "settings": {
         "image_1": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
         "image_width": "one-half",
