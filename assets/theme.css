@@ -24718,4 +24718,30 @@ body.has-header-sticky .timeline {
   transition: background-position 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
+.spotlight__container.image-height .spotlight__image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: none;
+  opacity: 1;
+  visibility: visible;
+}
+.spotlight__container.image-height .spotlight__image.is-visible {
+  display: flex;
+}
+
+@media only screen and (max-width: 749px) {
+  .spotlight__container.image-height--mobile .spotlight__image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  .spotlight__container.image-height--mobile .spotlight__image.is-visible {
+    display: flex;
+  }
+}
+
 /*! ============ Add any custom styles below this line ================== */

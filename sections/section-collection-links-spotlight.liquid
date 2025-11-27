@@ -7,6 +7,14 @@
   assign height = section.settings.height
   assign mobile_height = section.settings.mobile_height
 
+  if height == 'screen-height-full'
+    assign height = 'image-height'
+  endif
+
+  if mobile_height == 'screen-height-full--mobile'
+    assign mobile_height = 'image-height--mobile'
+  endif
+
   if request.visual_preview_mode
     assign height = ''
     assign mobile_height = ''
@@ -60,6 +68,7 @@
     assign collection = collections[block.settings.collection]
     assign collection_url = collection.url | default: '#'
     assign image = block.settings.image | default: collection.image | default: collection.products.first.featured_media.preview_image
+    assign aspect_ratio = image.aspect_ratio | default: 1
     assign button_text = block.settings.button_text
     assign button_link = block.settings.button_link | default: collection_url
     assign button_type = block.settings.button_type
@@ -99,6 +108,7 @@
       class="spotlight__image{% if forloop.first %} is-visible{% endif %} frame__item"
       id="{{ unique }}"
       data-collection-image
+      style="--aspect-ratio: {{ aspect_ratio }};"
       {{ block.shopify_attributes }}
     >
       {%- render 'image-hero', image: image, sizes: '(min-width: 750px) 50vw, 100vw', desktop_height: height, mobile_height: mobile_height -%}
@@ -228,7 +238,7 @@
       "label": "Height",
       "default": "screen-height-one-third",
       "options": [
-        {"value": "screen-height-full", "label": "Full screen height"},
+        {"value": "image-height", "label": "Image height"},
         {"value": "screen-height-three-quarters", "label": "3/4 of screen"},
         {"value": "screen-height-two-thirds", "label": "2/3 of screen"},
         {"value": "screen-height-one-half", "label": "1/2 of screen"},
@@ -255,7 +265,7 @@
       "label": "Height",
       "default": "screen-height-one-half--mobile",
       "options": [
-        {"value": "screen-height-full--mobile", "label": "Full screen height"},
+        {"value": "image-height--mobile", "label": "Image height"},
         {"value": "screen-height-three-quarters--mobile", "label": "3/4 of screen"},
         {"value": "screen-height-two-thirds--mobile", "label": "2/3 of screen"},
         {"value": "screen-height-one-half--mobile", "label": "1/2 of screen"},
