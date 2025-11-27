@@ -495,9 +495,9 @@
       "settings": {
         "title": "Workflow",
         "heading_font_size": "heading-x-large",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "text": "<p><strong>アイデアからローンチまでを、ひとつの流れに。</strong></p>",
         "text_font_size": "body-medium",
-        "layout": "",
+        "layout": "is-reversed",
         "width": "wrapper--full",
         "height": "screen-height-full",
         "mobile_height": "screen-height-one-third--mobile",
