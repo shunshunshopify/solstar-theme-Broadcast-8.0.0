@@ -475,9 +475,9 @@
             "title": "STEP 05 納品",
             "heading_font_size": "heading-medium",
             "button_text": "",
-            "button_link": "shopify://collections/joe-cool-monogram-long-wallets",
+            "button_link": "",
             "button_type": "btn--primary",
-            "button_size": "",
+            "button_size": "btn--small",
             "button_style": "btn--solid",
             "button_show_arrow": true,
             "background_color": ""
