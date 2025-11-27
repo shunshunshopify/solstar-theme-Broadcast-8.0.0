@@ -63,7 +63,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "header_sticky": false,
+        "header_sticky": true,
         "enable_search": true,
         "header_style": "logo_beside",
         "show_separator_line": false,
@@ -72,7 +72,6 @@
         "show_icons": true,
         "icon_as_circle": true,
         "cart_icon_family": "bag",
-        "logo": "shopify://shop_images/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",
