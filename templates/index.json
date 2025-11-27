@@ -407,6 +407,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Workflow_1.webp",
             "title": "お問い合わせ",
             "heading_font_size": "heading-medium",
             "button_text": "",
@@ -422,6 +423,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify://shop_images/Workflow_2.webp",
             "title": "ヒアリング",
             "heading_font_size": "heading-medium",
             "button_text": "",
