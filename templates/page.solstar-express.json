@@ -379,114 +379,6 @@
         "padding_bottom": 50
       }
     },
-    "section_columns_dKc4AA": {
-      "type": "section-columns",
-      "blocks": {
-        "image_UkFmeE": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "1. 低コストでも高品質を実現",
-            "heading_font_size": "heading-small",
-            "text": "<p>売上につながるUI/UXやデザイン品質はそのままに、機能は“必要十分”に厳選。</p><p>不要な開発を省くことで、月額29,800円から自社ECサイトを立ち上げ・運用できます。</p><p>事業者でも手の届く価格で、“成果を出すEC”を実現します。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_wDUtkf": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "2. 最短2週間でローンチ",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_4W3iqn": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "3. 運用もまるごと代行",
-            "heading_font_size": "heading-small",
-            "text": "<p>サイト公開後の更新・設定・トラブル対応などの運用業務は、実績豊富な弊社チームが代行します。</p><p>事業者はマーケティングや商品開発に集中でき、EC運用の不安と負担から解放されます。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        },
-        "image_xHFmwc": {
-          "type": "image",
-          "settings": {
-            "image_width": 66,
-            "image_shape": "normal",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_UkFmeE",
-        "image_wDUtkf",
-        "image_4W3iqn",
-        "image_xHFmwc"
-      ],
-      "disabled": true,
-      "name": "Text columns with images",
-      "settings": {
-        "title": "SOLSTAR EXPRESSの特徴",
-        "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-center",
-        "layout": "slider",
-        "grid": 3,
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
-      }
-    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -547,6 +439,117 @@
         "overlay_type": "disabled",
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "section_columns_dKc4AA": {
+      "type": "section-columns",
+      "blocks": {
+        "image_UkFmeE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-01_at_13.33.31.png",
+            "image_width": 100,
+            "image_shape": "blob-one",
+            "title": "1. 初期費用5万円で、安心して挑戦できる",
+            "heading_font_size": "heading-small",
+            "text": "<p>初期費用5万円＋月額29,800円という、業界でも珍しい低コスト設計。</p><p>一般的な初期費用（約100万円）と比べて、約95％の初期投資を削減できます。</p><p>資金リスクを抑えながら、安心してECサイトの立ち上げ・運用をスタートできます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_wDUtkf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-01_at_13.31.12.png",
+            "image_width": 100,
+            "image_shape": "blob-two",
+            "title": "2. 運用代行で、売上づくりに集中できる",
+            "heading_font_size": "heading-small",
+            "text": "<p>面倒なサイト運用は、SOLSTARがすべて代行。</p><p>事業者は商品開発・マーケティング・顧客対応に集中できます。</p><p>売上に直結する時間を確保し、ビジネスの成長スピードを高められます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_4W3iqn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-01_at_13.30.04.png",
+            "image_width": 100,
+            "image_shape": "blob-one",
+            "title": "3．独自サイトだから、自社のファンを育てられる",
+            "heading_font_size": "heading-small",
+            "text": "<p>モール型ECでは埋もれてしまいがちな事業でも、オリジナルの自社サイトなら顧客と直接つながれます。</p><p>ブランドの世界観を伝えながら、リピーターを増やし、ファンを育てることが可能です。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_xHFmwc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unnamed_15.png",
+            "image_width": 100,
+            "image_shape": "blob-two",
+            "title": "4. 「やってみよう」「やめよう」に柔軟に対応",
+            "heading_font_size": "heading-small",
+            "text": "<p>小規模事業の強みであるフットワークの軽さを活かし、新しい挑戦や方向転換にも柔軟に対応可能。</p><p>機能拡張や運用体制の強化もスムーズに行えるため、事業の成長段階に合わせてすばやく売上アップを目指せます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_UkFmeE",
+        "image_wDUtkf",
+        "image_4W3iqn",
+        "image_xHFmwc"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "SOLSTAR EXPRESSの特徴",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout": "slider",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "contact_form_KKiTE3": {
@@ -647,9 +650,9 @@
     "section_rich_text_iwUCpP",
     "section_custom_content_TCfGpm",
     "section_rich_text_63q6ah",
-    "section_columns_dKc4AA",
     "section_rich_text_pijWhf",
     "section_rich_text_qHtYxf",
+    "section_columns_dKc4AA",
     "contact_form_KKiTE3"
   ]
 }
