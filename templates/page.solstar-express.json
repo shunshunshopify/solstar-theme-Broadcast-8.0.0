@@ -102,6 +102,71 @@
         "padding_bottom": 100
       }
     },
+    "section_custom_content_LwmMDj": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_EXtxpA": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "自社ECサイト立ち上げで直面する課題",
+            "heading_font_size": "heading-large",
+            "text": "<h4><strong>1. ECサイト構築費が高すぎる</strong></h4><p>最低でも約100万円。</p><p>業界では当たり前の金額でも、限られた資金で事業を回す立場からすると大きなリスクです。</p><h4><strong>2. 構築に割ける時間が足りない</strong></h4><p>日々の業務に追われ、ECサイト構築に十分な時間を確保できません。</p><p>その結果、中途半端なサイトができてしまい、顧客満足度を下げるリスクがあります。</p><h4><strong>3. 専門知識が不足している</strong></h4><p>ECサイトでやりたいことがあっても、どう実現すればよいか分からない状態。</p><p>手探りで進めると、成果どころか不安だけが積み重なります。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_HP9YGj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/58.png",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_EXtxpA",
+        "image_HP9YGj"
+      ],
+      "name": "Custom section",
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -228,6 +293,7 @@
     "main",
     "section_hero_ij9iAB",
     "section_rich_text_RQU3dK",
+    "section_custom_content_LwmMDj",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
