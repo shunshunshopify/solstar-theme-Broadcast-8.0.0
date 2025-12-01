@@ -184,6 +184,40 @@
         "padding_bottom": 50
       }
     },
+    "section_hero_PLWiqj": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_XEQR4k": {
+          "type": "heading",
+          "settings": {
+            "title": "私たちも、同じ悩みを抱えていました。",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h2",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_XEQR4k"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/41.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--bottom-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -312,6 +346,7 @@
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
     "section_rich_text_HjDeFq",
+    "section_hero_PLWiqj",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
