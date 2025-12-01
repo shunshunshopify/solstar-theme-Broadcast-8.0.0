@@ -144,11 +144,54 @@
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
+    },
+    "section_hero_ij9iAB": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_WHdxJM": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス｜SOLSTAR EXPRESS",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h1",
+            "padding_bottom": 8
+          }
+        },
+        "text_LhkYnR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_WHdxJM",
+        "text_LhkYnR"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "flex_align_desktop": "align--bottom-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
     "main",
     "section_rich_text_pijWhf",
-    "contact_form_KKiTE3"
+    "contact_form_KKiTE3",
+    "section_hero_ij9iAB"
   ]
 }
