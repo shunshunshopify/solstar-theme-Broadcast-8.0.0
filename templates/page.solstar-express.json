@@ -462,7 +462,7 @@
             "show_arrow": false,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "image_wDUtkf": {
@@ -483,7 +483,7 @@
             "show_arrow": false,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "image_4W3iqn": {
@@ -504,7 +504,7 @@
             "show_arrow": false,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "image_xHFmwc": {
@@ -525,7 +525,7 @@
             "show_arrow": false,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         }
       },
