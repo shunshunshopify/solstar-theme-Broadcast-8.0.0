@@ -153,7 +153,7 @@
         "width": "wrapper--full",
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -373,7 +373,7 @@
         "width": "wrapper--full",
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
