@@ -235,7 +235,7 @@
       ],
       "name": "Rich text",
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "",
         "overlay_type": "disabled",
