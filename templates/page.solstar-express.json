@@ -670,7 +670,7 @@
       "name": "Accordion",
       "settings": {
         "default_open": true,
-        "title": "SOLSTAR EXPRESSサービス概要",
+        "title": "SOLSTAR EXPRESSサービス詳細",
         "heading_font_size": "heading-large",
         "show_icon": false,
         "icon_name": "icon-award",
