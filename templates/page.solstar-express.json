@@ -633,9 +633,9 @@
           "type": "text",
           "name": "デザイン設定",
           "settings": {
-            "title": "デザイン設定",
+            "title": "UIUXデザイン設計",
             "heading_font_size": "heading-small",
-            "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>テンプレ改修（月5回まで無料）</li><li>HTML・CSSの軽微調整可</li></ul>"
+            "text": "<ul><li>ブランドカラー</li><li>ロゴ</li><li>ファビコン</li><li>レスポンシブ対応</li><li>レイアウト調整</li></ul>"
           }
         },
         "text_bx3xey": {
