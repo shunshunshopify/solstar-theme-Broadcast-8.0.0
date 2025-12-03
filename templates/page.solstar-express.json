@@ -877,6 +877,41 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_ccNG6P": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_CpaD4T": {
+          "type": "heading",
+          "settings": {
+            "title": "対応ジャンル例",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_CQMkmU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アパレル／ジュエリー／家電／ガジェット/カー用品/アウトドア/ペット関連</p><p>物販経験を持つSOLSTARが、最小限のコストで最大限の効果を生むECサイトづくりをサポートします。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_CpaD4T",
+        "text_CQMkmU"
+      ],
+      "name": "H2 Heading",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -1019,6 +1054,7 @@
     "section_custom_content_6DpRDR",
     "section_custom_content_Mhx6ia",
     "section_custom_content_Ria4bP",
+    "section_rich_text_ccNG6P",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
