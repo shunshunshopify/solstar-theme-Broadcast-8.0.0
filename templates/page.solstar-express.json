@@ -581,6 +581,63 @@
         "padding_bottom": 0
       }
     },
+    "section_accordion_FymK7E": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_mhKVbh": {
+          "type": "text",
+          "settings": {
+            "title": "提供形態",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>Shopify × サブスク型ECサイト構築と運用</li><li>構築期間：2〜4週間（ディレクター1名＋エンジニア1名）</li><li>対象：少数SKUの小規模事業者</li></ul>"
+          }
+        },
+        "text_Yycw7d": {
+          "type": "text",
+          "settings": {
+            "title": "料金",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>月額：29,800円（税別）〜（運用代行・軽微改修を含む）</li><li>初期費用：50,000円（税別）（ホームページ・商品ページ・LP構築費）</li></ul>"
+          }
+        },
+        "text_MxzBJk": {
+          "type": "text",
+          "settings": {
+            "title": "ページ構成",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>ホームページ</li><li>商品詳細ページ（1テンプレ）</li><li>コレクションページ（1テンプレ）</li><li>検索ページ</li><li>カートページ</li><li>利用規約・特商法・プライバシーポリシー</li><li>配送・返品ポリシー</li><li>お問い合わせページ</li><li>ランディングページ</li><li>ブランド紹介ページ</li><li>チェックアウト</li></ul>"
+          }
+        },
+        "text_piYA67": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mhKVbh",
+        "text_Yycw7d",
+        "text_MxzBJk",
+        "text_piYA67"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": false,
+        "title": "サービス概要",
+        "heading_font_size": "heading-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -719,6 +776,7 @@
     "section_custom_code_8L7hhp",
     "section_hero_ECXQLQ",
     "section_custom_code_8WDV9d",
+    "section_accordion_FymK7E",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
   ]
