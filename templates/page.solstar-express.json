@@ -190,7 +190,7 @@
         "image_HP9YGj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Facing_problem_copy.png",
+            "image": "shopify://shop_images/Facing_Problem_2_copy.webp",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -219,8 +219,8 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-third--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": true,
         "color_scheme": "scheme-1",
         "padding_top": 0,
