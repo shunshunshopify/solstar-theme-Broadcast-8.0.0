@@ -270,7 +270,7 @@
       ],
       "name": "H2 Heading",
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "image": "shopify://shop_images/42.png",
         "color_scheme": "",
