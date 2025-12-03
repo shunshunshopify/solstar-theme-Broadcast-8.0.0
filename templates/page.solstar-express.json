@@ -26,71 +26,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_content_7KA8LM": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_WQBkQQ": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型自社ECサイト構築サービス｜SOLSTAR EXPRESS",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
-        "image_4DxWAe": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_WQBkQQ",
-        "image_4DxWAe"
-      ],
-      "disabled": true,
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
@@ -1167,7 +1102,6 @@
   },
   "order": [
     "main",
-    "section_custom_content_7KA8LM",
     "section_hero_ij9iAB",
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
