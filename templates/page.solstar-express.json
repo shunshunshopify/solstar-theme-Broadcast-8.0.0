@@ -611,9 +611,9 @@
         "text_piYA67": {
           "type": "text",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Shopifyストア設定",
             "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+            "text": "<ul><li>ストア情報</li><li>ドメイン</li><li>通知</li><li>Cookie</li><li>配送</li><li>消費税</li><li>顧客情報</li><li>決済設定 ※Shopify Payments</li></ul>"
           }
         }
       },
