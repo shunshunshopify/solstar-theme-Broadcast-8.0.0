@@ -100,28 +100,6 @@
     "section_custom_content_LwmMDj": {
       "type": "section-custom-content",
       "blocks": {
-        "text_EXtxpA": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "自社ECサイト立ち上げで直面する課題",
-            "heading_font_size": "heading-large",
-            "text": "<h4><strong>1. ECサイト構築費が高すぎる</strong></h4><p>最低でも約100万円。</p><p>業界では当たり前の金額でも、限られた資金で事業を回す立場からすると大きなリスクです。</p><h4><strong>2. 構築に割ける時間が足りない</strong></h4><p>日々の業務に追われ、ECサイト構築に十分な時間を確保できません。</p><p>その結果、中途半端なサイトができてしまい、顧客満足度を下げるリスクがあります。</p><h4><strong>3. 専門知識が不足している</strong></h4><p>ECサイトでやりたいことがあっても、どう実現すればよいか分からない状態。</p><p>手探りで進めると、成果どころか不安だけが積み重なります。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        },
         "image_HP9YGj": {
           "type": "image",
           "settings": {
@@ -143,11 +121,33 @@
             "show_arrow": false,
             "heading_tag": "automatic"
           }
+        },
+        "text_EXtxpA": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "自社ECサイト立ち上げで直面する課題",
+            "heading_font_size": "heading-large",
+            "text": "<h4><strong>1. ECサイト構築費が高すぎる</strong></h4><p>最低でも約100万円。</p><p>業界では当たり前の金額でも、限られた資金で事業を回す立場からすると大きなリスクです。</p><h4><strong>2. 構築に割ける時間が足りない</strong></h4><p>日々の業務に追われ、ECサイト構築に十分な時間を確保できません。</p><p>その結果、中途半端なサイトができてしまい、顧客満足度を下げるリスクがあります。</p><h4><strong>3. 専門知識が不足している</strong></h4><p>ECサイトでやりたいことがあっても、どう実現すればよいか分からない状態。</p><p>手探りで進めると、成果どころか不安だけが積み重なります。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
-        "text_EXtxpA",
-        "image_HP9YGj"
+        "image_HP9YGj",
+        "text_EXtxpA"
       ],
       "name": "Text with Banner (Custom)",
       "settings": {
