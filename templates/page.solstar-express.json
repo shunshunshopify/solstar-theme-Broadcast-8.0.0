@@ -358,12 +358,21 @@
             "full_width": false,
             "padding_bottom": 8
           }
+        },
+        "text_fEjKCV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>月額29,800円（税別）〜</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
         }
       },
       "block_order": [
         "heading_tLHVjL",
         "text_kACN66",
-        "button_QmXPzr"
+        "button_QmXPzr",
+        "text_fEjKCV"
       ],
       "name": "H2 Heading",
       "settings": {
