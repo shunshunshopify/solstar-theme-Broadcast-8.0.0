@@ -341,7 +341,7 @@
         "text_kACN66": {
           "type": "text",
           "settings": {
-            "text": "<p>私たちは、数多くの事業者の課題を分析・研究した結果、</p><h3><strong>「本当に必要な機能だけを残し、不要な開発を徹底的に省いたサービス」</strong></h3><p>として、SOLSTAR EXPRESSを開発しました。</p>",
+            "text": "<p>私たちは、数多くの事業者の課題を分析・研究した結果、</p><h4><strong>「本当に必要な機能だけを残し、不要な開発を徹底的に省いたサービス」</strong></h4><p>として、SOLSTAR EXPRESSを開発しました。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
