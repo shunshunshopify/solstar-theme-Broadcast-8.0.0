@@ -46,6 +46,13 @@
             "padding_bottom": 8
           }
         },
+        "code_eKNm8n": {
+          "type": "code",
+          "settings": {
+            "code": "<p>Once you write some custom code, it will render right here.</p>",
+            "padding_bottom": 8
+          }
+        },
         "text_RKh38R": {
           "type": "text",
           "settings": {
@@ -71,6 +78,7 @@
       "block_order": [
         "heading_WHdxJM",
         "text_DMe7Hw",
+        "code_eKNm8n",
         "text_RKh38R",
         "button_awGfeV"
       ],
