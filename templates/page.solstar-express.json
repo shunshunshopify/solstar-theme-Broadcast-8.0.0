@@ -26,37 +26,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_announcement_qxJyYt": {
-      "type": "section-announcement",
-      "blocks": {
-        "text_BHG7Ky": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>SOLSTAR EXPRESS</strong></p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_BHG7Ky"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-ltr",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
@@ -1209,7 +1178,6 @@
   },
   "order": [
     "main",
-    "section_announcement_qxJyYt",
     "section_hero_ij9iAB",
     "section_announcement_ba64pC",
     "section_rich_text_RQU3dK",
