@@ -588,7 +588,7 @@
         "align_text": "text-left",
         "width": "wrapper",
         "align_columns": "flex-align-top",
-        "layout": "slider",
+        "layout": "grid",
         "grid": 3,
         "layout_mobile": "slider",
         "color_scheme": "",
