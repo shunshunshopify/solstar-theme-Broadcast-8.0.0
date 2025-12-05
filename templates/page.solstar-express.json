@@ -48,6 +48,7 @@
         },
         "code_eKNm8n": {
           "type": "code",
+          "disabled": true,
           "settings": {
             "code": "<p>Once you write some custom code, it will render right here.</p>",
             "padding_bottom": 8
