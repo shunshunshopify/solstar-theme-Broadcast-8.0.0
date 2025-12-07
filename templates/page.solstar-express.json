@@ -156,8 +156,16 @@
         "text_ThLxeR": {
           "type": "text",
           "settings": {
-            "text": "<p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p><p>それは、自社ECサイトには高い壁があるからです。</p>",
+            "text": "<p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p>",
             "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        },
+        "text_RNRX8y": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>それは、自社ECサイトには高い壁があるからです。</strong></p>",
+            "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
         }
@@ -165,7 +173,8 @@
       "block_order": [
         "heading_8xAyyR",
         "text_NK7Htb",
-        "text_ThLxeR"
+        "text_ThLxeR",
+        "text_RNRX8y"
       ],
       "name": "H2 Heading",
       "settings": {
