@@ -141,14 +141,22 @@
           "settings": {
             "title": "限られた時間と予算でも、自社ECサイトで成果を出すには？",
             "heading_font_size": "heading-large",
-            "padding_bottom": 16,
+            "padding_bottom": 50,
             "heading_tag": "h2"
           }
         },
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>「自社の商品をECサイトで素早く検証したい」</strong></h4><h4><strong>「クラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい」</strong></h4><h4><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></h4><p>こうした希望を持つ事業者は多いはずです。</p><p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p><p>それは、自社ECサイトには高い壁があるからです。</p>",
+            "text": "<p><strong>「自社の商品をECサイトで素早く検証したい」</strong></p><p><strong>「クラウドファンディングやリサーチで手応えを感じた商品を、自社ブランドとしてしっかり販売したい」</strong></p><p><strong>「ECサイトを活用して、収入をもっと増やしたい」</strong></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 50
+          }
+        },
+        "text_ThLxeR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>こうした希望を持つ事業者は多いはずです。</p><p>しかし、実際に自社ECサイトで利益を出せている一人社長や小規模事業者はごくわずか。</p><p>なぜ、思うように成果が出ないのでしょうか？</p><p>それは、自社ECサイトには高い壁があるからです。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
@@ -156,7 +164,8 @@
       },
       "block_order": [
         "heading_8xAyyR",
-        "text_NK7Htb"
+        "text_NK7Htb",
+        "text_ThLxeR"
       ],
       "name": "H2 Heading",
       "settings": {
