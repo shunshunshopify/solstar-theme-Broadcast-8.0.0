@@ -330,13 +330,22 @@
     "section_hero_akkRjM": {
       "type": "section-hero",
       "blocks": {
+        "heading_xfitQR": {
+          "type": "heading",
+          "settings": {
+            "title": "スタートアップ事業に特化した、無駄のないECサイト構築サービス",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 50
+          }
+        },
         "heading_tLHVjL": {
           "type": "heading",
           "settings": {
-            "title": "スタートアップ事業に特化した、無駄のないECサイト構築サービス「SOLSTAR EXPRESS」",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "h2",
-            "padding_bottom": 8
+            "title": "SOLSTAR EXPRESS",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic",
+            "padding_bottom": 50
           }
         },
         "text_kACN66": {
@@ -370,6 +379,7 @@
         }
       },
       "block_order": [
+        "heading_xfitQR",
         "heading_tLHVjL",
         "text_kACN66",
         "button_QmXPzr",
