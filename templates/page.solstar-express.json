@@ -91,7 +91,7 @@
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/Solstar_Express_Hero_Image_1_Vertical_copy.png",
-        "mobile_height": "image-height--mobile",
+        "mobile_height": "sixty-fifty-height-hero--mobile",
         "flex_align_mobile": "align--top-center-mobile",
         "color_scheme": "",
         "show_text_background": false,
