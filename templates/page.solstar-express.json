@@ -140,7 +140,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>それは、<strong>自社ECサイトには、踏み出しずらい高いハードルがいくつもあるからです。</strong></p>",
+            "text": "<p>それは、<strong>自社ECサイトには踏み出しずらい高いハードルがいくつもあるからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
