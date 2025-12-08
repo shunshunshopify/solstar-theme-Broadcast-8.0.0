@@ -369,29 +369,45 @@
         "padding_bottom": 0
       }
     },
-    "section_rich_text_p84jLJ": {
-      "type": "section-rich-text",
+    "section_rich_text_columns_j3QHeM": {
+      "type": "section-rich-text-columns",
       "blocks": {
-        "text_n9fRCz": {
+        "heading_xaJNLC": {
+          "type": "heading",
+          "settings": {
+            "title": "150社徹底調査で見えた、“本当はいらないコスト”の正体",
+            "heading_font_size": "heading-x-large",
+            "position": "left",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_x6GgeT": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p>高額な構築費の理由を明らかにするため、<strong>私たちはECサイト関連サービスを提供する制作会社150社以上を徹底的に調査</strong>しました。</p><p>そこで見えてきたのは、<strong>「初期段階では不要な機能開発」や「曖昧な工数設定」</strong>。</p><p>こうした“ムダなコスト構造”が、事業者を苦しめているという現実でした。</p><p>だからこそ、私たちは考えました。</p><p>「このムダを省けば、事業者でも自社ECを活用できるはずだ」と。</p><p>この想いから生まれたのが、SOLSTAR EXPRESSです。</p>",
+            "text": "<p>あなたが見積もりを見て「なんでECサイトってこんなに高いんだろう？」と感じる、その理由をはっきりさせたくて、私たちはECサイト関連サービスを提供する制作会社150社以上を徹底的にリサーチしました。<br/><br/>そこで見えてきたのは、「立ち上げ段階ではまだ要らない機能まで一緒につくられていること」や「根拠のあいまいな工数がそのまま費用になっていること」。</p><p>こうした“ムダなコスト構造”が、限られた予算で勝負する事業者の負担を大きくしていました。<br/><br/>だからこそ私たちは、「このムダさえ削れれば、もっと現実的なコストで自社ECにチャレンジできるはずだ」と考えました。</p><p>その想いから生まれたのが、サブスク型自社EC構築サービス <strong>SOLSTAR EXPRESS</strong> です。</p>",
             "text_font_size": "body-large",
+            "position": "right",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text_n9fRCz"
+        "heading_xaJNLC",
+        "text_x6GgeT"
       ],
-      "name": "Paragraph",
+      "name": "Rich text columns",
       "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
+        "left_column_width": 40,
+        "divider_width": 20,
+        "show_line": true,
+        "right_column_width": 40,
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_text_mobile": "text-left--mobile",
         "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_hero_akkRjM": {
@@ -1320,7 +1336,7 @@
     "section_rich_text_HjDeFq",
     "section_double_MDk6CF",
     "section_custom_content_tXHTYK",
-    "section_rich_text_p84jLJ",
+    "section_rich_text_columns_j3QHeM",
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
     "section_custom_content_TCfGpm",
