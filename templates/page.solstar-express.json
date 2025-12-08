@@ -29,10 +29,19 @@
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
+        "heading_m8JKRU": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyで作るECサイト、商品づくりにフルコミット",
+            "heading_font_size": "heading-x-small",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
         "heading_WHdxJM": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyで「早く・安く・簡単に」始める、サブスク型ECサイト構築サービス",
+            "title": "「早く・安く・簡単に」始める、サブスク型ECサイト構築サービス",
             "heading_font_size": "heading-x-large",
             "heading_tag": "h1",
             "padding_bottom": 8
@@ -43,14 +52,6 @@
           "settings": {
             "text": "<h3>SOLSTAR EXPRESS</h3>",
             "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        },
-        "code_eKNm8n": {
-          "type": "code",
-          "disabled": true,
-          "settings": {
-            "code": "<p>Once you write some custom code, it will render right here.</p>",
             "padding_bottom": 8
           }
         },
@@ -77,9 +78,9 @@
         }
       },
       "block_order": [
+        "heading_m8JKRU",
         "heading_WHdxJM",
         "text_DMe7Hw",
-        "code_eKNm8n",
         "text_RKh38R",
         "button_awGfeV"
       ],
