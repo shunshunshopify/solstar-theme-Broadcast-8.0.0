@@ -382,18 +382,48 @@
             "heading_tag": "automatic"
           }
         },
+        "text_EjUkUB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>多くのお客様が「自社ECを始めたいのに、なぜこんなに構築費が高いのか」と疑問をお持ちです。</p><p>　</p>",
+            "text_font_size": "body-large",
+            "position": "right",
+            "padding_bottom": 0
+          }
+        },
+        "text_3amhih": {
+          "type": "text",
+          "settings": {
+            "text": "<p>その理由を明らかにするため、弊社は<strong>ECサイト関連サービスを提供する制作会社150社以上を徹底的に調査</strong>しました。</p><p>　</p>",
+            "text_font_size": "body-x-large",
+            "position": "right",
+            "padding_bottom": 0
+          }
+        },
+        "text_qp7jJ7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>そこで見えてきたのは、<strong>「立ち上げ初期には不要な機能開発」</strong>や「曖昧な工数設定」によって生まれる、いわばムダなコスト構造です。こうした仕組みが、限られた予算で事業を運営するお客様の大きな負担になっていました。</p><p>　</p>",
+            "text_font_size": "body-x-large",
+            "position": "right",
+            "padding_bottom": 0
+          }
+        },
         "text_x6GgeT": {
           "type": "text",
           "settings": {
-            "text": "<p>多くのお客様が「自社ECを始めたいのに、なぜこんなに構築費が高いのか」と疑問をお持ちです。</p><p>　<br/><br/>その理由を明らかにするため、弊社は<strong>ECサイト関連サービスを提供する制作会社150社以上を徹底的に調査</strong>しました。</p><p>　</p><p>そこで見えてきたのは、<strong>「立ち上げ初期には不要な機能開発」</strong>や「曖昧な工数設定」によって生まれる、いわばムダなコスト構造です。こうした仕組みが、限られた予算で事業を運営するお客様の大きな負担になっていました。</p><p>　</p><p>このムダをできるだけ削れば、お客様はより現実的なコストで自社ECに取り組める ── そう考え、形にしたのが、サブスク型自社EC構築サービス <strong>SOLSTAR EXPRESS</strong> です。</p>",
+            "text": "<p>このムダをできるだけ削れば、お客様はより現実的なコストで自社ECに取り組める ── そう考え、形にしたのが、サブスク型自社EC構築サービス <strong>SOLSTAR EXPRESS</strong> です。</p>",
             "text_font_size": "body-large",
             "position": "right",
-            "padding_bottom": 16
+            "padding_bottom": 0
           }
         }
       },
       "block_order": [
         "heading_xaJNLC",
+        "text_EjUkUB",
+        "text_3amhih",
+        "text_qp7jJ7",
         "text_x6GgeT"
       ],
       "name": "Rich text columns",
