@@ -232,10 +232,18 @@
     "section_rich_text_HjDeFq": {
       "type": "section-rich-text",
       "blocks": {
+        "text_hMtYR3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自社ECが必要だと分かっていても、</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 50
+          }
+        },
         "text_JQ9TqF": {
           "type": "text",
           "settings": {
-            "text": "<p>自社ECが必要だと分かっていても、「初期費用は最低100万円と高額」「日々の業務で構築に時間を割けない」「やりたいことはあっても実現方法がわからない」といった理由から、踏み出したくても踏み出せない状況に陥りがちです。</p><p>高額な構築費、時間不足、技術的不安、失敗コストへのプレッシャー…</p>",
+            "text": "<p><strong>「初期費用は最低100万円と高額」「ECに時間を割く余裕がない」「やりたいことはあるのに、実現方法がわからない」</strong></p><p> </p><p>といった理由から、踏み出したくても踏み出せない状況に陥りがちです。</p><p> </p><p>高額な構築費、時間不足、技術的不安、失敗コストへのプレッシャー…</p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
           }
@@ -250,6 +258,7 @@
         }
       },
       "block_order": [
+        "text_hMtYR3",
         "text_JQ9TqF",
         "text_phzGJq"
       ],
