@@ -278,7 +278,7 @@
           "type": "text",
           "settings": {
             "text": "<p>どうすれば事業者が無理なく自社ECサイトを立ち上げ、運用を続けられるのか？</p><p>この課題は、私たちSOLSTAR自身がかつて直面していたものです。</p><p>当社はもともと物販事業からスタートしました。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
