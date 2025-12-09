@@ -863,7 +863,7 @@
         "image_8VE7mB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/48.png",
+            "image": "shopify://shop_images/domestic_image.png",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -892,8 +892,8 @@
         "borders": false,
         "gutters": false,
         "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 0,
