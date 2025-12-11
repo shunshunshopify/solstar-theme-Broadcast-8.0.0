@@ -900,49 +900,6 @@
         "padding_bottom": 0
       }
     },
-    "section_hero_ECXQLQ": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_BREqbh": {
-          "type": "heading",
-          "settings": {
-            "title": "ECサイトを「早く・安く・検証」するなら、SOLSTAR EXPRESS",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "h2",
-            "padding_bottom": 8
-          }
-        },
-        "text_ggEWMU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SOLSTAR EXPRESSは、早く・安く・検証するための</p><p>サブスク型ECサイト構築サービスです。</p><p>「早く立ち上げたい」「無駄なコストを抑えたい」「試しながら改善したい」そんなニーズに応える、“続けられるECサイト”を実現します。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "heading_BREqbh",
-        "text_ggEWMU"
-      ],
-      "disabled": true,
-      "name": "H2 Heading",
-      "settings": {
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
-        "flex_align_desktop": "align--bottom-center-desktop",
-        "content_width": 50,
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_accordion_FymK7E": {
       "type": "section-accordion",
       "blocks": {
@@ -1412,7 +1369,6 @@
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
-    "section_hero_ECXQLQ",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
     "section_custom_content_Mhx6ia",
