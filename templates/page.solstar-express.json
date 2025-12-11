@@ -900,6 +900,36 @@
         "padding_bottom": 0
       }
     },
+    "section_video_mzndiK": {
+      "type": "section-video",
+      "name": "Video",
+      "settings": {
+        "video": "shopify://files/videos/Cream Theme Typography Animation_2.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "",
+        "heading_font_size": "heading-large",
+        "text": "",
+        "text_font_size": "body-medium",
+        "flex_align": "align--middle-center",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "section_accordion_FymK7E": {
       "type": "section-accordion",
       "blocks": {
@@ -1369,6 +1399,7 @@
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
+    "section_video_mzndiK",
     "section_accordion_FymK7E",
     "section_custom_content_6DpRDR",
     "section_custom_content_Mhx6ia",
