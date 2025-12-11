@@ -903,7 +903,7 @@
           "settings": {
             "image_width": 66,
             "image_shape": "normal",
-            "title": "Add a title or tagline",
+            "title": "追従カート",
             "heading_font_size": "heading-small",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "text_font_size": "body-medium",
@@ -923,7 +923,7 @@
           "settings": {
             "image_width": 66,
             "image_shape": "normal",
-            "title": "Add a title or tagline",
+            "title": "動画イントロ",
             "heading_font_size": "heading-small",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "text_font_size": "body-medium",
@@ -943,7 +943,7 @@
           "settings": {
             "image_width": 66,
             "image_shape": "normal",
-            "title": "Add a title or tagline",
+            "title": "お気に入りリスト",
             "heading_font_size": "heading-small",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "text_font_size": "body-medium",
@@ -966,7 +966,7 @@
       ],
       "name": "Text columns with images",
       "settings": {
-        "title": "ご利用者特典",
+        "title": "Cream Themeの特徴",
         "heading_font_size": "heading-x-large",
         "align_heading": "text-left",
         "align_text": "text-left",
