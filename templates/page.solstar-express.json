@@ -895,7 +895,7 @@
           "type": "text",
           "settings": {
             "text": "<p>SOLSTAR EXPRESSをご利用の方は、<br/><br/>弊社オリジナルのShopifyテーマ <strong>「CREAM」</strong> を<strong>無料</strong>でご利用いただけます。</p><p>通常、有料テーマでは<strong>2万円〜6万円程度</strong>かかる機能を標準搭載。<br/><br/>追従カート、動画イントロ、デバイス別バナー対応など、<br/><br/><strong>実践向けの機能を追加費用なし</strong>で利用可能です。</p><p>見た目も機能も妥協しない、<br/><br/><strong>“すぐ売れるECサイト”を初期コストを抑えて構築</strong>できます。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
