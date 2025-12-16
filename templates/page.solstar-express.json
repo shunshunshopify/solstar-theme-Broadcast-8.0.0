@@ -1383,7 +1383,7 @@
       ],
       "settings": {
         "title": "お問い合わせ",
-        "heading_font_size": "heading-large",
+        "heading_font_size": "heading-x-large",
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "",
