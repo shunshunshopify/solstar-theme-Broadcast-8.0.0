@@ -846,6 +846,7 @@
       "type": "section-video",
       "name": "Video",
       "settings": {
+        "video": "shopify://files/videos/Cream Theme Video.mp4",
         "show_video_popup": false,
         "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "title": "",
