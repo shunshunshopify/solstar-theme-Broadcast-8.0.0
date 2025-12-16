@@ -1013,7 +1013,8 @@
         "video_rCiePh": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram"
+            "video": "shopify://files/videos/5.26.2023 Sandy Haze New Video0001-0753.mp4",
+            "badge_text": "追従カート"
           }
         },
         "video_FkN6Gx": {
