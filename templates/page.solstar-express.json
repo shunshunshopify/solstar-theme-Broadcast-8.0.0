@@ -234,7 +234,7 @@
         "heading_EVEnbX": {
           "type": "heading",
           "settings": {
-            "title": "自社ECが大事だと分かっていても動けない理由",
+            "title": "自社ECサイトが大事だと分かっていても動けない理由",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 50,
             "heading_tag": "automatic"
@@ -869,7 +869,6 @@
       "type": "section-video",
       "name": "Video",
       "settings": {
-        "video": "shopify://files/videos/Cream Theme Typography Animation_2.mp4",
         "show_video_popup": false,
         "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "title": "",
