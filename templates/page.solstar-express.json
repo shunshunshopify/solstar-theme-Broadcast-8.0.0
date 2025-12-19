@@ -951,7 +951,8 @@
         "video_UknJn8": {
           "type": "video",
           "settings": {
-            "badge_text": "ボトムメニュー機能",
+            "video": "shopify://files/videos/Sequence 01.mp4",
+            "badge_text": "SEO設計",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
             "text": "<p>Add supporting copy here.</p>",
