@@ -953,10 +953,10 @@
           "settings": {
             "image": "shopify://shop_images/Thunbnail_copy.webp",
             "video": "shopify://files/videos/SEO Focused Video_b57d75e8-5820-4ad0-8855-05ce8a39e0b2.mp4",
-            "badge_text": "SEOフォーカス",
-            "heading": "Add a title or tagline",
+            "badge_text": "",
+            "heading": "検索流入を売上につなげる設計",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
+            "text": "<p>SEOを意識したテーマ構造により、商品・コレクションページの評価を最大化。集客から購入までを一貫して最適化します。</p>",
             "text_font_size": "body-medium"
           }
         },
