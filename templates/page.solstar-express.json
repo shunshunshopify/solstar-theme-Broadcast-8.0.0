@@ -927,9 +927,9 @@
         "video_rCiePh": {
           "type": "video",
           "settings": {
-            "image": "shopify://shop_images/Thumbnail_copy_b21e4845-6df9-4791-85c1-84a7e4a0e098.webp",
+            "image": "shopify://shop_images/Thumbnail_copy_3aea1b78-1d2f-45e9-92e5-3ca01cd782c1.webp",
             "video": "shopify://files/videos/Sticky Add to Cart Feature_4a3b83de-fe65-477c-a843-fa42606043e7.mp4",
-            "badge_text": "追従カート",
+            "badge_text": "",
             "heading": "Add a title or tagline",
             "heading_font_size": "heading-small",
             "text": "<p>Add supporting copy here.</p>",
