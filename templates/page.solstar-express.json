@@ -623,7 +623,6 @@
         "image_Hhr7tX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/EC_5.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "STEP 1｜お問い合わせ・無料ヒアリング",
@@ -644,7 +643,6 @@
         "image_4Kir3R": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_copy.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "STEP 2｜ご契約・初期セットアップ開始",
@@ -665,7 +663,6 @@
         "image_myEj6m": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_copy.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "STEP 3｜構築・確認（2〜4週間）",
@@ -686,7 +683,6 @@
         "image_Q9GGEd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/3_copy.webp",
             "image_width": 100,
             "image_shape": "normal",
             "title": "STEP 4｜公開・運用スタート",
@@ -800,7 +796,6 @@
         "image_dJQF3F",
         "image_hdYbLw"
       ],
-      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "title": "EC運用を外部化して、売上に集中",
