@@ -930,9 +930,9 @@
             "image": "shopify://shop_images/Thumbnail_2_copy.webp",
             "video": "shopify://files/videos/Sticky Add to Cart Feature_4a3b83de-fe65-477c-a843-fa42606043e7.mp4",
             "badge_text": "",
-            "heading": "Add a title or tagline",
+            "heading": "購入を逃さない追従カート",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
+            "text": "<p>スクロール中でも購入導線を常に表示。カート到達率を高め、購入機会の取りこぼしを防ぎます。</p>",
             "text_font_size": "body-medium"
           }
         },
