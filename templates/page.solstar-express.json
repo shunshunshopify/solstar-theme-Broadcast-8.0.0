@@ -239,60 +239,6 @@
         "padding_bottom": 50
       }
     },
-    "section_rich_text_HjDeFq": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_EVEnbX": {
-          "type": "heading",
-          "settings": {
-            "title": "自社ECサイトが大事だと分かっていても動けない理由",
-            "heading_font_size": "heading-x-large",
-            "padding_bottom": 50,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_hMtYR3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>自社ECサイトが必要だと分かっていても、</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 50
-          }
-        },
-        "text_JQ9TqF": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>「初期費用は最低100万円と高額」「Eコマースに時間を割く余裕がない」「やりたいことはあるのに、実現方法がわからない」</strong></p><p> </p><p>といった理由から、踏み出したくても踏み出せない状況に陥りがちです。</p><p> </p><p>高額な構築費、時間不足、技術的不安、失敗コストへのプレッシャー…</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 50
-          }
-        },
-        "text_phzGJq": {
-          "type": "text",
-          "settings": {
-            "text": "<p>こうした課題が折り重なることで、<strong>「今はまだ動けない」と挑戦の一歩をためらってしまう</strong>のです。</p>",
-            "text_font_size": "body-x-large",
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_EVEnbX",
-        "text_hMtYR3",
-        "text_JQ9TqF",
-        "text_phzGJq"
-      ],
-      "disabled": true,
-      "name": "Paragraph",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-1",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "section_double_MDk6CF": {
       "type": "section-double",
       "blocks": {
@@ -618,6 +564,120 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_double_slider_qb7dB8": {
+      "type": "section-double-slider",
+      "blocks": {
+        "text_slide_dBxzVr": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 1",
+            "title": "お問い合わせ",
+            "heading_font_size": "heading-large",
+            "text": "<p>事業内容・商品数・販売目的をヒアリングし、SOLSTAR EXPRESSが最適かを確認。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_PJPzTz": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 2",
+            "title": "無料ヒアリング",
+            "heading_font_size": "heading-large",
+            "text": "<p>ご要件をヒアリングし、詳細なサービス内容とお見積もりをご提示いたします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_gJNBBG": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 3",
+            "title": "ご契約",
+            "heading_font_size": "heading-large",
+            "text": "<p>お見積もりをお渡しします。内容にご納得いただけたら、電子契約を通じて正式なご契約となります。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_xQxVDq": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 4",
+            "title": "ECサイト構築",
+            "heading_font_size": "heading-large",
+            "text": "<p>ご契約後、プロジェクトキックオフ。随時進捗を共有し、安心してお任せいただける環境を整えます。  </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_slide_rBgBGf": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "STEP 5",
+            "title": "公開・支援開始",
+            "heading_font_size": "heading-large",
+            "text": "<p>ECサイト公開後は、更新・設定・軽微改修を弊社が継続サポート。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "text_slide_dBxzVr",
+        "text_slide_PJPzTz",
+        "text_slide_gJNBBG",
+        "text_slide_xQxVDq",
+        "text_slide_rBgBGf"
+      ],
+      "name": "Image with text slider",
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_Express_Infographic_copy.webp",
+        "image_width": "one-half",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_columns_be6xjq": {
@@ -1464,13 +1524,13 @@
     "section_hero_ij9iAB",
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
-    "section_rich_text_HjDeFq",
     "section_double_MDk6CF",
     "section_custom_content_tXHTYK",
     "section_rich_text_columns_j3QHeM",
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
     "section_custom_content_TCfGpm",
+    "section_double_slider_qb7dB8",
     "section_columns_be6xjq",
     "section_columns_fjwYHH",
     "section_custom_code_8L7hhp",
