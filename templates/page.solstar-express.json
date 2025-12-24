@@ -288,69 +288,53 @@
         "show_placeholder": true
       }
     },
-    "section_custom_content_tXHTYK": {
-      "type": "section-custom-content",
+    "section_double_pBYixp": {
+      "type": "section-double",
       "blocks": {
-        "text_ERrbDe": {
-          "type": "text",
+        "subheading_bm4qDR": {
+          "type": "subheading",
           "settings": {
             "subheading": "",
+            "padding_bottom": 16
+          }
+        },
+        "heading_XJA8F6": {
+          "type": "heading",
+          "settings": {
             "title": "もっと手軽に ── その想いが出発点",
             "heading_font_size": "heading-x-large",
-            "text": "<p>　</p><p>物販事業からスタートし、初期費用への違和感に向き合い続けた結果、ShopifyによるECサイト構築にたどり着きました。<br/>　　<br/>そこから8年以上、Shopifyの機能を徹底的に研究し、テーマ開発やカスタマイズ、運用しやすさにこだわった改善をひたすら積み重ねてきました。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
+            "padding_bottom": 30,
             "heading_tag": "automatic"
           }
         },
-        "image_BgDCU4": {
-          "type": "image",
+        "text_jX8HtF": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Untitled-1_62dc15f7-7c39-48c2-8899-6bfce9e28079.webp",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
+            "text": "<p>物販事業からスタートし、初期費用への違和感に向き合い続けた結果、ShopifyによるECサイト構築にたどり着きました。<br/>　　<br/>そこから8年以上、Shopifyの機能を徹底的に研究し、テーマ開発やカスタマイズ、運用しやすさにこだわった改善をひたすら積み重ねてきました。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 0
           }
         }
       },
       "block_order": [
-        "text_ERrbDe",
-        "image_BgDCU4"
+        "subheading_bm4qDR",
+        "heading_XJA8F6",
+        "text_jX8HtF"
       ],
-      "name": "Custom section",
+      "name": "Image with text",
       "settings": {
-        "borders": false,
-        "gutters": false,
+        "image_1": "shopify://shop_images/Untitled-1_62dc15f7-7c39-48c2-8899-6bfce9e28079.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 100,
+        "show_placeholder": true
       }
     },
     "section_rich_text_columns_j3QHeM": {
@@ -1418,7 +1402,7 @@
     "section_rich_text_RQU3dK",
     "section_custom_content_LwmMDj",
     "section_double_MDk6CF",
-    "section_custom_content_tXHTYK",
+    "section_double_pBYixp",
     "section_rich_text_columns_j3QHeM",
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
