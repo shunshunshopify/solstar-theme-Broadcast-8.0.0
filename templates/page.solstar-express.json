@@ -832,6 +832,7 @@
       "blocks": {
         "subheading_QcURhJ": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "SOLSTAR EXPRESSを選ぶ理由",
             "padding_bottom": 16
