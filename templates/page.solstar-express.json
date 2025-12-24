@@ -280,7 +280,7 @@
         "layout": "",
         "width": "wrapper--full",
         "height": "image-height",
-        "mobile_height": "image-height--mobile",
+        "mobile_height": "four-fifty-height-hero--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
         "padding_top": 100,
