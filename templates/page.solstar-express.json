@@ -432,7 +432,7 @@
         "text_qp7jJ7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>不要な機能開発<br/><br/>曖昧な工数設定</strong></p><p><strong>　</strong></p>",
+            "text": "<p><strong>不要な機能開発<br/><br/>フルスクラッチ前提の工数設定</strong></p><p><strong>　</strong></p>",
             "text_font_size": "body-x-large",
             "position": "right",
             "padding_bottom": 0
