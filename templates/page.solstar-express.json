@@ -432,7 +432,7 @@
         "text_qp7jJ7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>不要な機能開発<br/><br/>曖昧な工数設定</strong><br/><br/>このムダを削れば、<br/>ECはもっと現実的な挑戦になります。</p>",
+            "text": "<p><strong>不要な機能開発<br/><br/>曖昧な工数設定</strong></p><p><strong>　</strong></p>",
             "text_font_size": "body-x-large",
             "position": "right",
             "padding_bottom": 0
@@ -440,9 +440,8 @@
         },
         "text_x6GgeT": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>このムダをできるだけ削れば、お客様はより現実的なコストでEコマース事業に取り組める ── そう考え、形にしたのが、サブスク型自社ECサイト構築サービス <strong>SOLSTAR EXPRESS</strong> です。</p>",
+            "text": "<p>このムダを削れば、<br/>ECはもっと現実的な挑戦になります。</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
