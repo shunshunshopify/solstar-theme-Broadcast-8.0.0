@@ -423,7 +423,7 @@
         "text_EjUkUB": {
           "type": "text",
           "settings": {
-            "text": "<p>150社以上のECサイト制作会社を調査して分かったのは、<strong>立ち上げ初期に不要なコストが多すぎる</strong>という事実です。</p><p>　</p>",
+            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>初期段階フェーズで、必要以上に細分化・上振れした工数見積が常態化しているという事実でした。</p><p></p><p>　</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
@@ -432,7 +432,7 @@
         "text_qp7jJ7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>不要な機能開発<br/><br/>フルスクラッチ前提の工数設定</strong></p><p><strong>　</strong></p>",
+            "text": "<p><strong>「要件定義・画面設計・実装をすべて個別対応前提で積み上げた、非効率な工数算出」</strong></p><p><strong>　</strong></p>",
             "text_font_size": "body-x-large",
             "position": "right",
             "padding_bottom": 0
@@ -499,7 +499,7 @@
         "button_QmXPzr": {
           "type": "button",
           "settings": {
-            "link_text": "今すぐ相談する",
+            "link_text": "今すぐ無料相談する",
             "link": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -583,7 +583,7 @@
         "text_Lt3DYf": {
           "type": "text",
           "settings": {
-            "subheading": "マーケティングと商品づくりに集中、細かなEC運用は弊社が担当",
+            "subheading": "",
             "title": "SOLSTAR EXPRESSの特徴",
             "heading_font_size": "heading-large",
             "text": "<h4><strong>1. Shopifyを活用したECサイト構築</strong></h4><p>Shopify公式テーマは、グローバルで実証されたUXをベースに設計されており、スマホ対応・表示速度・使いやすさまで含めて一定以上の品質が担保されています。</p><p>　</p><h4><strong>2. </strong>サーバー管理もセキュリティもおまかせ</h4><p>サーバー管理やセキュリティパッチ、インフラ監視はShopifyがまとめて対応するため、お客様側での管理は不要です。中小規模の事業者様でも、エンタープライズレベルのセキュリティ環境で安心してEC運営ができます。</p><p>　</p><h4><strong>3. ECサイト構築・運用をまるごと代行</strong></h4><p>ECサイト構築（要件整理・設定・デザイン調整・商品登録・決済／配送設定など）から、公開後の更新・設定変更・トラブル一次対応まで、弊社が一括で代行します。</p>",
