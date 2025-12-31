@@ -106,9 +106,8 @@
       "blocks": {
         "heading_8xAyyR": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "限られた時間と予算でも、自社ECサイトで成果を出すには？",
+            "title": "限られた時間と予算を気にしている状態続いてませんか？",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 50,
             "heading_tag": "h2"
