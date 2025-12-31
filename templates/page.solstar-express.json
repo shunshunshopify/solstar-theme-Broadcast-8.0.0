@@ -344,7 +344,7 @@
         "heading_xaJNLC": {
           "type": "heading",
           "settings": {
-            "title": "150社徹底調査で見えた、「なぜEC開発費が高くなるのか」の正体",
+            "title": "150社徹底調査で見えた、「EC開発費が高くなる理由」の正体",
             "heading_font_size": "heading-x-large",
             "position": "left",
             "padding_bottom": 16,
@@ -354,25 +354,7 @@
         "text_EjUkUB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>開発会社150社調査で確信した、ECサイト立ち上げで“本当はいらないコスト”</strong><br/><br/>多くのECサイト制作では、<br/><br/>商品数や事業規模に見合わない開発工数が積み上げられてます。</p><p>　</p>",
-            "text_font_size": "body-large",
-            "position": "right",
-            "padding_bottom": 0
-          }
-        },
-        "text_qp7jJ7": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>その機能、本当に“今”必要ですか？</strong></p><p>　</p>",
-            "text_font_size": "body-x-large",
-            "position": "right",
-            "padding_bottom": 0
-          }
-        },
-        "text_x6GgeT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>売れるかどうかも、伸ばせるかどうかも、まだこれからのフェーズ。</p><p>　</p><p>このムダを削れば、自社ECサイトはもっと現実的な挑戦になります。</p>",
+            "text": "<p>調査対象150社の平均開発費は、<strong>約122万円</strong>。</p><p>　<br/>多くの開発会社が、<strong>100〜200万円前後</strong>を標準的な価格帯としています。（※大規模開発を除く）</p><p>　</p><p>これは、設計・制作・検証までを一通り行うには、<strong>この予算が現実的なラインである</strong>ことを示しています。</p>",
             "text_font_size": "body-large",
             "position": "right",
             "padding_bottom": 0
@@ -381,9 +363,7 @@
       },
       "block_order": [
         "heading_xaJNLC",
-        "text_EjUkUB",
-        "text_qp7jJ7",
-        "text_x6GgeT"
+        "text_EjUkUB"
       ],
       "name": "Rich text columns",
       "settings": {
