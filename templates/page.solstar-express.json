@@ -321,6 +321,7 @@
         "heading_XJA8F6",
         "text_jX8HtF"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Untitled-1_62dc15f7-7c39-48c2-8899-6bfce9e28079.webp",
