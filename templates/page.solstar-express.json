@@ -446,72 +446,6 @@
         "padding_bottom": 0
       }
     },
-    "section_custom_content_TCfGpm": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_BBVhwp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_image_5_copy_2_45076a4d-9efd-4f94-9fd9-8f1f5e50217c.webp",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_Lt3DYf": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "SOLSTAR EXPRESSの特徴",
-            "heading_font_size": "heading-large",
-            "text": "<h4><strong>1. Shopifyを活用したECサイト構築</strong></h4><p>Shopify公式テーマは、グローバルで実証されたUXをベースに設計されており、スマホ対応・表示速度・使いやすさまで含めて一定以上の品質が担保されています。</p><p>　</p><h4><strong>2. </strong>サーバー管理もセキュリティもおまかせ</h4><p>サーバー管理やセキュリティパッチ、インフラ監視はShopifyがまとめて対応するため、お客様側での管理は不要です。中小規模の事業者様でも、エンタープライズレベルのセキュリティ環境で安心してEC運営ができます。</p><p>　</p><h4><strong>3. ECサイト構築・運用をまるごと代行</strong></h4><p>ECサイト構築（要件整理・設定・デザイン調整・商品登録・決済／配送設定など）から、公開後の更新・設定変更・トラブル一次対応まで、弊社が一括で代行します。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "image_BBVhwp",
-        "text_Lt3DYf"
-      ],
-      "disabled": true,
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_double_slider_qb7dB8": {
       "type": "section-double-slider",
       "blocks": {
@@ -1226,7 +1160,6 @@
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
     "section_custom_code_3C6fYC",
-    "section_custom_content_TCfGpm",
     "section_double_slider_qb7dB8",
     "section_custom_code_BKGz3a",
     "section_custom_code_8L7hhp",
