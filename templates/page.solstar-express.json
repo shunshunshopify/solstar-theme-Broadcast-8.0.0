@@ -338,47 +338,6 @@
         "show_placeholder": true
       }
     },
-    "section_rich_text_columns_j3QHeM": {
-      "type": "section-rich-text-columns",
-      "blocks": {
-        "heading_xaJNLC": {
-          "type": "heading",
-          "settings": {
-            "title": "150社徹底調査で見えた、「EC開発費が高くなる理由」の正体",
-            "heading_font_size": "heading-x-large",
-            "position": "left",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_EjUkUB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>調査対象150社の平均開発費は、<strong>約122万円</strong>。</p><p>　<br/>多くの開発会社が、<strong>100〜200万円前後</strong>を標準的な価格帯としています。（※大規模開発を除く）</p><p>　</p><p>これは、設計・制作・検証までを一通り行うには、<strong>この予算が現実的なラインである</strong>ことを示しています。</p>",
-            "text_font_size": "body-large",
-            "position": "right",
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_xaJNLC",
-        "text_EjUkUB"
-      ],
-      "name": "Rich text columns",
-      "settings": {
-        "left_column_width": 40,
-        "divider_width": 20,
-        "show_line": true,
-        "right_column_width": 40,
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_text_mobile": "text-left--mobile",
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "section_custom_code_rjHKWi": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -1252,7 +1211,6 @@
     "section_custom_content_LwmMDj",
     "section_double_MDk6CF",
     "section_double_pBYixp",
-    "section_rich_text_columns_j3QHeM",
     "section_custom_code_rjHKWi",
     "section_hero_akkRjM",
     "section_custom_code_8WDV9d",
