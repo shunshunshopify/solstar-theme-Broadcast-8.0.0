@@ -916,8 +916,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "本当にECの知識がなくても大丈夫ですか？",
+            "content": "<p><strong>はい、問題ありません。</strong><br/><br/>ECサイトの設計、構築から公開までを弊社が主導して進めるため、専門知識がなくても安心してご利用いただけます。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -928,8 +928,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "どこまでをSOLSTARが対応してくれますか？",
+            "content": "<p>ECサイトの<strong>設計・構築・初期設定・公開</strong>までを一貫して対応します。公開後も、弊社にて更新・運用を行います。<br/><br/>商品の在庫管理や出荷、CS対応などは、お客様対応となります。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -940,8 +940,68 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "30日間キャッシュバックの条件を教えてください",
+            "content": "<p>ご契約後30日以内に、サービス内容にご納得いただけなかった場合、<strong>初期費用および月額費用を返金</strong>いたします。<br/><br/>専属の担当者へメールにて解約の旨ご連絡頂ければと思います。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_eMPJjq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "初期費用5万円以外に、追加費用はかかりますか？",
+            "content": "<p>基本的な構築・運用範囲については、<strong>追加費用は発生しません</strong>。<br/><br/>ただし、大幅な仕様変更や特別なカスタマイズ、外部有料アプリの導入などをご希望の場合は、別途費用が発生することがあります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_tfykwh": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shopifyの有料テーマやアプリは別途購入が必要ですか？",
+            "content": "<p>弊社が提供するオリジナルテーマ「CREAM」をご利用される場合は、有料テーマの購入は不要です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_cRN99h": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "どれくらいの期間でECサイトは公開できますか？",
+            "content": "<p>ただし、設計調整やキービジュアル制作などを含めた場合、<strong>平均的には約1〜2ヶ月程度</strong>を想定してください。</p><p>商品情報や素材のご提出状況によって前後する場合はありますが、スピード感を重視し、可能な限り早く公開できるよう進行します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_HTqqXq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "商品点数が少なくても利用できますか？",
+            "content": "<p>はい、問題ありません。<br/><br/>SOLSTAR EXPRESSは、<strong>商品数が少ない立ち上げ初期フェーズ</strong>に最適化されたサービスです。<br/><br/>まずは売れるかを検証し、段階的に拡張していくことが可能です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_AQwfEE": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "途中で解約することはできますか？",
+            "content": "<p>SOLSTAR EXPRESSの契約期間は<strong>最低1年間</strong>となります。<br/><br/>ご契約から1年経過後は、<strong>解約希望日の30日前までにご連絡いただければ、いつでも解約が可能</strong>です。</p><p>なお、最低契約期間中の解約はお受けしておりませんので、あらかじめご了承ください。<br/><br/>詳細な条件や手続きについては、ご契約時に書面にてご案内いたします。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -953,7 +1013,12 @@
         "heading_g7NmFE",
         "question_FjRn8N",
         "question_4FmbPy",
-        "question_FyMVAP"
+        "question_FyMVAP",
+        "question_eMPJjq",
+        "question_tfykwh",
+        "question_cRN99h",
+        "question_HTqqXq",
+        "question_AQwfEE"
       ],
       "name": "Accordion group",
       "settings": {
