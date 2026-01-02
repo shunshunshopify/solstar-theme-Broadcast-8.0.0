@@ -329,12 +329,12 @@
         "button_QmXPzr": {
           "type": "button",
           "settings": {
-            "link_text": "今すぐ無料相談する",
+            "link_text": "今すぐ無料相談を申し込む",
             "link": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false,
+            "show_arrow": true,
             "full_width": false,
             "padding_bottom": 8
           }
@@ -559,12 +559,25 @@
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
+        },
+        "buttons_jwPjQj": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "しつこい営業は一切ありません",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "subheading_QcURhJ",
         "heading_kgRwz8",
-        "text_GyN7TV"
+        "text_GyN7TV",
+        "buttons_jwPjQj"
       ],
       "name": "Image with text",
       "settings": {
@@ -626,12 +639,12 @@
             "heading_font_size": "heading-x-large",
             "text": "<p>　</p><p>SOLSTAR EXPRESSは、複雑な準備や専門的な知識を必要としません。</p><p>　</p><p><strong>「売りたい商品がある」、「試したいアイデアがある」</strong></p><p>　<br/><br/>その状態から、<strong>すぐにあなただけのECサイトをスタート</strong>できます。</p><p>　</p><p>思い立った今が、ビジネスを前に進めるベストタイミングです。</p><p>　</p>",
             "text_font_size": "body-large",
-            "button_text": "今すぐ無料相談する",
+            "button_text": "無料診断で具体的に提案を聞いてみる",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false,
+            "show_arrow": true,
             "show_social_links": false,
             "text_columns": 1,
             "align_text": "text-left",
