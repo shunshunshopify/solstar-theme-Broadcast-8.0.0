@@ -847,9 +847,9 @@
       ],
       "name": "Social videos",
       "settings": {
-        "heading": "CREAMの4つの特長",
+        "heading": "CREAMの4つの標準機能",
         "heading_font_size": "heading-x-large",
-        "text": "<p>売上に直結する機能を実装しました</p>",
+        "text": "<p>売れるECサイトに必要な機能を、最初から。</p>",
         "text_font_size": "body-large",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
