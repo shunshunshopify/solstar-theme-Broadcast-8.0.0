@@ -29,35 +29,19 @@
     "section_hero_ij9iAB": {
       "type": "section-hero",
       "blocks": {
+        "code_XfbwD8": {
+          "type": "code",
+          "settings": {
+            "code": "<style>\n  /* H1：メイン見出し */\n  .solstar-h1 {\n    font-size: 26px;   /* PC */\n    font-weight: 700;\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-h1 {\n      font-size: 20px; /* Mobile */\n    }\n  }\n  /* H2：ヒーロー／メイン見出し */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<h2 class=\"solstar-hero-heading\">\nEC担当者を雇わなくても、大丈夫です。\n</h2>\n\n<h1 class=\"solstar-h1\">\n  サブスク型ECサイト構築サービス<br>\n  SOLSTAR EXPRESS\n</h1>",
+            "padding_bottom": 20
+          }
+        },
         "heading_m8JKRU": {
           "type": "heading",
           "settings": {
             "title": "EC未経験でも、まず「売れるか」を試せる。",
             "heading_font_size": "heading-x-small",
             "heading_tag": "automatic",
-            "padding_bottom": 8
-          }
-        },
-        "code_XfbwD8": {
-          "type": "code",
-          "settings": {
-            "code": "<style>\n  /* H2：ヒーロー／メイン見出し */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<h2 class=\"solstar-hero-heading\">\n  EC担当者不要！<br>サブスク型ECサイト構築サービス\n</h2>",
-            "padding_bottom": 8
-          }
-        },
-        "text_DMe7Hw": {
-          "type": "text",
-          "settings": {
-            "text": "<h1><strong>SOLSTAR EXPRESS</strong></h1>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 8
-          }
-        },
-        "text_RKh38R": {
-          "type": "text",
-          "settings": {
-            "text": "<p>初期費用5万円／月額29,800円（税別）〜</p><p><strong>最短2〜4週間でローンチ｜構築・運用お任せ</strong></p>",
-            "text_font_size": "body-small",
             "padding_bottom": 8
           }
         },
@@ -73,14 +57,21 @@
             "full_width": false,
             "padding_bottom": 8
           }
+        },
+        "text_RKh38R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>初期費用5万円／月額29,800円（税別）〜</p><p><strong>最短2〜4週間でローンチ｜構築・運用お任せ</strong></p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
         }
       },
       "block_order": [
-        "heading_m8JKRU",
         "code_XfbwD8",
-        "text_DMe7Hw",
-        "text_RKh38R",
-        "button_awGfeV"
+        "heading_m8JKRU",
+        "button_awGfeV",
+        "text_RKh38R"
       ],
       "name": "H1 Heading",
       "settings": {
@@ -107,7 +98,7 @@
         "heading_8xAyyR": {
           "type": "heading",
           "settings": {
-            "title": "「で、誰がECをやるの？」で止まっていませんか？",
+            "title": "「結局、誰が自社ECをやるのか」で迷っていませんか？",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 50,
             "heading_tag": "h2"
@@ -116,7 +107,7 @@
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<p>限られた時間と予算の中で、<br/><br/>「自社ECをやった方がいい」と分かってはいるけれど、<br/><br/><strong>社内にECを任せられる担当者がいない。</strong><br/><br/>あるいは、<strong>本業の合間に対応するしかなく、後回しになってしまう。</strong></p>",
+            "text": "<p>限られた時間と予算の中で、「自社ECを始めたい」とは思っている。</p><p>　</p><p>でも、専任のEC担当者を置く余裕はない。</p><p>　</p><p>結局は本業の合間に触るしかなく、「また今度でいいか」と後回しになってしまう。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
           }
@@ -124,7 +115,7 @@
         "text_9TVpFy": {
           "type": "text",
           "settings": {
-            "text": "<p>そんな状況に、心当たりはありませんか？<br/></p>",
+            "text": "<p>そんな状態が続いていませんか？</p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
           }
@@ -150,7 +141,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>理由はシンプルです。<br/>自社ECサイトには、<strong>時間・人手・予算と求められるハードルが高いからです。</strong></p>",
+            "text": "<p>理由はシンプルです。<strong><br/>ECサイトには、時間・人手・予算と、想像以上に高いハードルがあるからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
@@ -181,9 +172,9 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "title": "自社EC立ち上げで直面する3つの壁",
+            "title": "自社ECサイト検討時につまずきやすい3つの壁",
             "heading_font_size": "heading-x-large",
-            "text": "<h4><strong>1. </strong>初期費用のハードルが高い</h4><p>高品質なECサイトを構築しようとすると、初期費用は100万円以上が一般的。限られた資金で事業を回す立場にとっては、大きなリスクになります。</p><p>　</p><h4><strong>2. </strong>ECに割ける時間がない</h4><p>日々の業務に追われ、ECサイトの準備や運用まで手が回らない。「後でやろう」と思ううちに、時間だけが過ぎていきます。</p><p>　</p><h4><strong>3. </strong>EC担当者がいない</h4><p>「ECをやった方がいい」と分かってはいても、社内にEC担当者がいない。<br/><br/>結果として、「今はまだ動けない」、「もう少し余裕ができてから」と、挑戦を後回しにしてしまいます。</p>",
+            "text": "<h4><strong>1. </strong>初期費用のハードルが高い</h4><p>高品質なECサイトを構築しようとすると、初期費用は100万円以上が一般的。限られた資金で事業を回す立場にとっては、大きなリスクになります。</p><p>　</p><h4><strong>2. </strong>ECに割ける時間がない</h4><p>日々の業務に追われ、ECサイトの準備や運用まで手が回らない。「後でやろう」と思ううちに、時間だけが過ぎていきます。</p><p>　</p><h4><strong>3. </strong>EC担当者がいない</h4><p>「自社ECサイトをやった方がいい」と分かってはいても、社内にEC担当者がいない。<br/><br/>結果として、「今はまだ動けない」、「もう少し余裕ができてから」と、挑戦を後回しにしてしまいます。</p>",
             "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
@@ -261,7 +252,7 @@
         "text_r6X64K": {
           "type": "text",
           "settings": {
-            "text": "<p>実は、私たち自身も、まったく同じ悩みを抱えていました。</p><p>　</p><p>「もっと手軽に、自社ECサイトを始めたいのに、どうしてここまで構築費が高いんだろう？」</p><p>　</p><p>当社はもともと物販事業からスタートしました。</p>",
+            "text": "<p>もともと物販事業からスタートした私たち自身も、「自社ECサイトをやったほうがいい」と思いながら、構築費の高さが気になって、なかなか一歩を踏み出せずにいました。</p><p>　</p><p>商品はある。でも、構築や準備を考えた瞬間、手が止まる。</p><p>　</p><p>その感覚は、今でもよく覚えています。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -292,7 +283,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<!-- ===========================\n     SOLSTAR – Avg Dev Cost Block\n     =========================== -->\n\n<style>\n  .solstar-avgcost {\n    background: #ffffff;\n    color: #111827;\n    padding: 64px 16px;\n  }\n\n  .solstar-avgcost-inner {\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  .solstar-avgcost-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 45px; /* Mobile */\n    align-items: center;\n  }\n\n  @media (min-width: 860px) {\n    .solstar-avgcost-grid {\n      grid-template-columns: 1fr auto; /* 右は固定幅 */\n      gap: 200px; /* ← 指定 */\n      justify-content: center;\n    }\n  }\n\n  /* Left number card */\n  .solstar-avgcost-card {\n    background: #e9e9ed;\n    border-radius: 18px;\n    padding: 32px 28px;\n    text-align: center;\n  }\n\n  /* Kicker（2行固定） */\n  .solstar-avgcost-kicker {\n    font-size: 18px;\n    font-weight: 800;\n    line-height: 1.35;\n    margin: 0 0 16px;\n    color: #111827;\n\n    display: -webkit-box;\n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical;\n    overflow: hidden;\n    min-height: calc(1.35em * 2);\n  }\n\n  /* Number */\n  .solstar-avgcost-number {\n    font-weight: 900;\n    letter-spacing: -0.02em;\n    line-height: 1;\n    margin: 0;\n    color: #144E94;\n    font-size: 40px; /* Mobile */\n  }\n\n  @media (min-width: 860px) {\n    .solstar-avgcost-number {\n      font-size: 55px; /* PC */\n    }\n  }\n\n  .solstar-avgcost-unit {\n    font-size: 20px;\n    font-weight: 900;\n    margin-left: 6px;\n    color: #111827;\n  }\n\n  .solstar-avgcost-note {\n    font-size: 12px;\n    margin: 14px 0 0;\n    color: rgba(17, 24, 39, 0.75);\n    line-height: 1.6;\n  }\n\n  /* Right copy */\n  .solstar-avgcost-copy {\n    max-width: 520.53px; /* ← 指定 */\n  }\n\n  .solstar-avgcost-copy h2 {\n    font-size: clamp(22px, 2.4vw, 32px);\n    font-weight: 800;\n    line-height: 1.25;\n    margin: 0 0 14px;\n  }\n\n  .solstar-avgcost-copy p {\n    margin: 0 0 10px;\n    line-height: 1.85;\n    font-size: 16px;\n  }\n\n  .solstar-avgcost-strong {\n    font-weight: 800;\n  }\n\n  .solstar-avgcost-muted {\n    color: #4b5563;\n    font-size: 14px;\n  }\n</style>\n\n<section class=\"solstar-avgcost\">\n  <div class=\"solstar-avgcost-inner\">\n    <div class=\"solstar-avgcost-grid\">\n\n      <!-- Left Card -->\n      <div class=\"solstar-avgcost-card\">\n        <p class=\"solstar-avgcost-kicker\">\n          平均開発費は、\n        </p>\n\n        <p\n          class=\"solstar-avgcost-number\"\n          data-value=\"122\"\n          data-decimals=\"0\"\n          data-suffix=\"万円\"\n        >\n          0万円\n        </p>\n\n        <p class=\"solstar-avgcost-note\">\n          ※調査対象150社（大規模開発を除く）\n        </p>\n      </div>\n\n      <!-- Right Copy -->\n      <div class=\"solstar-avgcost-copy\">\n        <h2>150社徹底調査で見えた、「EC開発費が高くなる理由」の正体</h2>\n\n        <p>\n          調査対象150社の平均開発費は、\n          <span class=\"solstar-avgcost-strong\">約122万円。</span>\n        </p>\n\n        <p>\n          多くの開発会社が、100〜200万円前後を標準的な価格帯としています。\n          <span class=\"solstar-avgcost-muted\">（※大規模開発を除く）</span>\n        </p>\n\n        <p>\n          これは、設計・制作・検証までを一通り行うには、\n          この予算が現実的なラインであることを示しています。\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<!-- ===========================\n     Count Up JS\n     =========================== -->\n<script>\n(function () {\n  const section = document.querySelector(\".solstar-avgcost\");\n  if (!section) return;\n\n  const numberEl = section.querySelector(\".solstar-avgcost-number\");\n  if (!numberEl) return;\n\n  let animated = false;\n\n  function animateNumber() {\n    if (animated) return;\n    animated = true;\n\n    const target = parseFloat(numberEl.dataset.value || \"0\");\n    const decimals = parseInt(numberEl.dataset.decimals || \"0\", 10);\n    const suffix = numberEl.dataset.suffix || \"\";\n    const duration = 1500;\n    let start = null;\n\n    function step(timestamp) {\n      if (!start) start = timestamp;\n      const progress = Math.min((timestamp - start) / duration, 1);\n      const current = target * progress;\n      numberEl.textContent = current.toFixed(decimals) + suffix;\n\n      if (progress < 1) {\n        requestAnimationFrame(step);\n      }\n    }\n\n    requestAnimationFrame(step);\n  }\n\n  if (\"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver(\n      (entries) => {\n        entries.forEach((entry) => {\n          if (entry.isIntersecting) {\n            animateNumber();\n            observer.disconnect();\n          }\n        });\n      },\n      { threshold: 0.4 }\n    );\n\n    observer.observe(section);\n  } else {\n    animateNumber();\n  }\n})();\n</script>",
+        "code": "<!-- ===========================\n     SOLSTAR – Avg Dev Cost Block\n     =========================== -->\n\n<style>\n  .solstar-avgcost {\n    background: #ffffff;\n    color: #111827;\n    padding: 64px 16px;\n  }\n\n  .solstar-avgcost-inner {\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  .solstar-avgcost-grid {\n    display: grid;\n    grid-template-columns: 1fr;\n    gap: 45px; /* Mobile */\n    align-items: center;\n  }\n\n  @media (min-width: 860px) {\n    .solstar-avgcost-grid {\n      grid-template-columns: 1fr auto; /* 右は固定幅 */\n      gap: 200px; /* ← 指定 */\n      justify-content: center;\n    }\n  }\n\n  /* Left number card */\n  .solstar-avgcost-card {\n    background: #e9e9ed;\n    border-radius: 18px;\n    padding: 32px 28px;\n    text-align: center;\n  }\n\n  /* Kicker（2行固定） */\n  .solstar-avgcost-kicker {\n    font-size: 18px;\n    font-weight: 800;\n    line-height: 1.35;\n    margin: 0 0 16px;\n    color: #111827;\n\n    display: -webkit-box;\n    -webkit-line-clamp: 2;\n    -webkit-box-orient: vertical;\n    overflow: hidden;\n    min-height: calc(1.35em * 2);\n  }\n\n  /* Number */\n  .solstar-avgcost-number {\n    font-weight: 900;\n    letter-spacing: -0.02em;\n    line-height: 1;\n    margin: 0;\n    color: #144E94;\n    font-size: 40px; /* Mobile */\n  }\n\n  @media (min-width: 860px) {\n    .solstar-avgcost-number {\n      font-size: 55px; /* PC */\n    }\n  }\n\n  .solstar-avgcost-unit {\n    font-size: 20px;\n    font-weight: 900;\n    margin-left: 6px;\n    color: #111827;\n  }\n\n  .solstar-avgcost-note {\n    font-size: 12px;\n    margin: 14px 0 0;\n    color: rgba(17, 24, 39, 0.75);\n    line-height: 1.6;\n  }\n\n  /* Right copy */\n  .solstar-avgcost-copy {\n    max-width: 520.53px; /* ← 指定 */\n  }\n\n  .solstar-avgcost-copy h2 {\n    font-size: clamp(22px, 2.4vw, 32px);\n    font-weight: 800;\n    line-height: 1.25;\n    margin: 0 0 14px;\n  }\n\n  .solstar-avgcost-copy p {\n    margin: 0 0 10px;\n    line-height: 1.85;\n    font-size: 16px;\n  }\n\n  .solstar-avgcost-strong {\n    font-weight: 800;\n  }\n\n  .solstar-avgcost-muted {\n    color: #4b5563;\n    font-size: 14px;\n  }\n</style>\n\n<section class=\"solstar-avgcost\">\n  <div class=\"solstar-avgcost-inner\">\n    <div class=\"solstar-avgcost-grid\">\n\n      <!-- Left Card -->\n      <div class=\"solstar-avgcost-card\">\n        <p class=\"solstar-avgcost-kicker\">\n          平均開発費は、\n        </p>\n\n        <p\n          class=\"solstar-avgcost-number\"\n          data-value=\"122\"\n          data-decimals=\"0\"\n          data-suffix=\"万円\"\n        >\n          0万円\n        </p>\n\n        <p class=\"solstar-avgcost-note\">\n          ※調査対象150社（大規模開発を除く）\n        </p>\n      </div>\n\n      <!-- Right Copy -->\n      <div class=\"solstar-avgcost-copy\">\n        <h2>150社徹底調査で見えた、「ECサイト開発費が高くなる理由」の正体\n</h2>\n\n        <p>\n          調査対象150社の平均開発費は、\n          <span class=\"solstar-avgcost-strong\">約122万円。</span>\n        </p>\n\n        <p>\n          多くの開発会社が、100〜200万円前後を標準的な価格帯としています。\n        </p>\n\n        <p>\n          これは、設計・構築・検証までを一通り行うのに、\n          この予算が現実的なラインであることを示しています。\n        </p>\n      </div>\n\n    </div>\n  </div>\n</section>\n\n<!-- ===========================\n     Count Up JS\n     =========================== -->\n<script>\n(function () {\n  const section = document.querySelector(\".solstar-avgcost\");\n  if (!section) return;\n\n  const numberEl = section.querySelector(\".solstar-avgcost-number\");\n  if (!numberEl) return;\n\n  let animated = false;\n\n  function animateNumber() {\n    if (animated) return;\n    animated = true;\n\n    const target = parseFloat(numberEl.dataset.value || \"0\");\n    const decimals = parseInt(numberEl.dataset.decimals || \"0\", 10);\n    const suffix = numberEl.dataset.suffix || \"\";\n    const duration = 1500;\n    let start = null;\n\n    function step(timestamp) {\n      if (!start) start = timestamp;\n      const progress = Math.min((timestamp - start) / duration, 1);\n      const current = target * progress;\n      numberEl.textContent = current.toFixed(decimals) + suffix;\n\n      if (progress < 1) {\n        requestAnimationFrame(step);\n      }\n    }\n\n    requestAnimationFrame(step);\n  }\n\n  if (\"IntersectionObserver\" in window) {\n    const observer = new IntersectionObserver(\n      (entries) => {\n        entries.forEach((entry) => {\n          if (entry.isIntersecting) {\n            animateNumber();\n            observer.disconnect();\n          }\n        });\n      },\n      { threshold: 0.4 }\n    );\n\n    observer.observe(section);\n  } else {\n    animateNumber();\n  }\n})();\n</script>",
         "width": "wrapper--full",
         "color_scheme": "",
         "padding_top": 0,
@@ -305,7 +296,7 @@
         "text_kACN66": {
           "type": "text",
           "settings": {
-            "text": "<p>数多くの事業者の課題を分析した結果、<br/><br/>私たちは、商品数の少ない立ち上げ初期のECには、<br/><br/>フルスケールの設計・制作・検証体制は必ずしも必要ない、という結論に至りました。<br/><br/>だからこそ、「まず試す」ために必要な工程だけに絞りました。</p><p>　</p>",
+            "text": "<p>数多くの事業者の課題を分析した結果、<br/><br/>私たちは、商品数の少ない立ち上げ初期のECには、<br/><br/>フルスケールの設計・制作・検証体制は必ずしも必要ない、という結論に至りました。<br/><br/>だからこそ、SOLSTAR EXPRESSは、「まず試す」ために必要な工程だけを整理し、最短距離でECを始められるようにしました。</p><p>　</p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
@@ -313,7 +304,7 @@
         "code_GWijPt": {
           "type": "code",
           "settings": {
-            "code": "<style>\n  /* 共通見出し：PC 36px / SP 25px */\n  .solstar-section-heading {\n    font-size: 36px;\n    font-weight: 700;\n    letter-spacing: 0; /* ← 0% に調整 */\n    line-height: 1.3;\n    margin: 0 0 24px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-section-heading {\n      font-size: 25px;\n    }\n  }\n</style>\n\n<h2 class=\"solstar-section-heading\">\n 「完璧なECサイト」ではなく、<br>\n“まず試せるECサイト”を最短距離で。\n</h2>",
+            "code": "<style>\n  /* 共通見出し：PC 36px / SP 25px */\n  .solstar-section-heading {\n    font-size: 36px;\n    font-weight: 700;\n    letter-spacing: 0; /* ← 0% に調整 */\n    line-height: 1.3;\n    margin: 0 0 24px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-section-heading {\n      font-size: 25px;\n    }\n  }\n</style>\n\n<h2 class=\"solstar-section-heading\">\n 「完璧なECサイト」ではなく、<br>\n「まず試せるECサイト」を。\n</h2>",
             "padding_bottom": 50
           }
         },
@@ -389,7 +380,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<style>\n  /* ===========================\n     SOLSTAR – Why Affordable (Text + Image Cards)\n     =========================== */\n  .solstar-why {\n    background: #ffffff;\n    padding: 64px 16px;\n    color: #111111;\n  }\n\n  .solstar-why-inner {\n    max-width: 1260px;\n    margin: 0 auto;\n  }\n\n  /* Header（中央寄せ） */\n  .solstar-why-head {\n    max-width: 860px;\n    margin: 0 auto 40px;\n    text-align: center;\n  }\n\n  .solstar-why-title {\n    font-size: 36px;\n    font-weight: 400;\n    line-height: 1.25;\n    margin: 0 0 14px;\n  }\n\n  .solstar-why-lead {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.9;\n    font-weight: 400;\n    color: #111111;\n  }\n\n  /* Grid */\n  .solstar-why-grid {\n    display: grid;\n    gap: 28px;\n  }\n\n  @media (min-width: 900px) {\n    .solstar-why-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  /* Card */\n  .solstar-why-card {\n    background: #f7f7f8;\n    border-radius: 20px;\n    overflow: hidden;\n  }\n\n  .solstar-why-card-media img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  .solstar-why-card-body {\n    padding: 24px 22px 28px;\n  }\n\n  /* Reason label（ここだけ太字） */\n  .solstar-why-card-label {\n    font-size: 22px;\n    font-weight: 800; /* ← 太字に変更 */\n    color: #144E94;\n    margin: 0 0 10px;\n  }\n\n  .solstar-why-card-heading {\n    font-size: 18px;\n    font-weight: 400;\n    line-height: 1.45;\n    margin: 0 0 12px;\n    color: #111111;\n  }\n\n  .solstar-why-card-text {\n    margin: 0;\n    font-size: 14px;\n    line-height: 1.9;\n    font-weight: 400;\n    color: #111111;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-why-title {\n      font-size: 25px;\n    }\n\n    .solstar-why-card-label {\n      font-size: 20px;\n    }\n  }\n</style>\n\n<section class=\"solstar-why\">\n  <div class=\"solstar-why-inner\">\n\n    <!-- Header（中央寄せ） -->\n    <div class=\"solstar-why-head\">\n      <h2 class=\"solstar-why-title\">\n        なぜ SOLSTAR EXPRESS は、<br>この価格で提供できるのか\n      </h2>\n      <p class=\"solstar-why-lead\">\n        SOLSTAR EXPRESSが低価格なのは、品質を削っているからではありません。<br>\n        ECサイト制作におけるムダを、設計から見直した結果です。\n      </p>\n    </div>\n\n    <!-- Cards -->\n    <div class=\"solstar-why-grid\">\n\n      <!-- 理由① -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Untitled-1_62dc15f7-7c39-48c2-8899-6bfce9e28079.webp?v=1765155857\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由①</p>\n          <h3 class=\"solstar-why-card-heading\">体制を分けず、すべて自社で一元管理</h3>\n          <p class=\"solstar-why-card-text\">\n            一般的なEC構築では、フロントエンド・バックエンド・進行管理が分業され、その分だけ調整工数とコストが膨らみます。SOLSTAR EXPRESSでは、設計・制作・検証までを自社で一元管理。確立された組織と人材で、無駄なコミュニケーションを発生させません。\n          </p>\n        </div>\n      </article>\n\n      <!-- 理由② -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/SOLSTAR_EXPRESS_Hero_image_5_copy_2_45076a4d-9efd-4f94-9fd9-8f1f5e50217c.webp?v=1765196138\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由②</p>\n          <h3 class=\"solstar-why-card-heading\">Shopifyの仕組みで、品質と安全性を担保</h3>\n          <p class=\"solstar-why-card-text\">\n            SOLSTAR EXPRESSは、世界中で実証されたShopify公式テーマを活用。表示速度・スマホ対応・UXに加え、サーバー管理やセキュリティまでShopifyが対応します。そのため、高い品質を低コストで提供できます。\n          </p>\n        </div>\n      </article>\n\n      <!-- 理由③ -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Shopify_Academy_Latest_Version_copy.png?v=1767237404\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由③</p>\n          <h3 class=\"solstar-why-card-heading\">Shopifyアカデミー認定人材が設計</h3>\n          <p class=\"solstar-why-card-text\">\n            技術・ディレクション担当は、Shopifyアカデミー認定資格を取得した専門人材。Shopifyの強みを前提に設計することで、過度な作り込みや不要なカスタマイズを避け、手戻りのない、効率的な構築を実現しています。\n          </p>\n        </div>\n      </article>\n\n    </div>\n  </div>\n</section>",
+        "code": "<style>\n  /* ===========================\n     SOLSTAR – Why Affordable (Text + Image Cards)\n     =========================== */\n  .solstar-why {\n    background: #ffffff;\n    padding: 64px 16px;\n    color: #111111;\n  }\n\n  .solstar-why-inner {\n    max-width: 1260px;\n    margin: 0 auto;\n  }\n\n  /* Header（中央寄せ） */\n  .solstar-why-head {\n    max-width: 860px;\n    margin: 0 auto 40px;\n    text-align: center;\n  }\n\n  .solstar-why-title {\n    font-size: 36px;\n    font-weight: 400;\n    line-height: 1.25;\n    margin: 0 0 14px;\n  }\n\n  .solstar-why-lead {\n    margin: 0;\n    font-size: 16px;\n    line-height: 1.9;\n    font-weight: 400;\n    color: #111111;\n  }\n\n  /* Grid */\n  .solstar-why-grid {\n    display: grid;\n    gap: 28px;\n  }\n\n  @media (min-width: 900px) {\n    .solstar-why-grid {\n      grid-template-columns: repeat(3, 1fr);\n    }\n  }\n\n  /* Card */\n  .solstar-why-card {\n    background: #f7f7f8;\n    border-radius: 20px;\n    overflow: hidden;\n  }\n\n  .solstar-why-card-media img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n\n  .solstar-why-card-body {\n    padding: 24px 22px 28px;\n  }\n\n  /* Reason label（ここだけ太字） */\n  .solstar-why-card-label {\n    font-size: 22px;\n    font-weight: 800; /* ← 太字に変更 */\n    color: #144E94;\n    margin: 0 0 10px;\n  }\n\n  .solstar-why-card-heading {\n    font-size: 18px;\n    font-weight: 400;\n    line-height: 1.45;\n    margin: 0 0 12px;\n    color: #111111;\n  }\n\n  .solstar-why-card-text {\n    margin: 0;\n    font-size: 14px;\n    line-height: 1.9;\n    font-weight: 400;\n    color: #111111;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-why-title {\n      font-size: 25px;\n    }\n\n    .solstar-why-card-label {\n      font-size: 20px;\n    }\n  }\n</style>\n\n<section class=\"solstar-why\">\n  <div class=\"solstar-why-inner\">\n\n    <!-- Header（中央寄せ） -->\n    <div class=\"solstar-why-head\">\n      <h2 class=\"solstar-why-title\">\n        なぜ SOLSTAR EXPRESS は、<br>この価格で提供できるのか\n      </h2>\n      <p class=\"solstar-why-lead\">\n        SOLSTAR EXPRESSが低価格なのは、品質を削っているからではありません。<br>\n        ECサイト制作におけるムダを、設計から見直した結果です。\n      </p>\n    </div>\n\n    <!-- Cards -->\n    <div class=\"solstar-why-grid\">\n\n      <!-- 理由① -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Untitled-1_62dc15f7-7c39-48c2-8899-6bfce9e28079.webp?v=1765155857\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由①</p>\n          <h3 class=\"solstar-why-card-heading\">体制を分けず、すべて自社で一元管理</h3>\n          <p class=\"solstar-why-card-text\">\n            一般的なEC構築では、フロントエンド・バックエンド・進行管理が分業され、その分だけ調整工数とコストが膨らみます。SOLSTAR EXPRESSでは、設計・制作・検証までを自社で一元管理。確立された組織と人材で、無駄なコミュニケーションを発生させません。\n          </p>\n        </div>\n      </article>\n\n      <!-- 理由② -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/SOLSTAR_EXPRESS_Hero_image_5_copy_2_45076a4d-9efd-4f94-9fd9-8f1f5e50217c.webp?v=1765196138\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由②</p>\n          <h3 class=\"solstar-why-card-heading\">Shopifyの仕組みで、品質と安全性を担保</h3>\n          <p class=\"solstar-why-card-text\">\n           SOLSTAR EXPRESSでは、世界中で実績のあるShopifyを活用しています。表示速度・スマホ対応・UXに加え、サーバー管理やセキュリティなども、Shopifyの仕組みを利用。そのため、一から設計・開発する必要がなく、高品質なECサイトを低コストで提供できます。\n\n          </p>\n        </div>\n      </article>\n\n      <!-- 理由③ -->\n      <article class=\"solstar-why-card\">\n        <div class=\"solstar-why-card-media\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Shopify_Academy_Latest_Version_copy.png?v=1767237404\" alt=\"\">\n        </div>\n        <div class=\"solstar-why-card-body\">\n          <p class=\"solstar-why-card-label\">理由③</p>\n          <h3 class=\"solstar-why-card-heading\">Shopifyアカデミー認定人材が設計</h3>\n          <p class=\"solstar-why-card-text\">\n設計・ディレクションは、Shopifyアカデミー認定資格を取得した専門人材が担当します。Shopifyに標準で備わっている機能や仕組みを前提に設計することで、過度な作り込みや不要なカスタマイズを避け、効率的な構築を実現しています。\n\n          </p>\n        </div>\n      </article>\n\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "",
         "padding_top": 0,
@@ -547,7 +538,7 @@
         "text_GyN7TV": {
           "type": "text",
           "settings": {
-            "text": "<p>弊社はShopifyアカデミー認定資格「提案設計・ソリューション設計・開発基礎」を保有。<br/><br/>要件定義から設計・実装・検証まで一気通貫で対応し、公式カリキュラムに基づく知識で安心してお任せいただけます。</p>",
+            "text": "<p>弊社は、Shopifyアカデミー認定資格「提案設計・ソリューション設計・開発基礎」を保有しているため、安心して任せていただける設計・構築が可能です。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
