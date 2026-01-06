@@ -190,7 +190,7 @@
                               </label>
                               <input
                                 type="text"
-                                class="contactFormText field"
+                                class="field"
                                 id="Form-{{ section_block_id }}-{{ forloop.index0 }}"
                                 name="contact[{{ field_name | handleize }}]"
                                 placeholder="{{ field_name }}"
@@ -205,7 +205,7 @@
                               <input
                                 type="email"
                                 id="{{ section_block_id }}-contactFormEmail"
-                                class="contactFormEmail field"
+                                class="field"
                                 name="contact[email]"
                                 placeholder="{{ field_email }}"
                                 autocorrect="off"
@@ -219,7 +219,7 @@
                               <textarea
                                 rows="10"
                                 id="{{ section_block_id }}-ContactFormMessage"
-                                class="contactFormMessage field"
+                                class="field"
                                 name="contact[body]"
                                 placeholder="{{ field_message }}"
                               ></textarea>

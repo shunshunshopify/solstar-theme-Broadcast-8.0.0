@@ -96,7 +96,7 @@
               </label>
               <input
                 type="email"
-                class="contactFormEmail field"
+                class="field"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
                 name="contact[email]"
                 placeholder="{{ placeholder }}"
@@ -135,7 +135,7 @@
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                class="contactFormMessage field"
+                class="field"
                 name="contact[body]"
                 placeholder="{{ placeholder }}"
                 {{ required -}}
@@ -166,7 +166,7 @@
               </label>
               <input
                 type="text"
-                class="contactFormText field"
+                class="field"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
                 name="contact[{{ title | handleize | default: 'text' }}]"
                 placeholder="{{ placeholder }}"
@@ -178,17 +178,20 @@
 
           {%- when 'name' -%}
             <div
-              class="custom-form__block custom-form__block--name"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
               <div class="contact-form__name-grid">
-                <div class="contact-form__name-field">
+                <div>
+                  {%- assign normalized_first_heading = block.settings.first_heading | strip -%}
                   {%- assign show_first_heading = false -%}
-                  {%- if block.settings.first_heading != blank and block.settings.first_heading != block.settings.first_label -%}
+                  {%- assign hide_first_label = false -%}
+                  {%- if normalized_first_heading != blank -%}
                     {%- assign show_first_heading = true -%}
+                    {%- assign hide_first_label = true -%}
                   {%- endif -%}
                   {%- if show_first_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
@@ -198,7 +201,10 @@
                       {%- endif -%}
                     </p>
                   {%- endif -%}
-                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
+                  <label
+                    for="Form-{{ section.id }}-{{ forloop.index0 }}-first"
+                    class="custom-form__label label--block{% if hide_first_label %} visually-hidden{% endif %}"
+                  >
                     {{ block.settings.first_label }}
                     {%- if required != blank and show_first_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
@@ -206,7 +212,7 @@
                   </label>
                   <input
                     type="text"
-                    class="contactFormText field"
+                    class="field"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-first"
                     name="contact[first_name]"
                     placeholder="{{ block.settings.first_label }}"
@@ -215,10 +221,13 @@
                     {{ required }}
                   >
                 </div>
-                <div class="contact-form__name-field">
+                <div>
+                  {%- assign normalized_last_heading = block.settings.last_heading | strip -%}
                   {%- assign show_last_heading = false -%}
-                  {%- if block.settings.last_heading != blank and block.settings.last_heading != block.settings.last_label -%}
+                  {%- assign hide_last_label = false -%}
+                  {%- if normalized_last_heading != blank -%}
                     {%- assign show_last_heading = true -%}
+                    {%- assign hide_last_label = true -%}
                   {%- endif -%}
                   {%- if show_last_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
@@ -228,7 +237,10 @@
                       {%- endif -%}
                     </p>
                   {%- endif -%}
-                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
+                  <label
+                    for="Form-{{ section.id }}-{{ forloop.index0 }}-last"
+                    class="custom-form__label label--block{% if hide_last_label %} visually-hidden{% endif %}"
+                  >
                     {{ block.settings.last_label }}
                     {%- if required != blank and show_last_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
@@ -236,7 +248,7 @@
                   </label>
                   <input
                     type="text"
-                    class="contactFormText field"
+                    class="field"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-last"
                     name="contact[last_name]"
                     placeholder="{{ block.settings.last_label }}"
@@ -265,7 +277,7 @@
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                class="contactFormMessage field"
+                class="field"
                 name="contact[{{ title | handleize | default: 'textarea' }}]"
                 placeholder="{{ placeholder }}"
                 {{ required -}}
@@ -301,7 +313,7 @@
               <input
                 type="tel"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                class="contactFormPhone field"
+                class="field"
                 name="contact[telephone]"
                 placeholder="{{ placeholder }}"
                 value=""
@@ -311,7 +323,7 @@
 
           {%- when 'formHeading' -%}
             <div
-              class="custom-form__block custom-form__block--heading"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
@@ -345,7 +357,6 @@
               <input
                 type="checkbox"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                class="contactFormCheckbox"
                 name="contact[{{ title | handleize | default: 'checkbox' }}]"
                 value="{{ title }}"
                 {{ required }}
@@ -360,7 +371,7 @@
 
           {%- when 'radio' -%}
             <fieldset
-              class="custom-form__block custom-form__block--group"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
@@ -379,7 +390,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-1"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-one }}"
                     {{ required }}
@@ -392,7 +402,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-2"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-two }}"
                     {{ required }}
@@ -405,7 +414,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-3"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-three }}"
                     {{ required }}
@@ -418,7 +426,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-4"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-four }}"
                     {{ required }}
@@ -431,7 +438,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-5"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-five }}"
                     {{ required }}
@@ -444,7 +450,6 @@
                   <input
                     type="radio"
                     id="Form-{{ section.id }}-{{ forloop.index0 }}-6"
-                    class="contactFormRadio"
                     name="contact[{{ title | handleize | default: 'radio' }}]"
                     value="{{ block.settings.label-six }}"
                     {{ required }}
@@ -456,7 +461,7 @@
 
           {%- when 'select' -%}
             <fieldset
-              class="custom-form__block custom-form__block--group"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
@@ -472,7 +477,7 @@
               {%- endif -%}
               <select
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                class="contactFormSelect field"
+                class="field"
                 name="contact[{{ title | handleize | default: 'select' }}]"
                 {{ required }}
               >
@@ -523,7 +528,7 @@
           <input
             type="email"
             id="contactFormEmail"
-            class="contactFormEmail field"
+            class="field"
             name="contact[email]"
             placeholder="{{ email }}"
             autocorrect="off"
@@ -553,7 +558,7 @@
           <textarea
             rows="10"
             id="ContactFormMessage"
-            class="contactFormMessage field"
+            class="field"
             name="contact[body]"
             placeholder="{{ message }}"
           ></textarea>
