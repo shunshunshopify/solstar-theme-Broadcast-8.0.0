@@ -187,8 +187,12 @@
               <div class="contact-form__name-grid">
                 <div class="contact-form__name-field">
                   {%- assign show_first_heading = false -%}
-                  {%- if block.settings.first_heading != blank and block.settings.first_heading != block.settings.first_label -%}
+                  {%- assign hide_first_label = false -%}
+                  {%- if block.settings.first_heading != blank -%}
                     {%- assign show_first_heading = true -%}
+                    {%- if block.settings.first_heading == block.settings.first_label -%}
+                      {%- assign hide_first_label = true -%}
+                    {%- endif -%}
                   {%- endif -%}
                   {%- if show_first_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
@@ -198,7 +202,10 @@
                       {%- endif -%}
                     </p>
                   {%- endif -%}
-                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
+                  <label
+                    for="Form-{{ section.id }}-{{ forloop.index0 }}-first"
+                    class="custom-form__label label--block{% if hide_first_label %} visually-hidden{% endif %}"
+                  >
                     {{ block.settings.first_label }}
                     {%- if required != blank and show_first_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
@@ -217,8 +224,12 @@
                 </div>
                 <div class="contact-form__name-field">
                   {%- assign show_last_heading = false -%}
-                  {%- if block.settings.last_heading != blank and block.settings.last_heading != block.settings.last_label -%}
+                  {%- assign hide_last_label = false -%}
+                  {%- if block.settings.last_heading != blank -%}
                     {%- assign show_last_heading = true -%}
+                    {%- if block.settings.last_heading == block.settings.last_label -%}
+                      {%- assign hide_last_label = true -%}
+                    {%- endif -%}
                   {%- endif -%}
                   {%- if show_last_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
@@ -228,7 +239,10 @@
                       {%- endif -%}
                     </p>
                   {%- endif -%}
-                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
+                  <label
+                    for="Form-{{ section.id }}-{{ forloop.index0 }}-last"
+                    class="custom-form__label label--block{% if hide_last_label %} visually-hidden{% endif %}"
+                  >
                     {{ block.settings.last_label }}
                     {%- if required != blank and show_last_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
