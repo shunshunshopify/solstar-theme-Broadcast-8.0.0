@@ -967,10 +967,13 @@
     "contact_form_AN7jRB": {
       "type": "contact-form",
       "blocks": {
-        "text_778trQ": {
-          "type": "text",
+        "name_GczTg9": {
+          "type": "name",
           "settings": {
-            "title": "お名前",
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
             "required": true
           }
         },
@@ -978,6 +981,7 @@
           "type": "email",
           "settings": {
             "title": "メールアドレス",
+            "heading": "",
             "required": true
           }
         },
@@ -985,6 +989,7 @@
           "type": "telephone",
           "settings": {
             "title": "電話番号",
+            "heading": "",
             "required": true
           }
         },
@@ -992,6 +997,7 @@
           "type": "text",
           "settings": {
             "title": "会社名",
+            "heading": "",
             "required": false
           }
         },
@@ -999,6 +1005,7 @@
           "type": "body",
           "settings": {
             "title": "問い合わせ内容",
+            "heading": "",
             "required": false
           }
         },
@@ -1030,7 +1037,7 @@
         }
       },
       "block_order": [
-        "text_778trQ",
+        "name_GczTg9",
         "email_MAwTH4",
         "telephone_VPmcEM",
         "text_fUgiqD",
