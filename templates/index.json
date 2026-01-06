@@ -372,7 +372,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "詳細を見る",
-            "button_url": "shopify://pages/contact",
+            "button_url": "shopify://pages/domestic-shopify-ec",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
