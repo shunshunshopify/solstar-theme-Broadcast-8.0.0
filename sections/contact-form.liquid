@@ -186,11 +186,13 @@
             >
               <div class="contact-form__name-grid">
                 <div class="contact-form__name-field">
+                  {%- assign normalized_first_heading = block.settings.first_heading | strip | downcase -%}
+                  {%- assign normalized_first_label = block.settings.first_label | strip | downcase -%}
                   {%- assign show_first_heading = false -%}
                   {%- assign hide_first_label = false -%}
-                  {%- if block.settings.first_heading != blank -%}
+                  {%- if normalized_first_heading != blank -%}
                     {%- assign show_first_heading = true -%}
-                    {%- if block.settings.first_heading == block.settings.first_label -%}
+                    {%- if normalized_first_heading == normalized_first_label -%}
                       {%- assign hide_first_label = true -%}
                     {%- endif -%}
                   {%- endif -%}
@@ -223,11 +225,13 @@
                   >
                 </div>
                 <div class="contact-form__name-field">
+                  {%- assign normalized_last_heading = block.settings.last_heading | strip | downcase -%}
+                  {%- assign normalized_last_label = block.settings.last_label | strip | downcase -%}
                   {%- assign show_last_heading = false -%}
                   {%- assign hide_last_label = false -%}
-                  {%- if block.settings.last_heading != blank -%}
+                  {%- if normalized_last_heading != blank -%}
                     {%- assign show_last_heading = true -%}
-                    {%- if block.settings.last_heading == block.settings.last_label -%}
+                    {%- if normalized_last_heading == normalized_last_label -%}
                       {%- assign hide_last_label = true -%}
                     {%- endif -%}
                   {%- endif -%}
