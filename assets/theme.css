@@ -7387,39 +7387,6 @@ body.grid-classic .grandparent .menu__blocks:last-child .menu__block:last-child 
   align-items: center;
 }
 
-@media only screen and (max-width: 749px) {
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) {
-    display: block;
-  }
-
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) .navlink {
-    padding: 4px 6px;
-  }
-
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) .navlink__cart__content {
-    font-size: calc(var(--FONT-SIZE-NAV) * 0.85);
-    white-space: nowrap;
-  }
-
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) .header__cart__status__holder {
-    display: none;
-  }
-
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) .navlink__cart__content > .navtext {
-    display: inline;
-  }
-
-  .header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) .navlink__cart__content > .visually-hidden {
-    position: static !important;
-    width: auto;
-    height: auto;
-    margin: 0;
-    clip: auto;
-    overflow: visible;
-    display: inline;
-  }
-}
-
 /*
   These circle icons have 1px offset in order to match the account icon
   That's why we need margin-right: -1px to make them align horizontally with the wrapper
