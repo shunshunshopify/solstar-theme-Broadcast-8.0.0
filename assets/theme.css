@@ -16967,6 +16967,11 @@ body .shopify-email-marketing-confirmation__container a {
   text-align: left;
 }
 
+.contact-form .custom-form__label--heading {
+  margin-bottom: 4px;
+  font-weight: var(--FONT-WEIGHT-BODY-BOLD);
+}
+
 .contact-form .custom-form__block {
   margin-bottom: 20px;
 }

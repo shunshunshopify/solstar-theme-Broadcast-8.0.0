@@ -126,6 +126,40 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
+              {%- if block.settings.heading != blank -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank and block.settings.heading == blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
+              <input
+                type="text"
+                class="contactFormText field"
+                id="Form-{{ section.id }}-{{ forloop.index0 }}"
+                name="contact[{{ title | handleize | default: 'text' }}]"
+                placeholder="{{ placeholder }}"
+                autocapitalize="words"
+                value=""
+                {{ required }}
+              >
+            </div>
+
+          {%- when 'first_name' -%}
+            <div
+              class="custom-form__block"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+              {{ block.shopify_attributes }}
+            >
               <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
                 {{ title }}
                 {%- if required != blank -%}
@@ -136,7 +170,33 @@
                 type="text"
                 class="contactFormText field"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                name="contact[{{ title | handleize | default: 'text' }}]"
+                name="contact[first_name]"
+                placeholder="{{ placeholder }}"
+                autocapitalize="words"
+                value=""
+                {{ required }}
+              >
+            </div>
+
+          {%- when 'last_name' -%}
+            <div
+              class="custom-form__block"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+              {{ block.shopify_attributes }}
+            >
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
+              <input
+                type="text"
+                class="contactFormText field"
+                id="Form-{{ section.id }}-{{ forloop.index0 }}"
+                name="contact[last_name]"
                 placeholder="{{ placeholder }}"
                 autocapitalize="words"
                 value=""
@@ -638,6 +698,50 @@
           "info": "Example: Full Name"
         },
         {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Optional. Defaults to Label."
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "first_name",
+      "name": "First name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Label",
+          "default": "First name",
+          "info": "Example: First name"
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "last_name",
+      "name": "Last name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Label",
+          "default": "Last name",
+          "info": "Example: Last name"
+        },
+        {
           "type": "checkbox",
           "id": "required",
           "label": "Required",
@@ -849,9 +953,15 @@
       "category": "Forms",
       "blocks": [
         {
-          "type": "text",
+          "type": "first_name",
           "settings": {
-            "title": "Full Name"
+            "title": "First name"
+          }
+        },
+        {
+          "type": "last_name",
+          "settings": {
+            "title": "Last name"
           }
         },
         {
