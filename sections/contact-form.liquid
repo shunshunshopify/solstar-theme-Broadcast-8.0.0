@@ -162,7 +162,11 @@
             >
               <div class="contact-form__name-grid">
                 <div class="contact-form__name-field">
-                  {%- if block.settings.first_heading != blank -%}
+                  {%- assign show_first_heading = false -%}
+                  {%- if block.settings.first_heading != blank and block.settings.first_heading != block.settings.first_label -%}
+                    {%- assign show_first_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_first_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
                       {{ block.settings.first_heading }}
                       {%- if required != blank -%}
@@ -172,7 +176,7 @@
                   {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
                     {{ block.settings.first_label }}
-                    {%- if required != blank and block.settings.first_heading == blank -%}
+                    {%- if required != blank and show_first_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
                     {%- endif -%}
                   </label>
@@ -188,7 +192,11 @@
                   >
                 </div>
                 <div class="contact-form__name-field">
-                  {%- if block.settings.last_heading != blank -%}
+                  {%- assign show_last_heading = false -%}
+                  {%- if block.settings.last_heading != blank and block.settings.last_heading != block.settings.last_label -%}
+                    {%- assign show_last_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_last_heading -%}
                     <p class="custom-form__label custom-form__label--heading">
                       {{ block.settings.last_heading }}
                       {%- if required != blank -%}
@@ -198,7 +206,7 @@
                   {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
                     {{ block.settings.last_label }}
-                    {%- if required != blank and block.settings.last_heading == blank -%}
+                    {%- if required != blank and show_last_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
                     {%- endif -%}
                   </label>
