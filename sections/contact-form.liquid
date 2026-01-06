@@ -60,7 +60,6 @@
           assign required = ''
           if block.settings.required
             assign required = 'required'
-            assign placeholder = title | append: '*'
 
             unless has_required_field
               assign has_required_field = true
@@ -77,7 +76,24 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              {%- assign show_heading = false -%}
+              {%- if block.settings.heading != blank and block.settings.heading != title -%}
+                {%- assign show_heading = true -%}
+              {%- endif -%}
+              {%- if show_heading -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank and show_heading == false -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="email"
                 class="contactFormEmail field"
@@ -98,7 +114,24 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              {%- assign show_heading = false -%}
+              {%- if block.settings.heading != blank and block.settings.heading != title -%}
+                {%- assign show_heading = true -%}
+              {%- endif -%}
+              {%- if show_heading -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank and show_heading == false -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -117,7 +150,20 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              {%- if block.settings.heading != blank -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank and block.settings.heading == blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="text"
                 class="contactFormText field"
@@ -130,6 +176,78 @@
               >
             </div>
 
+          {%- when 'name' -%}
+            <div
+              class="custom-form__block custom-form__block--name"
+              data-aos="hero"
+              data-aos-anchor="{{ animation_anchor }}"
+              data-aos-order="{{ animation_order }}"
+              {{ block.shopify_attributes }}
+            >
+              <div class="contact-form__name-grid">
+                <div class="contact-form__name-field">
+                  {%- assign show_first_heading = false -%}
+                  {%- if block.settings.first_heading != blank and block.settings.first_heading != block.settings.first_label -%}
+                    {%- assign show_first_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_first_heading -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.first_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
+                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
+                    {{ block.settings.first_label }}
+                    {%- if required != blank and show_first_heading == false -%}
+                      <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                    {%- endif -%}
+                  </label>
+                  <input
+                    type="text"
+                    class="contactFormText field"
+                    id="Form-{{ section.id }}-{{ forloop.index0 }}-first"
+                    name="contact[first_name]"
+                    placeholder="{{ block.settings.first_label }}"
+                    autocapitalize="words"
+                    value=""
+                    {{ required }}
+                  >
+                </div>
+                <div class="contact-form__name-field">
+                  {%- assign show_last_heading = false -%}
+                  {%- if block.settings.last_heading != blank and block.settings.last_heading != block.settings.last_label -%}
+                    {%- assign show_last_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_last_heading -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.last_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
+                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
+                    {{ block.settings.last_label }}
+                    {%- if required != blank and show_last_heading == false -%}
+                      <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                    {%- endif -%}
+                  </label>
+                  <input
+                    type="text"
+                    class="contactFormText field"
+                    id="Form-{{ section.id }}-{{ forloop.index0 }}-last"
+                    name="contact[last_name]"
+                    placeholder="{{ block.settings.last_label }}"
+                    autocapitalize="words"
+                    value=""
+                    {{ required }}
+                  >
+                </div>
+              </div>
+            </div>
+
           {%- when 'textarea' -%}
             <div
               class="custom-form__block"
@@ -138,7 +256,12 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -157,7 +280,24 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              {%- assign show_heading = false -%}
+              {%- if block.settings.heading != blank and block.settings.heading != title -%}
+                {%- assign show_heading = true -%}
+              {%- endif -%}
+              {%- if show_heading -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank and show_heading == false -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="tel"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -211,11 +351,10 @@
                 {{ required }}
               >
               <label for="Form-{{ section.id }}-{{ forloop.index0 }}">
-                {%- if required != blank -%}
-                  {%- assign title = title | append: '*' -%}
-                {%- endif -%}
-
                 {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
               </label>
             </div>
 
@@ -228,10 +367,12 @@
               {{ block.shopify_attributes }}
             >
               {%- if title != blank -%}
-                {%- if required != blank -%}
-                  {%- assign title = title | append: '*' -%}
-                {%- endif -%}
-                <legend class="custom-form__label">{{ title }}</legend>
+                <legend class="custom-form__label">
+                  {{ title }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </legend>
               {%- endif -%}
               {%- if block.settings['label-one'] != blank -%}
                 <div>
@@ -322,11 +463,11 @@
               {{ block.shopify_attributes }}
             >
               {%- if title != blank -%}
-                {%- if required != blank -%}
-                  {%- assign title = title | append: '*' -%}
-                {%- endif -%}
                 <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                  {{- title -}}
+                  {{ title }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
                 </label>
               {%- endif -%}
               <select
@@ -375,13 +516,16 @@
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
         >
-          <label for="contactFormEmail" class="visually-hidden">{{ email }}</label>
+          <label for="contactFormEmail" class="custom-form__label label--block">
+            {{ email }}
+            <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+          </label>
           <input
             type="email"
             id="contactFormEmail"
             class="contactFormEmail field"
             name="contact[email]"
-            placeholder="{{ email | append: '*' }}"
+            placeholder="{{ email }}"
             autocorrect="off"
             autocapitalize="off"
             required
@@ -402,13 +546,16 @@
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
         >
-          <label for="ContactFormMessage" class="visually-hidden">{{ message }}</label>
+          <label for="ContactFormMessage" class="custom-form__label label--block">
+            {{ message }}
+            <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+          </label>
           <textarea
             rows="10"
             id="ContactFormMessage"
             class="contactFormMessage field"
             name="contact[body]"
-            placeholder="{{ message | append: '*' }}"
+            placeholder="{{ message }}"
           ></textarea>
         </div>
       {%- endunless -%}
@@ -569,6 +716,12 @@
           "default": "Email"
         },
         {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Optional. Shows above label."
+        },
+        {
           "type": "checkbox",
           "id": "required",
           "label": "Required",
@@ -588,6 +741,12 @@
           "default": "Message"
         },
         {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Optional. Shows above label."
+        },
+        {
           "type": "checkbox",
           "id": "required",
           "label": "Required",
@@ -605,6 +764,50 @@
           "label": "Label",
           "default": "Full Name",
           "info": "Example: Full Name"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Optional. Shows above label."
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "name",
+      "name": "Name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_heading",
+          "label": "First name heading",
+          "default": "First name",
+          "info": "Optional. Shows above label."
+        },
+        {
+          "type": "text",
+          "id": "last_heading",
+          "label": "Last name heading",
+          "default": "Last name",
+          "info": "Optional. Shows above label."
+        },
+        {
+          "type": "text",
+          "id": "first_label",
+          "label": "First name label",
+          "default": "First name"
+        },
+        {
+          "type": "text",
+          "id": "last_label",
+          "label": "Last name label",
+          "default": "Last name"
         },
         {
           "type": "checkbox",
@@ -643,6 +846,12 @@
           "label": "Label",
           "default": "Phone Number",
           "info": "Example: Phone Number"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "info": "Optional. Shows above label."
         },
         {
           "type": "checkbox",
@@ -818,9 +1027,12 @@
       "category": "Forms",
       "blocks": [
         {
-          "type": "text",
+          "type": "name",
           "settings": {
-            "title": "Full Name"
+            "first_heading": "First name",
+            "last_heading": "Last name",
+            "first_label": "First name",
+            "last_label": "Last name"
           }
         },
         {

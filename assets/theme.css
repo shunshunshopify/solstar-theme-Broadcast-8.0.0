@@ -16943,6 +16943,48 @@ body .shopify-email-marketing-confirmation__container a {
   color: var(--text-a80);
 }
 
+.contact-form .contact-form__required-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: var(--font-body-x-small);
+  font-weight: var(--FONT-WEIGHT-BODY-BOLD);
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  color: var(--BTN-PRIMARY-TEXT);
+  background-color: var(--BTN-PRIMARY-BG);
+}
+
+.contact-form .contact-form__required-badge--inline {
+  margin-left: 8px;
+}
+
+.contact-form .custom-form__label {
+  text-align: left;
+  font-weight: var(--FONT-WEIGHT-BODY-BOLD);
+}
+
+.contact-form .custom-form__label--heading {
+  margin-bottom: 4px;
+  font-weight: var(--FONT-WEIGHT-BODY-BOLD);
+}
+
+.contact-form .contact-form__name-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media only screen and (max-width: 749px) {
+  .contact-form .contact-form__name-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .contact-form .custom-form__block {
   margin-bottom: 20px;
 }
