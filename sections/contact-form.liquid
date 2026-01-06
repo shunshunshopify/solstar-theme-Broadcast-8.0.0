@@ -70,16 +70,18 @@
         {%- case block.type -%}
           {%- when 'email' -%}
             <div
-              class="custom-form__block{% if required != blank %} custom-form__block--required{% endif %}"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if required != blank -%}
-                <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-              {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="email"
                 class="contactFormEmail field"
@@ -94,16 +96,18 @@
 
           {%- when 'body' -%}
             <div
-              class="custom-form__block{% if required != blank %} custom-form__block--required{% endif %}"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if required != blank -%}
-                <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-              {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -116,16 +120,18 @@
 
           {%- when 'text' -%}
             <div
-              class="custom-form__block{% if required != blank %} custom-form__block--required{% endif %}"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if required != blank -%}
-                <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-              {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="text"
                 class="contactFormText field"
@@ -140,16 +146,18 @@
 
           {%- when 'textarea' -%}
             <div
-              class="custom-form__block{% if required != blank %} custom-form__block--required{% endif %}"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if required != blank -%}
-                <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-              {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -162,16 +170,18 @@
 
           {%- when 'telephone' -%}
             <div
-              class="custom-form__block{% if required != blank %} custom-form__block--required{% endif %}"
+              class="custom-form__block"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if required != blank -%}
-                <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-              {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="visually-hidden">{{ title }}</label>
+              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                {{ title }}
+                {%- if required != blank -%}
+                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                {%- endif -%}
+              </label>
               <input
                 type="tel"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
@@ -385,13 +395,15 @@
         -%}
 
         <div
-          class="custom-form__block custom-form__block--required"
+          class="custom-form__block"
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
         >
-          <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-          <label for="contactFormEmail" class="visually-hidden">{{ email }}</label>
+          <label for="contactFormEmail" class="custom-form__label label--block">
+            {{ email }}
+            <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+          </label>
           <input
             type="email"
             id="contactFormEmail"
@@ -413,13 +425,15 @@
         -%}
 
         <div
-          class="custom-form__block custom-form__block--required"
+          class="custom-form__block"
           data-aos="hero"
           data-aos-anchor="{{ animation_anchor }}"
           data-aos-order="{{ animation_order }}"
         >
-          <span class="contact-form__required-badge" aria-hidden="true">必須</span>
-          <label for="ContactFormMessage" class="visually-hidden">{{ message }}</label>
+          <label for="ContactFormMessage" class="custom-form__label label--block">
+            {{ message }}
+            <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+          </label>
           <textarea
             rows="10"
             id="ContactFormMessage"

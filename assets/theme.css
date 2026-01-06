@@ -16943,11 +16943,6 @@ body .shopify-email-marketing-confirmation__container a {
   color: var(--text-a80);
 }
 
-.contact-form .custom-form__block--required {
-  display: grid;
-  justify-items: stretch;
-}
-
 .contact-form .contact-form__required-badge {
   display: inline-flex;
   align-items: center;
@@ -16964,12 +16959,12 @@ body .shopify-email-marketing-confirmation__container a {
   background-color: var(--BTN-PRIMARY-BG);
 }
 
-.contact-form .custom-form__block--required .contact-form__required-badge {
-  justify-self: end;
-}
-
 .contact-form .contact-form__required-badge--inline {
   margin-left: 8px;
+}
+
+.contact-form .custom-form__label {
+  text-align: left;
 }
 
 .contact-form .custom-form__block {
