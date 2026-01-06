@@ -152,56 +152,57 @@
               >
             </div>
 
-          {%- when 'first_name' -%}
+          {%- when 'name' -%}
             <div
-              class="custom-form__block"
+              class="custom-form__block custom-form__block--name"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
-              <input
-                type="text"
-                class="contactFormText field"
-                id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                name="contact[first_name]"
-                placeholder="{{ placeholder }}"
-                autocapitalize="words"
-                value=""
-                {{ required }}
-              >
-            </div>
-
-          {%- when 'last_name' -%}
-            <div
-              class="custom-form__block"
-              data-aos="hero"
-              data-aos-anchor="{{ animation_anchor }}"
-              data-aos-order="{{ animation_order }}"
-              {{ block.shopify_attributes }}
-            >
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
-              <input
-                type="text"
-                class="contactFormText field"
-                id="Form-{{ section.id }}-{{ forloop.index0 }}"
-                name="contact[last_name]"
-                placeholder="{{ placeholder }}"
-                autocapitalize="words"
-                value=""
-                {{ required }}
-              >
+              {%- if block.settings.heading != blank -%}
+                <p class="custom-form__label custom-form__label--heading">
+                  {{ block.settings.heading }}
+                  {%- if required != blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+              <div class="contact-form__name-grid">
+                <div class="contact-form__name-field">
+                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
+                    {{ block.settings.first_label }}
+                    {%- if required != blank and block.settings.heading == blank -%}
+                      <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                    {%- endif -%}
+                  </label>
+                  <input
+                    type="text"
+                    class="contactFormText field"
+                    id="Form-{{ section.id }}-{{ forloop.index0 }}-first"
+                    name="contact[first_name]"
+                    placeholder="{{ block.settings.first_label }}"
+                    autocapitalize="words"
+                    value=""
+                    {{ required }}
+                  >
+                </div>
+                <div class="contact-form__name-field">
+                  <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
+                    {{ block.settings.last_label }}
+                  </label>
+                  <input
+                    type="text"
+                    class="contactFormText field"
+                    id="Form-{{ section.id }}-{{ forloop.index0 }}-last"
+                    name="contact[last_name]"
+                    placeholder="{{ block.settings.last_label }}"
+                    autocapitalize="words"
+                    value=""
+                    {{ required }}
+                  >
+                </div>
+              </div>
             </div>
 
           {%- when 'textarea' -%}
@@ -712,34 +713,27 @@
       ]
     },
     {
-      "type": "first_name",
-      "name": "First name",
+      "type": "name",
+      "name": "Name",
       "settings": [
         {
           "type": "text",
-          "id": "title",
-          "label": "Label",
-          "default": "First name",
-          "info": "Example: First name"
+          "id": "heading",
+          "label": "Heading",
+          "default": "Name",
+          "info": "Example: Name"
         },
         {
-          "type": "checkbox",
-          "id": "required",
-          "label": "Required",
-          "default": false
-        }
-      ]
-    },
-    {
-      "type": "last_name",
-      "name": "Last name",
-      "settings": [
+          "type": "text",
+          "id": "first_label",
+          "label": "First name label",
+          "default": "First name"
+        },
         {
           "type": "text",
-          "id": "title",
-          "label": "Label",
-          "default": "Last name",
-          "info": "Example: Last name"
+          "id": "last_label",
+          "label": "Last name label",
+          "default": "Last name"
         },
         {
           "type": "checkbox",
@@ -953,15 +947,11 @@
       "category": "Forms",
       "blocks": [
         {
-          "type": "first_name",
+          "type": "name",
           "settings": {
-            "title": "First name"
-          }
-        },
-        {
-          "type": "last_name",
-          "settings": {
-            "title": "Last name"
+            "heading": "Name",
+            "first_label": "First name",
+            "last_label": "Last name"
           }
         },
         {

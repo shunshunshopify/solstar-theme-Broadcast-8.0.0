@@ -16972,6 +16972,18 @@ body .shopify-email-marketing-confirmation__container a {
   font-weight: var(--FONT-WEIGHT-BODY-BOLD);
 }
 
+.contact-form .contact-form__name-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media only screen and (max-width: 749px) {
+  .contact-form .contact-form__name-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .contact-form .custom-form__block {
   margin-bottom: 20px;
 }
