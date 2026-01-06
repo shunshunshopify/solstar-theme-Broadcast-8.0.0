@@ -328,6 +328,7 @@
         "text_PzkdL8",
         "button_FFFgqn"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
