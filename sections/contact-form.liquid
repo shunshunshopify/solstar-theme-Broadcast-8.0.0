@@ -186,9 +186,21 @@
             >
               <div class="contact-form__name-grid">
                 <div class="contact-form__name-field">
+                  {%- assign show_first_heading = false -%}
+                  {%- if block.settings.first_heading != blank and block.settings.first_heading != block.settings.first_label -%}
+                    {%- assign show_first_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_first_heading -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.first_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
                     {{ block.settings.first_label }}
-                    {%- if required != blank -%}
+                    {%- if required != blank and show_first_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
                     {%- endif -%}
                   </label>
@@ -204,9 +216,21 @@
                   >
                 </div>
                 <div class="contact-form__name-field">
+                  {%- assign show_last_heading = false -%}
+                  {%- if block.settings.last_heading != blank and block.settings.last_heading != block.settings.last_label -%}
+                    {%- assign show_last_heading = true -%}
+                  {%- endif -%}
+                  {%- if show_last_heading -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.last_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
                     {{ block.settings.last_label }}
-                    {%- if required != blank -%}
+                    {%- if required != blank and show_last_heading == false -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
                     {%- endif -%}
                   </label>
@@ -761,9 +785,21 @@
       "settings": [
         {
           "type": "text",
+          "id": "first_heading",
+          "label": "First name heading",
+          "default": "First name"
+        },
+        {
+          "type": "text",
           "id": "first_label",
           "label": "First name label",
           "default": "First name"
+        },
+        {
+          "type": "text",
+          "id": "last_heading",
+          "label": "Last name heading",
+          "default": "Last name"
         },
         {
           "type": "text",
@@ -991,6 +1027,8 @@
         {
           "type": "name",
           "settings": {
+            "first_heading": "First name",
+            "last_heading": "Last name",
             "first_label": "First name",
             "last_label": "Last name"
           }
