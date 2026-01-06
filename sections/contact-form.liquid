@@ -160,19 +160,19 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              {%- if block.settings.heading != blank -%}
-                <p class="custom-form__label custom-form__label--heading">
-                  {{ block.settings.heading }}
-                  {%- if required != blank -%}
-                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                  {%- endif -%}
-                </p>
-              {%- endif -%}
               <div class="contact-form__name-grid">
                 <div class="contact-form__name-field">
+                  {%- if block.settings.first_heading != blank -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.first_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-first" class="custom-form__label label--block">
                     {{ block.settings.first_label }}
-                    {%- if required != blank and block.settings.heading == blank -%}
+                    {%- if required != blank and block.settings.first_heading == blank -%}
                       <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
                     {%- endif -%}
                   </label>
@@ -188,8 +188,19 @@
                   >
                 </div>
                 <div class="contact-form__name-field">
+                  {%- if block.settings.last_heading != blank -%}
+                    <p class="custom-form__label custom-form__label--heading">
+                      {{ block.settings.last_heading }}
+                      {%- if required != blank -%}
+                        <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                      {%- endif -%}
+                    </p>
+                  {%- endif -%}
                   <label for="Form-{{ section.id }}-{{ forloop.index0 }}-last" class="custom-form__label label--block">
                     {{ block.settings.last_label }}
+                    {%- if required != blank and block.settings.last_heading == blank -%}
+                      <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                    {%- endif -%}
                   </label>
                   <input
                     type="text"
@@ -702,7 +713,7 @@
           "type": "text",
           "id": "heading",
           "label": "Heading",
-          "info": "Optional. Defaults to Label."
+          "info": "Optional. Shows above label."
         },
         {
           "type": "checkbox",
@@ -718,10 +729,17 @@
       "settings": [
         {
           "type": "text",
-          "id": "heading",
-          "label": "Heading",
-          "default": "Name",
-          "info": "Example: Name"
+          "id": "first_heading",
+          "label": "First name heading",
+          "default": "First name",
+          "info": "Optional. Shows above label."
+        },
+        {
+          "type": "text",
+          "id": "last_heading",
+          "label": "Last name heading",
+          "default": "Last name",
+          "info": "Optional. Shows above label."
         },
         {
           "type": "text",
@@ -949,7 +967,8 @@
         {
           "type": "name",
           "settings": {
-            "heading": "Name",
+            "first_heading": "First name",
+            "last_heading": "Last name",
             "first_label": "First name",
             "last_label": "Last name"
           }
