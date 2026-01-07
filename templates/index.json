@@ -372,7 +372,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "詳細を見る",
-            "button_url": "shopify://pages/shopify-basic-plan",
+            "button_url": "shopify://pages/shopify-ec-store-basic-plan",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
