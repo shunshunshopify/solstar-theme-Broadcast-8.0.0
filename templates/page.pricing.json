@@ -48,38 +48,15 @@
         "padding_bottom": 0
       }
     },
-    "section_rich_text_7wY9EH": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_479Hpq": {
-          "type": "heading",
-          "settings": {
-            "title": "最初の一歩を踏み出しましょう",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_JXb9yN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_479Hpq",
-        "text_JXb9yN"
-      ],
+    "section_custom_code_PYAnkJ": {
+      "type": "section-custom-code",
+      "name": "Custom code",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
+        "code": "<style>\n/* ===========================\n   SOLSTAR – Standard Plan (Isolated)\n   ※ solstar-basic と干渉しないように完全別prefix\n   =========================== */\n.solstar-standard {\n  --ss-text: #111111;\n  --ss-line: #e5e7eb;\n  --ss-card: #ffffff;\n\n  color: var(--ss-text);\n  padding: 56px 16px;\n}\n\n.solstar-standard__inner {\n  max-width: 1020px;\n  margin: 0 auto;\n}\n\n/* Header */\n.solstar-standard__header {\n  margin-bottom: 18px;\n}\n\n.solstar-standard__title {\n  font-size: 36px;\n  line-height: 1.15;\n  font-weight: 900;\n  margin: 0 0 10px;\n}\n\n.solstar-standard__sub {\n  margin: 0;\n  font-size: 15px;\n  line-height: 1.9;\n  font-weight: 900;\n}\n\n/* Layout */\n.solstar-standard__layout {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 16px;\n  margin-top: 18px;\n  align-items: stretch;\n}\n\n/* Card */\n.solstar-standard-card {\n  background: var(--ss-card);\n  border: 1px solid var(--ss-line);\n  border-radius: 16px;\n  padding: 18px;\n  min-width: 0;\n}\n\n.solstar-standard-card__title {\n  margin: 0 0 14px;\n  font-size: 16px;\n  font-weight: 900;\n  line-height: 1.35;\n}\n\n/* ===== Table ===== */\n.solstar-standard-table-wrap {\n  border: none;\n  border-radius: 14px;\n  overflow: hidden;\n  background: transparent;\n}\n\n.solstar-standard-table {\n  width: 100%;\n  border-collapse: collapse;\n  table-layout: fixed;\n  border: 1px solid var(--ss-line);\n  border-radius: 14px;\n  overflow: hidden;\n  background: #fff;\n}\n\n.solstar-standard-table th,\n.solstar-standard-table td {\n  padding: 12px 14px;\n  border-top: 1px solid var(--ss-line);\n  vertical-align: middle;\n  text-align: left;\n}\n\n.solstar-standard-table tr:first-child th,\n.solstar-standard-table tr:first-child td {\n  border-top: none;\n}\n\n.solstar-standard-table th {\n  width: 34%;\n  font-size: 12px;\n  font-weight: 700;\n  white-space: nowrap;\n  border-right: 1px solid var(--ss-line);\n}\n\n.solstar-standard-table td {\n  font-size: 14px;\n  line-height: 1.7;\n  word-break: break-word;\n}\n\n/* ===== Lists ===== */\n.solstar-standard-list {\n  list-style: disc;\n  margin: 0;\n  padding-left: 1.2em;\n}\n\n.solstar-standard-list li {\n  margin-top: 6px;\n  font-size: 14px;\n  line-height: 1.7;\n}\n.solstar-standard-list li:first-child { margin-top: 0; }\n\n/* Bullet OFF (only inside tables) */\n.solstar-standard-table .solstar-standard-list {\n  list-style: none;\n  padding-left: 0;\n  margin-left: 0;\n}\n.solstar-standard-table .solstar-standard-list li { margin-left: 0; }\n\n/* Desktop */\n@media (min-width: 860px) {\n  .solstar-standard {\n    padding: 72px 24px;\n  }\n\n  .solstar-standard__layout {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n  }\n\n  .solstar-standard-service { grid-column: 1; grid-row: 1; }\n  .solstar-standard-scope   { grid-column: 2; grid-row: 1; }\n  .solstar-standard-client  { grid-column: 1; grid-row: 2; }\n  .solstar-standard-paid    { grid-column: 2; grid-row: 2; }\n  .solstar-standard-nosup   { grid-column: 1; grid-row: 3; }\n\n  .solstar-standard-table th { width: 32%; }\n}\n\n/* Small screens */\n@media (max-width: 420px) {\n  .solstar-standard-table th {\n    width: 38%;\n    white-space: normal;\n  }\n}\n</style>\n\n<section class=\"solstar-standard\">\n  <div class=\"solstar-standard__inner\">\n    <header class=\"solstar-standard__header\">\n      <h2 class=\"solstar-standard__title\">Standardプラン</h2>\n      <p class=\"solstar-standard__sub\">商品数・機能拡張を前提とした、Shopify移行・中規模向けプラン</p>\n    </header>\n\n    <div class=\"solstar-standard__layout\">\n      <!-- サービス基本情報 -->\n      <section class=\"solstar-standard-card solstar-standard-service\">\n        <h3 class=\"solstar-standard-card__title\">サービス基本情報</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <tbody>\n              <tr><th>納期</th><td>約6〜10週間</td></tr>\n              <tr><th>価格</th><td>200万円（税別）〜</td></tr>\n              <tr><th>体制</th><td>ディレクター1名＋エンジニア2名</td></tr>\n              <tr><th>対象</th><td>Shopifyへの移行、または商品数約100点を扱う事業者</td></tr>\n              <tr>\n                <th>進捗打合せ</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>3回（要件定義時／構築時／納品前）</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th>納品物</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>構築済み御社ECストア</li>\n                    <li>管理画面・テーマ権限一式</li>\n                  </ul>\n                </td>\n              </tr>\n              <tr>\n                <th>修正・変更ルール</th>\n                <td>\n                  <ul class=\"solstar-standard-list\">\n                    <li>3回まで</li>\n                    <li>※大幅変更は別途お見積り</li>\n                  </ul>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 制作内容 -->\n      <section class=\"solstar-standard-card solstar-standard-scope\">\n        <h3 class=\"solstar-standard-card__title\">制作内容</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <tbody>\n              <tr><th>コンセプト定義</th><td>ペルソナ整理／ブランドの方向性確認</td></tr>\n              <tr><th>要件定義</th><td>事業内容・商品特性のヒアリング</td></tr>\n              <tr><th>ECサイトセットアップ</th><td>基本情報・ページ設定／決済・配送・税設定</td></tr>\n              <tr><th>サイトデザイン制作</th><td>各ページのデザイン調整／AIバナー画像制作（3点）</td></tr>\n              <tr><th>各種データ登録</th><td>商品登録（最大100点）／カテゴリー登録（最大20点）／既存ECからの主要データ移行（最大20件）</td></tr>\n              <tr><th>アプリ連携</th><td>6点</td></tr>\n              <tr><th>オリジナルページ制作</th><td>6ページ</td></tr>\n              <tr><th>テスト・公開</th><td>購入テスト・表示確認（PC／Mobile）</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- お客様に対応いただくこと -->\n      <section class=\"solstar-standard-card solstar-standard-client\">\n        <h3 class=\"solstar-standard-card__title\">お客様に対応いただくこと</h3>\n        <div class=\"solstar-standard-table-wrap\">\n          <table class=\"solstar-standard-table\">\n            <tbody>\n              <tr><th>素材・ドメイン準備</th><td>キービジュアル、商品情報、画像素材、ドメイン</td></tr>\n              <tr><th>コンテンツ提供</th><td>コンテンツ原稿のご用意</td></tr>\n              <tr><th>ECサイト運用</th><td>納品後の運用・更新</td></tr>\n            </tbody>\n          </table>\n        </div>\n      </section>\n\n      <!-- 別途有料対応 -->\n      <section class=\"solstar-standard-card solstar-standard-paid\">\n        <h3 class=\"solstar-standard-card__title\">別途有料対応となる内容</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>保守運用サポート</li>\n          <li>追加アプリ実装</li>\n          <li>追加ページ制作</li>\n          <li>追加バナー画像制作</li>\n          <li>越境対応</li>\n          <li>外部システム連携</li>\n          <li>POS連携</li>\n        </ul>\n      </section>\n\n      <!-- 対応不可 -->\n      <section class=\"solstar-standard-card solstar-standard-nosup\">\n        <h3 class=\"solstar-standard-card__title\">対応不可</h3>\n        <ul class=\"solstar-standard-list\">\n          <li>アプリ開発</li>\n        </ul>\n      </section>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
         "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 26,
-        "padding_bottom": 26
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "contact_form_XtLXAm": {
@@ -177,7 +154,7 @@
     "main",
     "section_custom_code_kkwVXf",
     "section_custom_code_G4hPhT",
-    "section_rich_text_7wY9EH",
+    "section_custom_code_PYAnkJ",
     "contact_form_XtLXAm"
   ]
 }
