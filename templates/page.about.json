@@ -32,16 +32,16 @@
         "heading_NyzxJ4": {
           "type": "heading",
           "settings": {
-            "title": "私たちのミッション",
-            "heading_font_size": "heading-large",
+            "title": "About Us",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h1"
           }
         },
         "text_dWmYBn": {
           "type": "text",
           "settings": {
-            "text": "<p>私たちSolstarは、Shopifyの可能性を最大限に引き出し、お客様の夢をECサイトを通して実現することを使命とします。</p><p>お客様の声に耳を傾け、圧倒的な成果へと導く—それが私たちの誇りです。Shopifyの専門性とSolstarの情熱によって、唯一無二のEC体験をご提供します。<br/><br/>私たちは、あらゆる挑戦に全力で向き合い、お客様の未来を共に描きます。</p>",
+            "text": "<h2>Shopifyで、理想のECを“成果が出る形”に。</h2><p>株式会社SOLSTARは、<strong>日本市場に特化したShopify専門のECサイト構築会社</strong>です。</p><p>　<br/><br/>2023年の設立以来、私たちは一貫して「作ること」ではなく、<strong>ECで成果を出すこと</strong>を目的にサービスを設計してきました。</p><p>　　</p><p>SOLSTARは、<strong>必要なものを、必要な分だけ、最初から正しく設計する。</strong>この思想を軸に、使いやすさ・デザイン性・運用効率を高次元で両立したECサイトを提供しています。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
