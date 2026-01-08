@@ -65,6 +65,10 @@
               assign has_required_field = true
             endunless
           endif
+          assign hide_label = false
+          if block.type == 'email' or block.type == 'body' or block.type == 'text' or block.type == 'telephone'
+            assign hide_label = true
+          endif
         -%}
 
         {%- case block.type -%}
@@ -88,12 +92,14 @@
                   {%- endif -%}
                 </p>
               {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank and show_heading == false -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
+              {%- unless hide_label -%}
+                <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                  {{ title }}
+                  {%- if required != blank and show_heading == false -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </label>
+              {%- endunless -%}
               <input
                 type="email"
                 class="field"
@@ -102,6 +108,7 @@
                 placeholder="{{ placeholder }}"
                 autocorrect="off"
                 autocapitalize="off"
+                aria-label="{{ title }}"
                 {{ required }}
               >
             </div>
@@ -126,18 +133,21 @@
                   {%- endif -%}
                 </p>
               {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank and show_heading == false -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
+              {%- unless hide_label -%}
+                <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                  {{ title }}
+                  {%- if required != blank and show_heading == false -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </label>
+              {%- endunless -%}
               <textarea
                 rows="10"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
                 class="field"
                 name="contact[body]"
                 placeholder="{{ placeholder }}"
+                aria-label="{{ title }}"
                 {{ required -}}
               ></textarea>
             </div>
@@ -158,12 +168,14 @@
                   {%- endif -%}
                 </p>
               {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank and block.settings.heading == blank -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
+              {%- unless hide_label -%}
+                <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                  {{ title }}
+                  {%- if required != blank and block.settings.heading == blank -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </label>
+              {%- endunless -%}
               <input
                 type="text"
                 class="field"
@@ -171,6 +183,7 @@
                 name="contact[{{ title | handleize | default: 'text' }}]"
                 placeholder="{{ placeholder }}"
                 autocapitalize="words"
+                aria-label="{{ title }}"
                 value=""
                 {{ required }}
               >
@@ -304,18 +317,21 @@
                   {%- endif -%}
                 </p>
               {%- endif -%}
-              <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
-                {{ title }}
-                {%- if required != blank and show_heading == false -%}
-                  <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
-                {%- endif -%}
-              </label>
+              {%- unless hide_label -%}
+                <label for="Form-{{ section.id }}-{{ forloop.index0 }}" class="custom-form__label label--block">
+                  {{ title }}
+                  {%- if required != blank and show_heading == false -%}
+                    <span class="contact-form__required-badge contact-form__required-badge--inline" aria-hidden="true">必須</span>
+                  {%- endif -%}
+                </label>
+              {%- endunless -%}
               <input
                 type="tel"
                 id="Form-{{ section.id }}-{{ forloop.index0 }}"
                 class="field"
                 name="contact[telephone]"
                 placeholder="{{ placeholder }}"
+                aria-label="{{ title }}"
                 value=""
                 {{ required }}
               >
