@@ -60,6 +60,40 @@
         "padding_bottom": 50
       }
     },
+    "section_rich_text_DG7JpK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_6kBRmH": {
+          "type": "heading",
+          "settings": {
+            "title": "Mission",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_TMTPQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>The Main Purpose of E-commerce</h3><p>私たちの使命は、<strong>ECサイト運営の本質である「売上の最大化」に、徹底的に向き合うこと。</strong></p><p>そのためにSOLSTARは、心理学的なUI設計、直感的な導線設計、購入体験の最適化を前提としたShopifyテーマと構築手法を採用しています。</p><p>　</p><p>「売るための構造」を理解した上で設計するからこそ、無理な広告投下や過剰なカスタマイズに頼らない、再現性のあるECサイトの運用が可能になります。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_6kBRmH",
+        "text_TMTPQ3"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "double-1": {
       "type": "section-double",
       "blocks": {
@@ -130,6 +164,7 @@
   "order": [
     "main",
     "section_rich_text_RTqCQj",
+    "section_rich_text_DG7JpK",
     "double-1",
     "divider"
   ]
