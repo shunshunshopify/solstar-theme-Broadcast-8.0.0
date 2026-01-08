@@ -102,19 +102,32 @@
     "mobile_menu_GCnn3F": {
       "type": "mobile-menu",
       "blocks": {
-        "menu_columns_QkMRic": {
-          "type": "menu-columns",
+        "menu_HP894z": {
+          "type": "menu",
           "settings": {
             "mobile_menu_linklist": "",
             "text_font_size": "body-large",
             "highlight_item": "Sale",
-            "highlight_item_color": "#D02E2E",
+            "highlight_item_color": "#d02e2e",
+            "padding": true,
+            "padding_bottom": 14
+          }
+        },
+        "menu_columns_QkMRic": {
+          "type": "menu-columns",
+          "disabled": true,
+          "settings": {
+            "mobile_menu_linklist": "",
+            "text_font_size": "body-large",
+            "highlight_item": "Sale",
+            "highlight_item_color": "#d02e2e",
             "padding": true,
             "padding_bottom": 14
           }
         }
       },
       "block_order": [
+        "menu_HP894z",
         "menu_columns_QkMRic"
       ],
       "name": "Mobile menu",
