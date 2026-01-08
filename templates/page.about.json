@@ -54,9 +54,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "image": "shopify://shop_images/3_3846d8c5-c012-4cf7-b3cc-cbcb8e1f99c6.jpg",
-        "image_mobile": "shopify://shop_images/Picture.jpg",
-        "color_scheme": "scheme-9",
+        "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
