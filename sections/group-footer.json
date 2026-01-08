@@ -62,7 +62,7 @@
         "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
       ],
       "settings": {
-        "logo": "shopify://shop_images/Logo_Rectangle_copy_ecca356e-11a3-4d56-94ca-f1d93097c5f0.png",
+        "logo": "shopify://shop_images/Solstar_Rectangle_White.png",
         "logo_image_width": 150,
         "color_scheme": "scheme-10",
         "border_color": "#212121",
