@@ -19,7 +19,7 @@
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 0,
         "heading_tag": "automatic"
