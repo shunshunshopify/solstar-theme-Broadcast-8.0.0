@@ -7369,9 +7369,14 @@ body.grid-classic .grandparent .menu__blocks:last-child .menu__block:last-child 
 }
 
 /* ================ Header cart status ================ */
-.header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]),
 .header__desktop__button:has(.navlink--cart cart-count[data-cart-count="0"]) {
   display: none;
+}
+
+/* Keep the mobile grid column intact so the hamburger remains clickable. */
+.header__mobile__button:has(.navlink--cart cart-count[data-cart-count="0"]) {
+  visibility: hidden;
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 749px) {
