@@ -165,27 +165,13 @@
     "double-1": {
       "type": "section-double",
       "blocks": {
-        "subheading_XTkhJK": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "代表取締役",
-            "padding_bottom": 0
-          }
-        },
-        "subheading_hN8yiC": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "島袋 隼",
-            "padding_bottom": 16
-          }
-        },
         "heading-1-1": {
           "type": "heading",
           "settings": {
             "title": "Shopifyで理想のECサイトを形に",
-            "heading_font_size": "heading-medium",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text-1-1": {
@@ -195,13 +181,19 @@
             "text_font_size": "body-medium",
             "padding_bottom": 0
           }
+        },
+        "subheading_XTkhJK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "代表取締役　島袋　淳",
+            "padding_bottom": 0
+          }
         }
       },
       "block_order": [
-        "subheading_XTkhJK",
-        "subheading_hN8yiC",
         "heading-1-1",
-        "text-1-1"
+        "text-1-1",
+        "subheading_XTkhJK"
       ],
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Image.jpg",
