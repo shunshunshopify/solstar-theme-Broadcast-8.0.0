@@ -112,22 +112,10 @@
             "padding": true,
             "padding_bottom": 14
           }
-        },
-        "menu_jRYCKJ": {
-          "type": "menu",
-          "settings": {
-            "mobile_menu_linklist": "",
-            "text_font_size": "body-large",
-            "highlight_item": "Sale",
-            "highlight_item_color": "#D02E2E",
-            "padding": true,
-            "padding_bottom": 14
-          }
         }
       },
       "block_order": [
-        "menu_columns_QkMRic",
-        "menu_jRYCKJ"
+        "menu_columns_QkMRic"
       ],
       "name": "Mobile menu",
       "settings": {
