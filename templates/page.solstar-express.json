@@ -1067,24 +1067,32 @@
         "email_UdkwYL": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
-            "heading": "",
+            "title": "Email",
+            "heading": "メールアドレス",
             "required": true
           }
         },
         "telephone_EkBVe9": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
-            "heading": "",
+            "title": "Phone Number",
+            "heading": "電話番号",
             "required": true
           }
         },
         "text_yTHfdL": {
           "type": "text",
           "settings": {
-            "title": "会社名",
-            "heading": "",
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_jKXKxT": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
             "required": false
           }
         },
@@ -1128,6 +1136,7 @@
         "email_UdkwYL",
         "telephone_EkBVe9",
         "text_yTHfdL",
+        "text_jKXKxT",
         "body_6KVzr6",
         "select_FagYn4",
         "select_ApML6n"
