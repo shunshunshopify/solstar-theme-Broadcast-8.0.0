@@ -305,13 +305,11 @@
             "padding_bottom": 50
           }
         },
-        "heading_tLHVjL": {
-          "type": "heading",
+        "code_KLPcVj": {
+          "type": "code",
           "settings": {
-            "title": "SOLSTAR EXPRESS",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "automatic",
-            "padding_bottom": 50
+            "code": "<p>SOLSATR EXPRESS</p>",
+            "padding_bottom": 8
           }
         },
         "button_QmXPzr": {
@@ -339,7 +337,7 @@
       "block_order": [
         "text_kACN66",
         "code_GWijPt",
-        "heading_tLHVjL",
+        "code_KLPcVj",
         "button_QmXPzr",
         "text_fEjKCV"
       ],
