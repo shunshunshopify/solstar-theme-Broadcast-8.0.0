@@ -1109,23 +1109,10 @@
           "settings": {
             "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "国内ECサイト構築",
-            "label-two": "グローバルECサイト構築",
-            "label-three": "ECサイトリニューアル",
-            "label-four": "その他",
-            "label-five": "",
-            "label-six": ""
-          }
-        },
-        "select_ApML6n": {
-          "type": "select",
-          "settings": {
-            "title": "ご希望プラン",
-            "required": true,
-            "label-one": "Basicプランで相談する",
-            "label-two": "Standardプランで相談する",
-            "label-three": "Proプランで相談する",
-            "label-four": "プランを決めずに相談する",
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by SOLSTARについて",
+            "label-three": "",
+            "label-four": "",
             "label-five": "",
             "label-six": ""
           }
@@ -1138,8 +1125,7 @@
         "text_yTHfdL",
         "text_jKXKxT",
         "body_6KVzr6",
-        "select_FagYn4",
-        "select_ApML6n"
+        "select_FagYn4"
       ],
       "settings": {
         "title": "お問い合わせ",
