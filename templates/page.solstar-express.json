@@ -32,7 +32,7 @@
         "code_XfbwD8": {
           "type": "code",
           "settings": {
-            "code": "<style>\n  /* ===========================\n     SOLSTAR – Hero Headings\n     H1は維持 / H2は見出しタグを使わずテキスト扱いに変更\n     =========================== */\n\n  /* H1：メイン見出し（SEO主役） */\n  .solstar-h1 {\n    font-size: 26px;   /* PC */\n    font-weight: 700;\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-h1 {\n      font-size: 20px; /* Mobile */\n    }\n  }\n\n  /* 元H2：ヒーロー文言（見出しタグではなくテキスト扱い） */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<!-- ✅ H2をやめて、pに変更（見た目は同じ、SEO構造はH1に集約） -->\n<p class=\"solstar-hero-heading\">\n  EC担当者を雇わなくても、大丈夫です。\n</p>\n\n<h1 class=\"solstar-h1\">\n  サブスク型ECサイト構築サービス<br>\n  SOLSTAR EXPRESS\n</h1>",
+            "code": "<style>\n  /* ===========================\n     SOLSTAR – Hero Headings\n     H1は維持 / H2は見出しタグを使わずテキスト扱いに変更\n     =========================== */\n\n  /* H1：メイン見出し（SEO主役） */\n  .solstar-h1 {\n    font-size: 26px;   /* PC */\n    font-weight: 700;\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-h1 {\n      font-size: 20px; /* Mobile */\n    }\n  }\n\n  /* 元H2：ヒーロー文言（見出しタグではなくテキスト扱い） */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<!-- ✅ H2をやめて、pに変更（見た目は同じ、SEO構造はH1に集約） -->\n<p class=\"solstar-hero-heading\">\n  EC担当者を雇わなくても、もう大丈夫です。\n</p>\n\n<h1 class=\"solstar-h1\">\n  サブスク型ECサイト構築サービス<br>\n  SOLSTAR EXPRESS\n</h1>",
             "padding_bottom": 0
           }
         },
@@ -60,7 +60,7 @@
         "text_RKh38R": {
           "type": "text",
           "settings": {
-            "text": "<p>初期費用5万円／月額29,800円（税別）〜</p><p><strong>最短2〜4週間でローンチ｜構築・運用お任せ</strong></p>",
+            "text": "<p>初期費用5万円／月額29,800円（税別）〜</p><p>最短2〜4週間でローンチ｜構築・運用お任せ</p>",
             "text_font_size": "body-small",
             "padding_bottom": 8
           }
