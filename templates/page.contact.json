@@ -60,7 +60,7 @@
           "settings": {
             "title": "Company",
             "heading": "会社名",
-            "required": false
+            "required": true
           }
         },
         "text_7YcUqW": {
