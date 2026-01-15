@@ -127,10 +127,18 @@
             "padding_bottom": 50
           }
         },
+        "text_TmwyHn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>理由はシンプルです。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 30
+          }
+        },
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p>理由はシンプルです。<strong><br/>ECサイトには、時間・人手・予算と、想像以上に高いハードルがあるからです。</strong></p>",
+            "text": "<p><strong>ECサイトには、時間・人手・予算と、想像以上に高いハードルがあるからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
@@ -141,6 +149,7 @@
         "text_NK7Htb",
         "text_9TVpFy",
         "text_ThLxeR",
+        "text_TmwyHn",
         "text_RNRX8y"
       ],
       "name": "H2 Heading",
