@@ -39,27 +39,35 @@
             "required": true
           }
         },
-        "Email": {
+        "email_zEpefz": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
-            "heading": "",
+            "title": "Email",
+            "heading": "メールアドレス",
             "required": true
           }
         },
-        "telephone_Vn8KHD": {
+        "telephone_DmUA6B": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
-            "heading": "",
+            "title": "Phone Number",
+            "heading": "電話番号",
             "required": true
           }
         },
         "text_UNiVit": {
           "type": "text",
           "settings": {
-            "title": "会社名",
-            "heading": "",
+            "title": "Company",
+            "heading": "会社名",
+            "required": false
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
             "required": false
           }
         },
@@ -100,9 +108,10 @@
       },
       "block_order": [
         "name_iQFAiV",
-        "Email",
-        "telephone_Vn8KHD",
+        "email_zEpefz",
+        "telephone_DmUA6B",
         "text_UNiVit",
+        "text_7YcUqW",
         "Message",
         "select_GTz36X",
         "Options-select"
