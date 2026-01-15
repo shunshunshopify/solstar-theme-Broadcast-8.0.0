@@ -23,8 +23,8 @@
         "text_xcPt68": {
           "type": "text",
           "settings": {
-            "text": "<p>有料テーマ並みの機能を無料で体験しよう</p>",
-            "text_font_size": "body-medium"
+            "text": "<p><strong>すべての機能を30日間無料でお試しいただけます。</strong></p>",
+            "text_font_size": "body-small"
           }
         },
         "button_hkx3tz": {
