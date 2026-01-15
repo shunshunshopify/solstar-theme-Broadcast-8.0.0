@@ -94,6 +94,7 @@
         },
         "Options-select": {
           "type": "select",
+          "disabled": true,
           "settings": {
             "title": "ご希望プラン",
             "required": true,
