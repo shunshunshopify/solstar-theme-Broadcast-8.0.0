@@ -934,24 +934,24 @@
             "icon_color": ""
           }
         },
-        "question_eMPJjq": {
+        "question_tfykwh": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "初期費用5万円以外に、追加費用はかかりますか？",
-            "content": "<p>基本的な構築・運用範囲については、<strong>追加費用は発生致しません</strong>。<br/><br/>ただし、大幅な仕様変更や特別なカスタマイズ、外部有料アプリの導入などをご希望の場合は、別途費用が発生することがあります。</p>",
+            "title": "Shopifyの有料テーマは別途購入が必要ですか？",
+            "content": "<p>弊社が提供するオリジナルテーマ「CREAM」をご利用される場合は、有料テーマの購入は不要です。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
             "icon_color": ""
           }
         },
-        "question_tfykwh": {
+        "question_eMPJjq": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Shopifyの有料テーマやアプリは別途購入が必要ですか？",
-            "content": "<p>弊社が提供するオリジナルテーマ「CREAM」をご利用される場合は、有料テーマの購入は不要です。</p>",
+            "title": "初期費用5万円以外に、追加費用はかかりますか？",
+            "content": "<p>基本的な構築・運用範囲については、<strong>追加費用は発生致しません</strong>。<br/><br/>ただし、大幅な仕様変更や特別なカスタマイズ、外部有料アプリの導入などをご希望の場合は、別途費用が発生することがあります。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -1000,8 +1000,8 @@
         "question_FjRn8N",
         "question_4FmbPy",
         "question_FyMVAP",
-        "question_eMPJjq",
         "question_tfykwh",
+        "question_eMPJjq",
         "question_cRN99h",
         "question_HTqqXq",
         "question_AQwfEE"
