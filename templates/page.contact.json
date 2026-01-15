@@ -84,12 +84,12 @@
           "settings": {
             "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "国内ECサイト構築",
-            "label-two": "グローバルECサイト構築",
-            "label-three": "ECサイトリニューアル",
-            "label-four": "その他",
-            "label-five": "",
-            "label-six": ""
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
           }
         },
         "Options-select": {
