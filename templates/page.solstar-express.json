@@ -33,16 +33,15 @@
           "type": "code",
           "settings": {
             "code": "<style>\n  /* ===========================\n     SOLSTAR – Hero Headings\n     H1は維持 / H2は見出しタグを使わずテキスト扱いに変更\n     =========================== */\n\n  /* H1：メイン見出し（SEO主役） */\n  .solstar-h1 {\n    font-size: 26px;   /* PC */\n    font-weight: 700;\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-h1 {\n      font-size: 20px; /* Mobile */\n    }\n  }\n\n  /* 元H2：ヒーロー文言（見出しタグではなくテキスト扱い） */\n  .solstar-hero-heading {\n    font-size: 36px;     /* デスクトップ */\n    font-weight: 700;\n    letter-spacing: 0;   /* 0% */\n    line-height: 1.3;\n    margin: 0 0 16px;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-hero-heading {\n      font-size: 25px;   /* モバイル */\n    }\n  }\n</style>\n\n<!-- ✅ H2をやめて、pに変更（見た目は同じ、SEO構造はH1に集約） -->\n<p class=\"solstar-hero-heading\">\n  EC担当者を雇わなくても、大丈夫です。\n</p>\n\n<h1 class=\"solstar-h1\">\n  サブスク型ECサイト構築サービス<br>\n  SOLSTAR EXPRESS\n</h1>",
-            "padding_bottom": 20
+            "padding_bottom": 0
           }
         },
-        "heading_m8JKRU": {
-          "type": "heading",
+        "text_t8BCUt": {
+          "type": "text",
           "settings": {
-            "title": "EC未経験でも、まず「売れるか」を試せる。",
-            "heading_font_size": "heading-x-small",
-            "heading_tag": "automatic",
-            "padding_bottom": 8
+            "text": "<p><strong>EC未経験でも、まず「売れるか」を試せる。</strong></p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 0
           }
         },
         "button_awGfeV": {
@@ -69,7 +68,7 @@
       },
       "block_order": [
         "code_XfbwD8",
-        "heading_m8JKRU",
+        "text_t8BCUt",
         "button_awGfeV",
         "text_RKh38R"
       ],
