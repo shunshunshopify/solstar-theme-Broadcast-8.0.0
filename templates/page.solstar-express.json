@@ -121,20 +121,10 @@
         },
         "text_ThLxeR": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>自社商品の反応を、ECで素早く検証したい<br/><br/>クラファンや実店舗で売れている商品を、オンラインでも展開したい<br/><br/>ECを活用して、収入の柱を増やしたい<br/><br/>多くの事業者が、同じ想いを持っています。</p><p>　<br/>それでも実際に、<br/><br/><strong>「時間も人手も足りない」状態のまま、自社ECサイトで成果を出せている事業者はごく一部です。</strong></p>",
+            "text": "<h2><strong>なぜ「今」動けないのか</strong></h2>",
             "text_font_size": "body-large",
             "padding_bottom": 50
-          }
-        },
-        "heading_ftiFTT": {
-          "type": "heading",
-          "settings": {
-            "title": "なぜ「今」動けないのか",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 30,
-            "heading_tag": "automatic"
           }
         },
         "text_RNRX8y": {
@@ -151,7 +141,6 @@
         "text_NK7Htb",
         "text_9TVpFy",
         "text_ThLxeR",
-        "heading_ftiFTT",
         "text_RNRX8y"
       ],
       "name": "H2 Heading",
