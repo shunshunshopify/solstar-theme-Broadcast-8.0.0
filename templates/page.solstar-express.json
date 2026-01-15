@@ -78,7 +78,7 @@
         "image_1": "shopify://shop_images/Solstar_Express_Hero_Image_1_copy.webp",
         "link": "",
         "width": "wrapper--full",
-        "height": "image-height",
+        "height": "screen-height-full",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/Solstar_Express_Hero_Image_1_Vertical_copy.png",
