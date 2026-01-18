@@ -44,6 +44,13 @@
             "padding_bottom": 0
           }
         },
+        "code_YJrDxm": {
+          "type": "code",
+          "settings": {
+            "code": "<div class=\"solstar-awards-image\">\n  <img\n    src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Awards_copy.webp?v=1768725133\"\n    alt=\"Awards\"\n    loading=\"lazy\"\n    decoding=\"async\"\n  >\n</div>\n\n<style>\n  .solstar-awards-image{\n    width: 100%;\n  }\n\n  .solstar-awards-image img{\n    display: block;\n    width: 100%;       /* mobile: same size (full width) */\n    height: auto;\n  }\n\n  /* desktop */\n  @media (min-width: 990px){\n    .solstar-awards-image{\n      max-width: 1000px;\n      margin: 0 auto;\n    }\n\n    .solstar-awards-image img{\n      width: min(520px, 100%); /* a little smaller on desktop */\n      margin-left: 0;          /* place on left */\n      margin-right: auto;\n    }\n  }\n</style>",
+            "padding_bottom": 10
+          }
+        },
         "button_awGfeV": {
           "type": "button",
           "settings": {
@@ -69,6 +76,7 @@
       "block_order": [
         "code_XfbwD8",
         "text_t8BCUt",
+        "code_YJrDxm",
         "button_awGfeV",
         "text_RKh38R"
       ],
