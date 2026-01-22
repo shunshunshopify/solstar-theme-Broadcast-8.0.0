@@ -32,16 +32,16 @@
         "heading_NyzxJ4": {
           "type": "heading",
           "settings": {
-            "title": "About Us — SOLSTAR",
+            "title": "SOLSTARについて",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
-            "heading_tag": "h2"
+            "heading_tag": "h1"
           }
         },
         "text_dWmYBn": {
           "type": "text",
           "settings": {
-            "text": "<h3>Shopifyで、成果につながるECを。</h3><p>SOLSTARは、日本市場に特化したShopify専門のECサイト構築・運営パートナーです。<br/><br/>私たちは中小企業が手軽に高品質なECサイトを立ち上げられるよう支援すると同時に、エンタープライズな企業様にも最適なソリューションを提供します。</p>",
+            "text": "<h3>成果につながるECを、Shopifyで実現</h3><p>株式会社SOLSTARは、日本市場にフォーカスしたShopifyを専門にECサイトの構築と運営を支援するパートナーです。さまざまな業種が高品質なECサイトを気軽に立ち上げられるようサポートし、幅広いニーズに応えるソリューションを提供します。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -75,7 +75,7 @@
         "text_TMTPQ3": {
           "type": "text",
           "settings": {
-            "text": "<h3>誰もが手軽に、そして確実に成長できるE-コマースを</h3><p>SOLSTARのミッションは、限られた予算でも高品質なECサイトを立ち上げ、事業者が確実に売上を立てられるよう支援することです。</p>",
+            "text": "<h3>誰もが手軽に、そして確実に成長できるEコマースを</h3><p>SOLSTARのミッションは、限られた予算でも高品質なECサイトを立ち上げ、事業者が確実に売上を立てられるよう支援することです。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -109,7 +109,7 @@
         "text_TAUQXM": {
           "type": "text",
           "settings": {
-            "text": "<h3>日本で中小企業向けのShopify EC構築をリードする</h3><p>私たちは、日本において中小企業がShopifyを活用してECサイトを構築し、成長できるようにサポートすることで、この分野で日本一の存在になることを目指しています。<br/><br/>大きなコストをかけず、より多くの中小企業が自信を持ってECに挑戦できる環境を創り出すことが、私たちのビジョンです。</p>",
+            "text": "<h3>日本でShopify EC構築をリードする</h3><p>私たちは、事業者がShopifyを活用してECサイトを構築し、成長できるようサポートすることで、この分野で日本のリーダーになることを目指しています。大きなコストをかけずに、より多くの事業者が自信を持ってEコマース事業に挑戦できる環境をつくることがビジョンです。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -143,7 +143,7 @@
         "text_AYjMTx": {
           "type": "text",
           "settings": {
-            "text": "<h3>フロントエンド重視と大規模実績で安心感を</h3><p>私たちの強みは、UI/UXを最適化したフロントエンド構築と、<strong>エンタープライズレベルの大規模案件実績</strong>です。<br/><br/>私たちは、中小企業だけでなく、大手企業の複雑なニーズにも対応し、Shopifyを基盤とした高度なECサイトを成功に導いてきました。<br/><br/>オリジナルテーマ「Cream by Solstar」を活用することで、規模を問わず成果につながるEC体験を提供します。</p>",
+            "text": "<h3>フロントエンド重視と大規模実績で安心感を</h3><p>私たちの強みは、UI/UXを最適化したフロントエンド構築と、<strong>エンタープライズレベルの大規模案件実績</strong>です。多様な事業者の複雑な要望にも応え、Shopifyを基盤にした高度なオンラインストアを成功に導いてきました。<br/><br/>オリジナルテーマ「Cream by Solstar」を活用することで、規模を問わず成果につながるEC体験を提供します。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
