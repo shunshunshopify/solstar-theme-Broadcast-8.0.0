@@ -52,7 +52,7 @@
         "text_dWmYBn"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
@@ -75,7 +75,7 @@
         "text_TMTPQ3": {
           "type": "text",
           "settings": {
-            "text": "<h3>誰もが手軽に、そして確実に成長できるEコマースを</h3><p>SOLSTARのミッションは、限られた予算でも高品質なECサイトを立ち上げ、事業者が確実に売上を立てられるよう支援することです。</p>",
+            "text": "<h3>誰もが手軽に、そして確実に成長できるEコマースを</h3><p>SOLSTARのミッションは、限られた予算でもブランドコンセプトを理解した「売れる」ECサイトを構築し、事業者が確実に売上を立てられるよう支援することです。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -86,7 +86,7 @@
         "text_TMTPQ3"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
@@ -109,7 +109,7 @@
         "text_TAUQXM": {
           "type": "text",
           "settings": {
-            "text": "<h3>日本でShopify EC構築をリードする</h3><p>私たちは、事業者がShopifyを活用してECサイトを構築し、成長できるようサポートすることで、この分野で日本のリーダーになることを目指しています。大きなコストをかけずに、より多くの事業者が自信を持ってEコマース事業に挑戦できる環境をつくることがビジョンです。</p>",
+            "text": "<h3>日本でShopify EC構築をリードする</h3><p>私たちは、事業者がShopifyを活用してECサイトを構築し、成長できるようサポートすることで、この分野で日本のリーダーになることを目指しています。2030年までに、Eコマース事業で年商1億以上のブランドを100社輩出することを目標に掲げております。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -120,7 +120,7 @@
         "text_TAUQXM"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
@@ -133,6 +133,7 @@
       "blocks": {
         "heading_xbwXhj": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Why SOLSTAR",
             "heading_font_size": "heading-x-large",
@@ -154,7 +155,7 @@
         "text_AYjMTx"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
