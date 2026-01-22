@@ -179,7 +179,7 @@
           "settings": {
             "text": "<p>株式会社SOLSTARは、日本市場に特化したShopify専門のECサイト開発会社として2023年に設立されました。開発費10億円超の大規模ECサイトや年間売上60億円以上のShopify Plusサイトの構築・運用実績を持ち、幅広いビジネスニーズに対応しています。</p><p>私たちは、パフォーマンスに優れ、使いやすさとデザイン性を両立したECサイトを提供し、運用コストを最小限に抑えることでお客様の成長を支援します。また、Shopifyアカデミー認定資格を多数保有し、専門知識を活かした最適なソリューションを提供いたします。</p><p>今後ともご支援のほど、よろしくお願い申し上げます。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 0
+            "padding_bottom": 10
           }
         },
         "subheading_XTkhJK": {
@@ -195,21 +195,13 @@
             "subheading": "サンディエゴ州立大学 経済学部 卒業",
             "padding_bottom": 10
           }
-        },
-        "subheading_ir6dX9": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "表現力・感性の研鑽を目的に、Garry PandaとしてDJ活動を行う",
-            "padding_bottom": 10
-          }
         }
       },
       "block_order": [
         "heading-1-1",
         "text-1-1",
         "subheading_XTkhJK",
-        "subheading_TtkViy",
-        "subheading_ir6dX9"
+        "subheading_TtkViy"
       ],
       "settings": {
         "image_2": "shopify://shop_images/20240930_Shimabukuro_sama-24703.jpg",
