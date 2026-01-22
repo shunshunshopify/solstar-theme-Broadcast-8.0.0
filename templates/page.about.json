@@ -186,14 +186,30 @@
           "type": "subheading",
           "settings": {
             "subheading": "代表取締役　島袋　隼",
-            "padding_bottom": 0
+            "padding_bottom": 10
+          }
+        },
+        "subheading_TtkViy": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サンディエゴ州立大学 経済学部 卒業",
+            "padding_bottom": 10
+          }
+        },
+        "subheading_ir6dX9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "表現力・感性の研鑽を目的に、Garry PandaとしてDJ活動を行う",
+            "padding_bottom": 10
           }
         }
       },
       "block_order": [
         "heading-1-1",
         "text-1-1",
-        "subheading_XTkhJK"
+        "subheading_XTkhJK",
+        "subheading_TtkViy",
+        "subheading_ir6dX9"
       ],
       "settings": {
         "image_2": "shopify://shop_images/20240930_Shimabukuro_sama-24703.jpg",
