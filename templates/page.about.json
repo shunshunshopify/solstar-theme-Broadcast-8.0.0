@@ -75,7 +75,7 @@
         "text_TMTPQ3": {
           "type": "text",
           "settings": {
-            "text": "<h3>誰もが手軽に、そして確実に成長できるEコマースを</h3><p>SOLSTARのミッションは、限られた予算でもブランドコンセプトを理解した「売れる」ECサイトを構築し、事業者が確実に売上を立てられるよう支援することです。</p>",
+            "text": "<h3>誰もが手軽に、そして確実に成長できるEコマースを</h3><p>SOLSTARのミッションは、限られた予算でもブランドコンセプトを理解したECサイトを構築し、事業者が確実に売上を立てられるよう支援することです。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 0
           }
@@ -133,9 +133,8 @@
       "blocks": {
         "heading_xbwXhj": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "Why SOLSTAR",
+            "title": "Value",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
