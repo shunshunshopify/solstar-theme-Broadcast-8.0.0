@@ -21,7 +21,11 @@
       -%}
     </div>
 
-    {%- assign show_shipping_policy = block.settings.show_shipping_policy | default: true -%}
+    {%- assign show_shipping_policy_setting = block.settings.show_shipping_policy -%}
+    {%- assign show_shipping_policy = true -%}
+    {%- if show_shipping_policy_setting == false or show_shipping_policy_setting == 'false' -%}
+      {%- assign show_shipping_policy = false -%}
+    {%- endif -%}
     {%- assign show_shipping_policy_and_available = false -%}
     {%- if shop.shipping_policy.body != blank and show_shipping_policy -%}
       {%- assign show_shipping_policy_and_available = true -%}
