@@ -257,7 +257,8 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "image": "shopify://shop_images/mountains-and-sunset-2026-01-07-02-24-34-utc.jpg",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 100,
         "padding_bottom": 100
