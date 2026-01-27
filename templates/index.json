@@ -381,113 +381,6 @@
         "show_placeholder": true
       }
     },
-    "section_collection_links_spotlight_AkxCYy": {
-      "type": "section-collection-links-spotlight",
-      "blocks": {
-        "collection_6eL4nB": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Workflow_1.webp",
-            "title": "STEP 01 お問い合わせ",
-            "heading_font_size": "heading-medium",
-            "button_text": "",
-            "button_link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_show_arrow": false,
-            "background_color": ""
-          }
-        },
-        "collection_yFqfwN": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Workflow_2.webp",
-            "title": "STEP 02 ヒアリング",
-            "heading_font_size": "heading-medium",
-            "button_text": "",
-            "button_link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_show_arrow": false,
-            "background_color": ""
-          }
-        },
-        "collection_LTXAGa": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Workflow_3.webp",
-            "title": "STEP 03 ご契約",
-            "heading_font_size": "heading-medium",
-            "button_text": "",
-            "button_link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_show_arrow": false,
-            "background_color": ""
-          }
-        },
-        "collection_RnKrCw": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Workflow_4.webp",
-            "title": "STEP 04サイト構築",
-            "heading_font_size": "heading-medium",
-            "button_text": "",
-            "button_link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "button_show_arrow": false,
-            "background_color": ""
-          }
-        },
-        "collection_FqVMYJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Workflow_5.webp",
-            "title": "STEP 05 納品",
-            "heading_font_size": "heading-medium",
-            "button_text": "",
-            "button_link": "",
-            "button_type": "btn--primary",
-            "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "button_show_arrow": true,
-            "background_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_6eL4nB",
-        "collection_yFqfwN",
-        "collection_LTXAGa",
-        "collection_RnKrCw",
-        "collection_FqVMYJ"
-      ],
-      "name": "Collection links: spotlight",
-      "settings": {
-        "title": "Workflow",
-        "heading_font_size": "heading-x-large",
-        "text": "<p><strong>アイデアからローンチまでを、ひとつの流れに。</strong></p>",
-        "text_font_size": "body-medium",
-        "layout": "is-reversed",
-        "width": "wrapper--full-padded",
-        "height": "screen-height-full",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "scheme-10",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "section_accordion_tjkJbb": {
       "type": "section-accordion",
       "blocks": {
@@ -901,7 +794,6 @@
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
-    "section_collection_links_spotlight_AkxCYy",
     "section_accordion_tjkJbb",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
