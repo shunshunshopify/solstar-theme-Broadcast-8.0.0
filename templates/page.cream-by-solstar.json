@@ -214,6 +214,7 @@
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Umi_Hana_Logo_with_Text_copy.png",
+        "image_2": "shopify://shop_images/25.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
