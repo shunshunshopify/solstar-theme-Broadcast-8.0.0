@@ -615,63 +615,6 @@
   }
 {% endstyle %}
 
-<script>
-  (function () {
-    var colorClasses = [
-      {% for scheme in settings.color_schemes %}
-        "color-{{ scheme.id }}"{% unless forloop.last %},{% endif %}
-      {% endfor %}
-    ];
-    if (!colorClasses.length) {
-      return;
-    }
-
-    function applyBodyColorScheme() {
-      var body = document.body;
-      if (!body) {
-        return;
-      }
-
-      var section =
-        document.querySelector('#MainContent [data-section-type][class*="color-"]') ||
-        document.querySelector('#MainContent [class*="color-"]');
-      if (!section) {
-        return;
-      }
-
-      var schemeClass = null;
-      for (var i = 0; i < section.classList.length; i++) {
-        var cls = section.classList[i];
-        for (var j = 0; j < colorClasses.length; j++) {
-          if (cls === colorClasses[j]) {
-            schemeClass = cls;
-            break;
-          }
-        }
-        if (schemeClass) {
-          break;
-        }
-      }
-
-      if (!schemeClass) {
-        return;
-      }
-
-      colorClasses.forEach(function (colorClass) {
-        body.classList.remove(colorClass);
-      });
-
-      body.classList.add(schemeClass);
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', applyBodyColorScheme);
-    } else {
-      applyBodyColorScheme();
-    }
-  })();
-</script>
-
 {%- unless settings.type_base_font.system? -%}
   {{ settings.type_base_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
