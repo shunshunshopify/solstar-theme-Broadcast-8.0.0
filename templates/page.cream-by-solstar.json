@@ -244,8 +244,8 @@
         "email_FPFy6z": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
-            "heading": "Email",
+            "title": "Email Address",
+            "heading": "メールアドレス",
             "required": true
           }
         },
