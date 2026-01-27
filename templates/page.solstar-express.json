@@ -179,7 +179,7 @@
             "subheading": "",
             "title": "自社ECサイト検討時につまずきやすい3つの壁",
             "heading_font_size": "heading-x-large",
-            "text": "<h4><strong>1. </strong>初期費用のハードルが高い</h4><p>高品質なECサイトを構築しようとすると、初期費用は100万円以上が一般的。限られた資金で事業を回す立場にとっては、大きなリスクになります。</p><p>　</p><h4><strong>2. 自社</strong>ECに割ける時間がない</h4><p>日々の業務に追われ、自社ECサイトの準備や運用まで手が回らない。「後でやろう」と思っているうちに、時間だけが過ぎていきます。</p><p>　</p><h4><strong>3. 専任の</strong>EC担当者がいない</h4><p>「自社ECサイトをやった方がいい」と分かってはいても、社内に任せられるEC担当者がいない。その結果、「今はまだ動けない」「もう少し余裕ができてから」と、始めるタイミングを先延ばしにしてしまいます。</p>",
+            "text": "<h4><strong>1. </strong>初期費用のハードルが高い</h4><p>高品質なECサイトを構築しようとすると、初期費用は100万円以上が一般的。限られた資金で事業を回す立場にとっては、大きなリスクになります。</p><p>　</p><h4><strong>2. </strong>日常業務で手一杯になっている</h4><p>日々の業務に追われ、自社ECサイトの準備や運用まで手が回らない。「後でやろう」と思っているうちに、時間だけが過ぎていきます。</p><p>　</p><h4><strong>3. 専任の</strong>EC担当者がいない</h4><p>「自社ECサイトをやった方がいい」と分かってはいても、社内に任せられるEC担当者がいない。その結果、「今はまだ動けない」「もう少し余裕ができてから」と、始めるタイミングを先延ばしにしてしまいます。</p>",
             "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
@@ -679,7 +679,7 @@
           "type": "heading",
           "settings": {
             "title": "時間・人手・予算の壁を感じているなら",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -696,7 +696,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>初期費用55,000円（税込）・月額36,430円（税込）から</strong></p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         },
