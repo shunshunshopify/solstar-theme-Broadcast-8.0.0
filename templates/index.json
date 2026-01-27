@@ -675,120 +675,6 @@
         "padding_bottom": 0
       }
     },
-    "section_double_slider_zRGcNc": {
-      "type": "section-double-slider",
-      "blocks": {
-        "text_slide_j4LYdE": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 01",
-            "title": "お問い合わせ",
-            "heading_font_size": "heading-medium",
-            "text": "<p>完全無料で相談を受付中。「どんなサイトが向いているかわからない」でもOK！私たちがご提案いたします。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "今すぐ相談する",
-            "button_url": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_cVe9nf": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 02",
-            "title": "ヒアリング・お見積もり",
-            "heading_font_size": "heading-medium",
-            "text": "<p>ご要件をヒアリングし、詳細なサービス内容とお見積もりをご提示いたします。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_cmMXGG": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 03",
-            "title": "ご契約",
-            "heading_font_size": "heading-medium",
-            "text": "<p>お見積もりをお渡しします。それぞれの項目の詳細までしっかりと説明いたします。内容にご納得いただけたら、電子契約を通じて正式なご契約となります。</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_rVTHen": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 04",
-            "title": "サイト構築",
-            "heading_font_size": "heading-medium",
-            "text": "<p>ご契約後、プロジェクトキックオフ。随時進捗を共有し、安心してお任せいただける環境を整えます。  </p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_e9BFjB": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 05",
-            "title": "納品",
-            "heading_font_size": "heading-medium",
-            "text": "<p>納品後から３０日間、運用を無料サポート。あなたのビジネスが成長の軌道に乗るまで安心のアフターケアを提供します。  </p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_slide_j4LYdE",
-        "text_slide_cVe9nf",
-        "text_slide_cmMXGG",
-        "text_slide_rVTHen",
-        "text_slide_e9BFjB"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_1": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
-        "image_width": "one-half",
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-2",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_placeholder": true
-      }
-    },
     "section_accordion_group_8HKY7N": {
       "type": "section-accordion-group",
       "blocks": {
@@ -898,7 +784,7 @@
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "1",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -931,7 +817,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 0
@@ -1023,7 +909,7 @@
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 100,
         "heading_tag": "automatic"
@@ -1044,7 +930,6 @@
     "section_collection_links_spotlight_AkxCYy",
     "section_rich_text_FjEeNW",
     "section_accordion_tjkJbb",
-    "section_double_slider_zRGcNc",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
     "contact_form_AN7jRB"
