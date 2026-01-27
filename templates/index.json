@@ -89,6 +89,67 @@
         "padding_bottom": 5
       }
     },
+    "section_double_AptAaD": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_F6iYVY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サブスクリプション型ECサイト構築サービス",
+            "padding_bottom": 16
+          }
+        },
+        "heading_bVMMjf": {
+          "type": "heading",
+          "settings": {
+            "title": "SOLSTAR EXPRESS",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_JAawQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>EC担当者不要｜構築も運用も、まるっとお任せ。</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_3McXLw": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "詳細を見る",
+            "button_url": "shopify://pages/solstar-express",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_F6iYVY",
+        "heading_bVMMjf",
+        "text_JAawQi",
+        "buttons_3McXLw"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_custom_code_YPEkCV": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -315,67 +376,6 @@
         "color_scheme": "scheme-10",
         "show_text_background": false,
         "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
-    "section_double_AptAaD": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_F6iYVY": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "サブスクリプション型ECサイト構築サービス",
-            "padding_bottom": 16
-          }
-        },
-        "heading_bVMMjf": {
-          "type": "heading",
-          "settings": {
-            "title": "SOLSTAR EXPRESS",
-            "heading_font_size": "heading-x-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_JAawQi": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>EC担当者不要｜構築も運用も、まるっとお任せ。</strong></p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_3McXLw": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "詳細を見る",
-            "button_url": "shopify://pages/solstar-express",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_F6iYVY",
-        "heading_bVMMjf",
-        "text_JAawQi",
-        "buttons_3McXLw"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
-        "image_width": "one-half",
-        "text_alignment": "text-center",
-        "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -786,6 +786,7 @@
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
+    "section_double_AptAaD",
     "section_custom_code_YPEkCV",
     "section_custom_code_jyGQDd",
     "section_hero_tXeVef",
@@ -793,7 +794,6 @@
     "section_double_qLiMQE",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
-    "section_double_AptAaD",
     "section_accordion_tjkJbb",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
