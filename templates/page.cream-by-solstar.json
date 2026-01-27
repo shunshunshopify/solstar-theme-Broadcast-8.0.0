@@ -173,71 +173,58 @@
         "heading_tag": "automatic"
       }
     },
-    "section_custom_content_kTAJAM": {
-      "type": "section-custom-content",
+    "section_double_CgzWpz": {
+      "type": "section-double",
       "blocks": {
-        "video_DY74aa": {
-          "type": "video",
+        "heading_itjNzd": {
+          "type": "heading",
           "settings": {
-            "video": "shopify://files/videos/5.26.2023 Sandy Haze New Video0001-0753.mp4",
-            "show_video_popup": false,
-            "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "title": "",
+            "title": "Creamを利用したデモサイト",
             "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "overlay_type": "disabled",
+            "padding_bottom": 16,
             "heading_tag": "automatic"
           }
         },
-        "text_KGHfjC": {
+        "text_ayqcUP": {
           "type": "text",
           "settings": {
-            "subheading": "水着ブランド",
-            "title": "Creamを利用したデモサイト",
-            "heading_font_size": "heading-large",
             "text": "<p>Umi Hana は Cream by Solstar のデモストアとして構築されています。構成・導線・UI はすべて実運用ベースで設計されていますのでぜひご確認ください。</p><p>※閲覧するにはパスワードが必要ですので下記の数字をご入力ください。</p><p>パスワード：1</p>",
             "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_6Q8xz3": {
+          "type": "buttons",
+          "settings": {
             "button_text": "デモストアをチェックする",
             "button_url": "https://solstar-enterprise-demo-store.myshopify.com/",
             "button_type": "btn--primary",
             "button_size": "",
-            "button_style": "btn--solid",
+            "button_style": "btn--outline",
             "show_arrow": true,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "video_DY74aa",
-        "text_KGHfjC"
+        "heading_itjNzd",
+        "text_ayqcUP",
+        "buttons_6Q8xz3"
       ],
-      "name": "Custom section",
+      "name": "Image with text",
       "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "image_1": "shopify://shop_images/Umi_Hana_Logo_with_Text_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-10",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     }
   },
@@ -246,6 +233,6 @@
     "section_video_CA3Knt",
     "section_double_wppnCF",
     "section_social_videos_Um4GQT",
-    "section_custom_content_kTAJAM"
+    "section_double_CgzWpz"
   ]
 }
