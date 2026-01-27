@@ -89,6 +89,52 @@
         "padding_bottom": 5
       }
     },
+    "section_text_promo_34dRqK": {
+      "type": "section-text-promo",
+      "blocks": {
+        "heading_8M4diJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Cream by Solstar の無償体験",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rKKgGJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>すべての機能を完全無料でお試しいただけます。</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "button_YEjJ3k": {
+          "type": "button",
+          "settings": {
+            "button_text": "詳しく聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8M4diJ",
+        "text_rKKgGJ",
+        "button_YEjJ3k"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "border": false,
+        "width": "wrapper",
+        "color_scheme": "scheme-2",
+        "overlay_type": "disabled",
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_double_AptAaD": {
       "type": "section-double",
       "blocks": {
@@ -786,6 +832,7 @@
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
+    "section_text_promo_34dRqK",
     "section_double_AptAaD",
     "section_custom_code_YPEkCV",
     "section_custom_code_jyGQDd",
