@@ -1040,7 +1040,7 @@
         "text_jfXdQt": {
           "type": "text",
           "settings": {
-            "text": "<p>「まずは試したい」と、ECサイト構築を考えている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
+            "text": "<p>「まずは試したい」「初期リスクは抑えたい」<br/><br/>そんな段階からでも、SOLSTAR EXPRESSなら無理なく自社ECサイトを立ち上げることが可能です。</p><p>ECを継続的に運営できる事業へと育てるための環境を、私たちが支援します。<br/><br/>まずはお気軽にご相談ください。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -1051,7 +1051,7 @@
         "text_jfXdQt"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
