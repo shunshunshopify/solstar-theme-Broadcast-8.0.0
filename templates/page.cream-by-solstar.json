@@ -227,6 +227,94 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
+    },
+    "contact_form_Gq94hq": {
+      "type": "contact-form",
+      "blocks": {
+        "name_zRJQ8m": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "First name",
+            "last_heading": "苗字",
+            "last_label": "Last name",
+            "required": true
+          }
+        },
+        "email_FPFy6z": {
+          "type": "email",
+          "settings": {
+            "title": "メールアドレス",
+            "heading": "Email",
+            "required": true
+          }
+        },
+        "telephone_ta8rec": {
+          "type": "telephone",
+          "settings": {
+            "title": "電話番号",
+            "heading": "Phone Number",
+            "required": true
+          }
+        },
+        "text_7ciehP": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名",
+            "required": false
+          }
+        },
+        "text_FgRwa3": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
+            "required": false
+          }
+        },
+        "body_MjYj43": {
+          "type": "body",
+          "settings": {
+            "title": "お問い合わせ内容",
+            "heading": "",
+            "required": true
+          }
+        },
+        "select_Ut4fd9": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "Cream by Solstarについて",
+            "label-two": "その他",
+            "label-three": "",
+            "label-four": "",
+            "label-five": "",
+            "label-six": ""
+          }
+        }
+      },
+      "block_order": [
+        "name_zRJQ8m",
+        "email_FPFy6z",
+        "telephone_ta8rec",
+        "text_7ciehP",
+        "text_FgRwa3",
+        "body_MjYj43",
+        "select_Ut4fd9"
+      ],
+      "name": "Contact form",
+      "settings": {
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "heading_tag": "automatic"
+      }
     }
   },
   "order": [
@@ -234,6 +322,7 @@
     "section_video_CA3Knt",
     "section_double_wppnCF",
     "section_social_videos_Um4GQT",
-    "section_double_CgzWpz"
+    "section_double_CgzWpz",
+    "contact_form_Gq94hq"
   ]
 }
