@@ -59,18 +59,11 @@
     "section_double_wppnCF": {
       "type": "section-double",
       "blocks": {
-        "subheading_fQUAH4": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_UfTEME": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
-            "heading_font_size": "heading-large",
+            "title": "「売れる状態」から始める、Shopifyテーマ。",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -78,29 +71,15 @@
         "text_bDn7tr": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Creamは、株式会社SOLSTAR が独自開発したShopifyテーマで、ECサイトの構築・運用における最初の一歩 を圧倒的にスムーズにすることを目的に設計されています。</p><p>　</p><p>SOLSTARの実戦的なEC開発ノウハウをテーマ設計に落とし込み、立ち上げフェーズからコンバージョン最適化、集客基盤の強化までを見据えたテーマとなります。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_p9ReP9": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "subheading_fQUAH4",
         "heading_UfTEME",
-        "text_bDn7tr",
-        "buttons_p9ReP9"
+        "text_bDn7tr"
       ],
       "name": "Image with text",
       "settings": {
