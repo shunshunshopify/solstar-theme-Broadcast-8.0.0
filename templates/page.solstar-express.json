@@ -680,7 +680,7 @@
           "settings": {
             "title": "時間・人手・予算の壁を感じているなら",
             "heading_font_size": "heading-x-large",
-            "padding_bottom": 16,
+            "padding_bottom": 50,
             "heading_tag": "automatic"
           }
         },
@@ -689,7 +689,7 @@
           "settings": {
             "text": "<p>自社ECサイトを検討する中で、<br/>「時間が足りない」「人手が足りない」「予算が合わない」<br/>そんな壁を感じているのであれば、SOLSTAR EXPRESSは有効な選択肢です。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 16
+            "padding_bottom": 30
           }
         },
         "text_LGUWy6": {
@@ -697,7 +697,7 @@
           "settings": {
             "text": "<p><strong>初期費用55,000円（税込）・月額36,430円（税込）〜</strong></p>",
             "text_font_size": "body-large",
-            "padding_bottom": 16
+            "padding_bottom": 30
           }
         },
         "text_pYEhTn": {
