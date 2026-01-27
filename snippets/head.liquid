@@ -616,19 +616,19 @@
 {% endstyle %}
 
 {%- unless settings.type_base_font.system? -%}
-  <link rel="preload" as="font" href="{{ settings.type_base_font | font_url }}" type="font/woff2" crossorigin>
+  {{ settings.type_base_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
 {%- unless settings.type_header_font.system? -%}
-  <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+  {{ settings.type_header_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
 {%- unless settings.type_nav_font.system? -%}
-  <link rel="preload" as="font" href="{{ settings.type_nav_font | font_url }}" type="font/woff2" crossorigin>
+  {{ settings.type_nav_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
 {%- unless settings.type_btn_font.system? -%}
-  <link rel="preload" as="font" href="{{ settings.type_btn_font | font_url }}" type="font/woff2" crossorigin>
+  {{ settings.type_btn_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
 {%- unless settings.type_subheading_font.system? -%}
-  <link rel="preload" as="font" href="{{ settings.type_subheading_font | font_url }}" type="font/woff2" crossorigin>
+  {{ settings.type_subheading_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
 {%- endunless -%}
 
 {{ 'theme.css' | asset_url | stylesheet_tag }}
