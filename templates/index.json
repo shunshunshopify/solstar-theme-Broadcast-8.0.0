@@ -323,11 +323,18 @@
     "section_double_AptAaD": {
       "type": "section-double",
       "blocks": {
+        "subheading_F6iYVY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サブスクリプション型ECサイト構築サービス",
+            "padding_bottom": 16
+          }
+        },
         "heading_bVMMjf": {
           "type": "heading",
           "settings": {
-            "title": "Basicプラン",
-            "heading_font_size": "heading-large",
+            "title": "SOLSTAR EXPRESS",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -335,7 +342,7 @@
         "text_JAawQi": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>少数商品から“最速でカタチにする”EC構築プラン</strong></p>",
+            "text": "<p><strong>EC担当者不要｜構築も運用も、まるっとお任せ。</strong></p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -344,7 +351,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "詳細を見る",
-            "button_url": "shopify://pages/shopify-ec-store-basic-plan",
+            "button_url": "shopify://pages/solstar-express",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -354,12 +361,13 @@
         }
       },
       "block_order": [
+        "subheading_F6iYVY",
         "heading_bVMMjf",
         "text_JAawQi",
         "buttons_3McXLw"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/New_Hero_Image_2_copy_bd625221-f886-4552-b9d7-95b18e2abfb1.png",
+        "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
         "image_width": "one-half",
         "text_alignment": "text-center",
         "layout": "is-reversed",
