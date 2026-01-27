@@ -252,8 +252,8 @@
         "telephone_ta8rec": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
-            "heading": "Phone Number",
+            "title": "Phone Number",
+            "heading": "電話番号",
             "required": true
           }
         },
