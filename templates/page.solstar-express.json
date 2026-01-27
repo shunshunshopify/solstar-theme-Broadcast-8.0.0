@@ -664,6 +664,68 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_KwiExc": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_aKxRU9": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "時間・人手・予算の壁を感じているなら",
+            "padding_bottom": 16
+          }
+        },
+        "heading_ntWTqt": {
+          "type": "heading",
+          "settings": {
+            "title": "時間・人手・予算の壁を感じているなら",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FfXdJr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自社ECサイトを検討する中で、<br/>「時間が足りない」「人手が足りない」「予算が合わない」<br/>そんな壁を感じているのであれば、SOLSTAR EXPRESSは有効な選択肢です。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        },
+        "text_LGUWy6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>初期費用55,000円（税込）・月額36,430円（税込）から</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_pYEhTn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>で、ECサイトの構築から運用までを一括で任せてスタートできます。<br/>最短2〜4週間で公開でき、大きな固定費や人件費を抱えずにEC事業にチェレンジできます。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aKxRU9",
+        "heading_ntWTqt",
+        "text_FfXdJr",
+        "text_LGUWy6",
+        "text_pYEhTn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "section_video_mzndiK": {
       "type": "section-video",
       "name": "Video",
@@ -689,7 +751,7 @@
         "show_text_background": false,
         "color": "",
         "overlay_type": "disabled",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 100,
         "heading_tag": "automatic"
       }
@@ -1264,6 +1326,7 @@
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
+    "section_rich_text_KwiExc",
     "section_video_mzndiK",
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
