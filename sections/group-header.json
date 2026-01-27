@@ -13,38 +13,6 @@
   "sections": {
     "announcement": {
       "type": "announcement",
-      "blocks": {
-        "message_AyRfJe": {
-          "type": "message",
-          "settings": {
-            "show_wheel": false,
-            "message": "【期間限定】ECサイト無料構築実施中",
-            "target_url_enabled": false,
-            "target_url": "shopify://pages/contact",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_9WeKN3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>詳しくはお問い合わせください</p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://pages/contact",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "message_AyRfJe",
-        "text_9WeKN3"
-      ],
-      "disabled": true,
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -124,11 +92,20 @@
             "padding": true,
             "padding_bottom": 14
           }
+        },
+        "socials_HW36UB": {
+          "type": "socials",
+          "settings": {
+            "width": "full",
+            "pin_to_bottom": false,
+            "padding_bottom": 14
+          }
         }
       },
       "block_order": [
         "menu_HP894z",
-        "menu_columns_QkMRic"
+        "menu_columns_QkMRic",
+        "socials_HW36UB"
       ],
       "name": "Mobile menu",
       "settings": {
