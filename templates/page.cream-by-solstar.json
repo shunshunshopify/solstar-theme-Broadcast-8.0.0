@@ -58,101 +58,10 @@
         "padding_top": 26,
         "padding_bottom": 26
       }
-    },
-    "contact_form_XtLXAm": {
-      "type": "contact-form",
-      "blocks": {
-        "text_89HtmC": {
-          "type": "text",
-          "settings": {
-            "title": "お名前",
-            "heading": "",
-            "required": true
-          }
-        },
-        "email_KiembB": {
-          "type": "email",
-          "settings": {
-            "title": "メールアドレス",
-            "heading": "",
-            "required": true
-          }
-        },
-        "telephone_dtJFzB": {
-          "type": "telephone",
-          "settings": {
-            "title": "電話番号",
-            "heading": "",
-            "required": true
-          }
-        },
-        "text_tYADix": {
-          "type": "text",
-          "settings": {
-            "title": "会社名",
-            "heading": "",
-            "required": false
-          }
-        },
-        "body_wym9b4": {
-          "type": "body",
-          "settings": {
-            "title": "問い合せ内容",
-            "heading": "",
-            "required": false
-          }
-        },
-        "select_tkmRUi": {
-          "type": "select",
-          "settings": {
-            "title": "お問い合わせ種別",
-            "required": true,
-            "label-one": "国内ECサイト構築",
-            "label-two": "グローバルECサイト構築",
-            "label-three": "ECサイトリニューアル",
-            "label-four": "その他",
-            "label-five": "",
-            "label-six": ""
-          }
-        },
-        "select_P47BmL": {
-          "type": "select",
-          "settings": {
-            "title": "ご希望プラン",
-            "required": true,
-            "label-one": "Basicプランで相談する",
-            "label-two": "Standardプランで相談する",
-            "label-three": "Proプランで相談する",
-            "label-four": "プランを決めずに相談する",
-            "label-five": "",
-            "label-six": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_89HtmC",
-        "email_KiembB",
-        "telephone_dtJFzB",
-        "text_tYADix",
-        "body_wym9b4",
-        "select_tkmRUi",
-        "select_P47BmL"
-      ],
-      "settings": {
-        "title": "お問い合わせ",
-        "heading_font_size": "heading-large",
-        "terms": true,
-        "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "heading_tag": "automatic"
-      }
     }
   },
   "order": [
     "main",
-    "section_rich_text_7wY9EH",
-    "contact_form_XtLXAm"
+    "section_rich_text_7wY9EH"
   ]
 }
