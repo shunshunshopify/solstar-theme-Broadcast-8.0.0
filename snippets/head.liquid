@@ -183,11 +183,11 @@
   {% endcomment %}
 
   {% for scheme in settings.color_schemes -%}
-    {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
     {% if scheme == settings.color_scheme -%}
       :root,
     {%- endif %}
-    .color-{{ scheme.id }} {
+    .color-{{ scheme.id }},
+    body.color-{{ scheme.id }} {
       {%- liquid
         assign hover_opacity = 0.70
 
@@ -322,13 +322,11 @@
       --text-a35: var(--COLOR-TEXT-A35);
       --text-a50: var(--COLOR-TEXT-A50);
       --text-a80: var(--COLOR-TEXT-A80);
+
+      color: var(--text);
+      background: var(--bg);
     }
   {% endfor %}
-
-  {{ scheme_classes | prepend: 'body' }} {
-    color: var(--text);
-    background: var(--bg);
-  }
 
   :root {
     --scrollbar-width: 0px;
