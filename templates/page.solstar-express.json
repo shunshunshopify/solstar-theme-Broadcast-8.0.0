@@ -1128,9 +1128,9 @@
           "type": "name",
           "settings": {
             "first_heading": "名前",
-            "first_label": "太郎",
+            "first_label": "First name",
             "last_heading": "苗字",
-            "last_label": "鈴木",
+            "last_label": "Last name",
             "required": true
           }
         },
