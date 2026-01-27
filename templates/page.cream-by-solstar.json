@@ -44,8 +44,8 @@
         "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false,
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "desktop_height": "image-height",
+        "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "color_scheme": "",
         "show_text_background": false,
@@ -55,10 +55,73 @@
         "padding_bottom": 0,
         "heading_tag": "automatic"
       }
+    },
+    "section_double_wppnCF": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_fQUAH4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_UfTEME": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_bDn7tr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_p9ReP9": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fQUAH4",
+        "heading_UfTEME",
+        "text_bDn7tr",
+        "buttons_p9ReP9"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_Express_Cream_Image_1_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
     "main",
-    "section_video_CA3Knt"
+    "section_video_CA3Knt",
+    "section_double_wppnCF"
   ]
 }
