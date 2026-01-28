@@ -89,6 +89,63 @@
         "padding_bottom": 5
       }
     },
+    "section_hero_FVYjLg": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_fdcbPR": {
+          "type": "heading",
+          "settings": {
+            "title": "無料配布｜Shopify認定パートナー65社の調査レポート",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h2",
+            "padding_bottom": 8
+          }
+        },
+        "text_PcfCqy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Shopifyに認定されたShopifyパートナーのみを対象に調査し、開発費用の比較と各社サービスの特徴をまとめました。</strong></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_praaLn": {
+          "type": "button",
+          "settings": {
+            "link_text": "調査レポートを無料でゲットする",
+            "link": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_fdcbPR",
+        "text_PcfCqy",
+        "button_praaLn"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Homepage_image_2.webp",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "text",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_text_promo_34dRqK": {
       "type": "section-text-promo",
       "blocks": {
@@ -832,6 +889,7 @@
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
+    "section_hero_FVYjLg",
     "section_text_promo_34dRqK",
     "section_double_AptAaD",
     "section_custom_code_YPEkCV",
