@@ -153,7 +153,7 @@
         "height": "screen-height-one-third",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
-        "mobile_height": "screen-height-one-third--mobile",
+        "mobile_height": "screen-height-one-half--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "scheme-10",
         "show_text_background": false,
