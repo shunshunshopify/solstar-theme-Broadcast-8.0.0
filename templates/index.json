@@ -200,7 +200,7 @@
       ],
       "name": "Text promo",
       "settings": {
-        "border": true,
+        "border": false,
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
