@@ -109,6 +109,14 @@
             "padding_bottom": 8
           }
         },
+        "text_KX9Wwi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>しつこい営業は一切ございません🫡</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
+        },
         "button_praaLn": {
           "type": "button",
           "settings": {
@@ -126,6 +134,7 @@
       "block_order": [
         "heading_fdcbPR",
         "text_PcfCqy",
+        "text_KX9Wwi",
         "button_praaLn"
       ],
       "name": "Image banner",
