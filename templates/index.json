@@ -41,6 +41,13 @@
     "section_announcement_qqjQ8T": {
       "type": "section-announcement",
       "blocks": {
+        "image_zXJNrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopify-mono-white.png",
+            "image_width": 100
+          }
+        },
         "image_VcaPw8": {
           "type": "image",
           "settings": {
@@ -71,6 +78,7 @@
         }
       },
       "block_order": [
+        "image_zXJNrJ",
         "image_VcaPw8",
         "image_p4PUBr",
         "image_qQFVRW",
