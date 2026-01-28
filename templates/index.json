@@ -289,11 +289,24 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
+        },
+        "buttons_jNhDXL": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは30分無料相談してみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "heading_twP4zj",
-        "text_METDwq"
+        "text_METDwq",
+        "buttons_jNhDXL"
       ],
       "name": "Image with text",
       "settings": {
