@@ -431,6 +431,30 @@
         "show_placeholder": true
       }
     },
+    "section_blog_FtdhjN": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "shopify",
+        "aspect_ratio": 0.5,
+        "title": "Blog posts",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "scheme-10",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    },
     "section_custom_code_tgahDR": {
       "type": "section-custom-code",
       "disabled": true,
@@ -648,6 +672,7 @@
         "icon_pJxQrF",
         "icon_QBhLQd"
       ],
+      "disabled": true,
       "settings": {
         "default_open": true,
         "title": "Why Shopify?",
@@ -914,6 +939,7 @@
     "section_double_qLiMQE",
     "section_custom_code_YPEkCV",
     "section_hero_tXeVef",
+    "section_blog_FtdhjN",
     "section_custom_code_tgahDR",
     "section_hero_ywHUVn",
     "section_accordion_tjkJbb",
