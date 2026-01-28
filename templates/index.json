@@ -104,7 +104,7 @@
         "text_PcfCqy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Shopifyに認定されたShopifyパートナーのみを対象に調査し、開発費用の比較と各社サービスの特徴をまとめました。</strong></p>",
+            "text": "<p><strong>Shopifyに認定されたShopifyパートナーのみに限定し、各社の費用やサービスの特徴をまとめました。</strong></p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
