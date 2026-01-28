@@ -98,12 +98,12 @@
           "settings": {
             "title": "ご希望プラン",
             "required": true,
-            "label-one": "Shopify費用比較調査レポートをゲットする",
-            "label-two": "SOLSTAR EXPRESSで相談する",
-            "label-three": "Basicプランで相談する",
-            "label-four": "Standardプランで相談する",
-            "label-five": "Proプランで相談する",
-            "label-six": "プランを決めずに相談する"
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
           }
         }
       },
