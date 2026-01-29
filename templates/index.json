@@ -270,6 +270,76 @@
         "show_placeholder": true
       }
     },
+    "section_multicolumn_YVyPLA": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_VXxXpB": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "ワンストップ支援",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>越境EC</strong>：多言語・多通貨・海外販売設計<br/><strong>UI/UX設計</strong>：ブランド体験と購入導線の最適化<br/><strong>マーケティング支援</strong>：集客・CRM・CVR改善</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_GARgGW": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "強み",
+            "heading_font_size": "heading-small",
+            "text": "<p>大規模ECを含むプロジェクト経験を活かし、要件が複雑なケースでも**「実装できる戦略」**に落とし込み、<strong>継続的な改善サイクル</strong>を設計します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_NLgcEe": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "伴走スタイル",
+            "heading_font_size": "heading-small",
+            "text": "<p>限られたリソースでも勝てる<strong>運用体制</strong>を整えつつ、事業フェーズに合わせて柔軟に伴走。立ち上げからグロースまで、ECの成長を**“制作”ではなく“事業成果”**としてご一緒します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_VXxXpB",
+        "icon_GARgGW",
+        "icon_NLgcEe"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "株式会社SOLSTAR｜Shopify特化のEC構築・運用支援パートナー",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "section_double_qaxP3k": {
       "type": "section-double",
       "blocks": {
@@ -891,6 +961,7 @@
     "section_hero_FVYjLg",
     "section_text_promo_34dRqK",
     "section_double_AptAaD",
+    "section_multicolumn_YVyPLA",
     "section_double_qaxP3k",
     "section_double_qLiMQE",
     "section_custom_code_YPEkCV",
