@@ -277,13 +277,13 @@
           "type": "icon",
           "settings": {
             "column_width": 33,
-            "icon_name": "icon-shield",
+            "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "",
-            "title": "ワンストップ支援",
+            "title": "UI/UX設計",
             "heading_font_size": "heading-small",
-            "text": "<p><strong>越境EC</strong>：多言語・多通貨・海外販売設計<br/><strong>UI/UX設計</strong>：ブランド体験と購入導線の最適化<br/><strong>マーケティング支援</strong>：集客・CRM・CVR改善</p>",
+            "text": "<p>ユーザーが迷わず・不安なく・最短で目的（購入）を達成できる設計</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
