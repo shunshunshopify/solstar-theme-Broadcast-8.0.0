@@ -307,13 +307,13 @@
           "type": "icon",
           "settings": {
             "column_width": 33,
-            "icon_name": "icon-chat",
+            "icon_name": "icon-smile",
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "",
-            "title": "伴走スタイル",
+            "title": "サポート体制",
             "heading_font_size": "heading-small",
-            "text": "<p>限られたリソースでも勝てる<strong>運用体制</strong>を整えつつ、事業フェーズに合わせて柔軟に伴走。立ち上げからグロースまで、ECの成長を**“制作”ではなく“事業成果”**としてご一緒します。</p>",
+            "text": "<p>Shopify専門チームによる運用、集客、技術のサポート対応を行っています。運営から改善提案までECサイトの継続的な成長を支援します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
