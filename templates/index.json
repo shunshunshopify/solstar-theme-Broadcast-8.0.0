@@ -326,9 +326,9 @@
       ],
       "name": "Multi column",
       "settings": {
-        "title": "株式会社SOLSTAR｜Shopify特化のEC構築・運用支援パートナー",
+        "title": "About SOLSTAR",
         "heading_font_size": "heading-medium",
-        "description": "",
+        "description": "<p>株式会社SOLSTARは、日本市場に特化したShopify専門のECサイト構築・運用支援パートナーです。</p><p>UI/UX設計に強みを持ち、オリジナルテーマ「Cream」を開発・提供することで、幅広い事業者様のEC成長を支援しています。</p>",
         "align_heading": "text-center",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
