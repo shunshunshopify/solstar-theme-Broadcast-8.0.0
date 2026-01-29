@@ -296,9 +296,9 @@
             "icon_size": 20,
             "icon_alignment": "icon--top",
             "icon_color": "",
-            "title": "強み",
+            "title": "安心",
             "heading_font_size": "heading-small",
-            "text": "<p>ECサイトディレクターを軸に、マーケティング、UI/UXデザイン、コーディングの専門チームが連携。戦略から実装まで一貫して、売上に直結するECサイトを構築します。</p>",
+            "text": "<p>Shopifyアカデミー認定のECディレクターを中心に、マーケティング・デザイン・実装の専門チームが戦略から開発まで一貫して対応。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
